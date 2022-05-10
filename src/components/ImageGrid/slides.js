@@ -6,7 +6,7 @@ const Slides = forwardRef(({ imageData, current, view }, ref) => {
       {imageData.map((image, i) => {
         return (
           <img
-            data-flip-id={image.id}
+           img-id={image.id}
             ref={current === i ? ref : null}
             className={`${current === i ? "slide current" : "slide"} ${
               view === "grid" ? "grid" : ""

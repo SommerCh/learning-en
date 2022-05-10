@@ -36,9 +36,6 @@ export default function ImagesOutput() {
   
   return (
     <div className="imagesoutput">
-
-
-
       <img
         alt="background"
         className="background"
@@ -54,7 +51,9 @@ export default function ImagesOutput() {
       <button onClick={() => setView((view) => (view === "slides" ? "grid" : "slides"))}>
         {view === "grid" ? "SLIDES" : "GRID"}
       </button>
-      <span> current: {current}</span>
+
+      <span> Nummer: {current}</span>
+
       {view === "grid" ? (
         <Grid
           setCurrent={setCurrent}

@@ -11,7 +11,7 @@ const Grid = forwardRef(
                 setCurrent(i);
                 setTimeout(() => setView("slides"), 0);
               }}
-              data-flip-id={image.id}
+              img-id={image.id}
               ref={current === i ? ref : null}
               className={`${
                 current === i ? "grid-image current" : "grid-image"
