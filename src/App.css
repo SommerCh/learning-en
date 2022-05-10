@@ -310,6 +310,9 @@ h1 {
 .content p {
   font-size: 3em;
 } */
+.imagepage {
+  position: relative;
+}
 
 .imagesgrid {
   display: flex;
@@ -337,4 +340,16 @@ h1 {
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
+}
+
+.slider {
+display: none;
+}
+
+.slider img {
+  width: 100%;
+}
+
+.gridbutton{
+  z-index: 8;
 }

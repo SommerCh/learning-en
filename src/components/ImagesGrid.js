@@ -2,11 +2,8 @@ import { useState, useEffect } from "react";
 
 export default function ImagesGrid() {
   const [images, setImages] = useState([]);
-  const [isShow, setIsShow] = useState(true);
-
-  const handleClick = () => {
-    setIsShow(!isShow);
-  };
+  const [Isstyle, setStyle] = useState();
+  const [index, setIndex] = useState(0);
 
   useEffect(() => {
     async function getData() {
@@ -19,10 +16,43 @@ export default function ImagesGrid() {
     getData();
   }, []);
 
+  const styles = {
+    position: "absolute",
+      width: "100%" ,
+      padding: "0% 22%" ,
+      backgroundColor: "rgba(119, 119, 119, 0.377)",
+      zIndex: "5",
+      display: "block",
+      top: "0%,",
+      textAlign:"center"
+  
+  };
+
+  function changeStyle() {
+    setStyle(!Isstyle);
+  }
+
+  const handlePrev = () => {
+    setIndex(index - 1);
+  };
+
+  const handleNext = () => {
+    setIndex(index + 1);
+  };
+
   return (
-    <div>
-      <button onClick={handleClick}>Click</button>
-      <div className="imagesgrid">
+    <div className="imagepage">
+      <button className="gridbutton" onClick={changeStyle}>
+        Slider
+      </button>
+
+      <div className="slider" style={Isstyle ? styles : null}>
+        <button onClick={handlePrev}>Prev</button>
+        <button onClick={handleNext}>Next</button>
+        <img src={images[index]?.url} alt="pic" />
+      </div>
+
+      <div className="imagesgrid" >
         {images.map((image) => (
           <div className="grid-img">
             <h2>{image.author}</h2>
