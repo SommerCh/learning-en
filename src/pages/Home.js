@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import ImagesGrid from "../components/ImagesGrid";
+import ImagesOutput from "../components/ImageGrid/ImagesOutput";
 
 export default function Home() {
   gsap.registerPlugin(ScrollTrigger);
@@ -8,7 +8,8 @@ export default function Home() {
   return (
     <div className="home">
       <h1>Home</h1>
-<ImagesGrid/>
+      <ImagesOutput />
+
       <div className="box2"></div>
       <div className="box3"></div>
     </div>
