@@ -47,9 +47,6 @@ export default function ProductsPage() {
                             <div className="category-img">
                                 <img src={element.Files?.lenght ? element?.Files[0]?.Uri : getImg(element)} alt={element.Name} />
                                 <div className="article-title"> <h3>{element?.Name}</h3></div>  
-                                {/* <div className="article-details">
-                                    <p>{element.Descriptions[0]?.Text}</p>
-                                </div> */}
                             </div>  
                         </article>
                     ))}
