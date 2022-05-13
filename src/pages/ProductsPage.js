@@ -6,23 +6,17 @@ export default function ProductsPage() {
     const [categories, setCategories] = useState([]);
     const [search, setSearch] = useState("");
 
-        // Fetch categories
-        useEffect(() => {
-            async function getData() {
-                const response = await fetch("/data/categories.json");
-                const data = await response.json();
-                setCategories(data);
-                console.log(data);
-            }
-            getData();
-        }, [])
-    
-        // Fetch category imgs
-        function getCatImg(element) {
-            if (element.Files?.length >= 1) {
-                return element.Files[0]?.Uri;
-            } 
+    // Fetch categories
+    useEffect(() => {
+        async function getData() {
+            const response = await fetch("/data/categories.json");
+            const data = await response.json();
+            setCategories(data);
+            console.log(data);
         }
+        getData();
+    }, [])
+
 
     // Fetch products
     useEffect(() => {
@@ -35,7 +29,7 @@ export default function ProductsPage() {
         getData();
     }, [])
 
-    // Fetch product imgs
+    // Fetch imgs
     function getImg(element) {
         if (element.Files?.length >= 1) {
             return element.Files[0]?.Uri;
@@ -51,7 +45,7 @@ export default function ProductsPage() {
                     {categories.map(element => ( 
                         <article className="category-article">  
                             <div className="category-img">
-                                <img src={element.Files?.lenght ? element?.Files[0]?.Uri : getCatImg(element)} alt={element.Name} />
+                                <img src={element.Files?.lenght ? element?.Files[0]?.Uri : getImg(element)} alt={element.Name} />
                                 <div className="article-title"> <h3>{element?.Name}</h3></div>  
                                 {/* <div className="article-details">
                                     <p>{element.Descriptions[0]?.Text}</p>
