@@ -1,0 +1,505 @@
+[
+    {
+        "Id": 2,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Læringstrapper",
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "test",
+                "Html": "<p></p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ]
+    },
+
+    {
+        "Id": 3,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Akustik",
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ]
+    },
+
+    {
+        "Id": 4,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Opbevaring",
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ]
+    },
+
+    {
+        "Id": 5,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Borde",
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ]
+    },
+
+    {
+        "Id": 6,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Stole",
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ]
+    },
+
+    {
+        "Id": 7,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Diverse",
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ]
+    },
+
+    {
+        "Id": 8,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Rum i rummet",
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ]
+    },
+
+    {
+        "Id": 9,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Klassesæt",
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ]
+    },
+
+    {
+        "Id": 10,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Feedbackzone",
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ]
+    },
+
+    {
+        "Id": 11,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Stillezone",
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ]
+    },
+
+    {
+        "Id": 12,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Gruppezone",
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ]
+    },
+
+    {
+        "Id": 13,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Allezone",
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ]
+    }
+]

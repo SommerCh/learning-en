@@ -1,0 +1,3387 @@
+[
+    {
+        "Id": 2,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Magnifier I",
+        "BaseUrl": "https://environmentforlearning.com/moebler/magnifier/",
+        "Price": 1000.00,
+        "Category": [
+            { "Id": 2, "Name": "Læringstrapper" }
+        ],
+        "MainCategory": { "Id": 2, "Name": "Læringstrapper" },
+        "Zones": [
+            { "Name": "Allezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "Gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "Metalmoduler", "Height": "50cm", "Width": "100cm", "Depth": "100cm" },
+            { "Part": "Ståplader i eg", "Height": "1,9cm", "Width": null, "Depth": null },
+            { "Part": "Siddepladeri eg", "Height": "1,36cm", "Width": null, "Depth": null },
+            { "Part": "Puffer i møbelskum med høj densitet og holdbarhed", "Height": "25cm", "Width": "100cm", "Depth": "50cm" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Læringsrappe bygget af metalmoduler og krydsfinerplader med højtrykslaminat i eg. Kan bruges alle steder hvor børn mødes i undervisningssammenhænge. Bredden er variabel fra 1 meter til det uendelige. Mulighed for 4 trin. Trappen kan også bruges af mange børn til gruppearbejde, da det er muligt at sidde på hver side af den bagerste del.",
+                "Html": "<p>Læringsrappe bygget af metalmoduler og krydsfinerplader med højtrykslaminat i eg. Kan bruges alle steder hvor børn mødes i undervisningssammenhænge. Bredden er variabel fra 1 meter til det uendelige. Mulighed for 4 trin. Trappen kan også bruges af mange børn til gruppearbejde, da det er muligt at sidde på hver side af den bagerste del.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Magnifier I - Læringstrappe | Environment for learning", "Html": "<p>Magnifier I | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "magnifier, learingstrappe, learingsmoebler, environment for learning",
+                "Html": "<p>magnifier, learingstrappe, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "magnifier I læringstrappe",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 3,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Think Box",
+        "BaseUrl": "https://environmentforlearning.com/moebler/think-box/",
+        "Price": 1000.00,
+        "Category": [ 
+            { "Id": 3, "Name": "Akustik" }
+        ],
+        "MainCategory": { "Id": 3, "Name": "Akustik" },
+        "Zones": [
+            { "Name": "Stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "Gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "Metalrammer med plader i krydsfiner", "Height": "200cm", "Width": "200cm", "Depth": "100/126cm" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Kupé-sofa bygget i metalrammer med plader i krydsfiner. Rummer 4 eller 6 elever i to forskellige bredder. Mulighed for at lukke den ene side. Monteres oftest med akustisk dæmpede plader med 100% ny uld på både indvendig og udvendig side. Det er også muligt at vælge whiteboard udvendigt.",
+                "Html": "<p>Kupé-sofa bygget i metalrammer med plader i krydsfiner. Rummer 4 eller 6 elever i to forskellige bredder. Mulighed for at lukke den ene side. Monteres oftest med akustisk dæmpede plader med 100% ny uld på både indvendig og udvendig side. Det er også muligt at vælge whiteboard udvendigt.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Think Box - Akustik | Environment for learning", "Html": "<p>Think Box | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "think box, akustik, learingsmoebler, environment for learning",
+                "Html": "<pthink box, akustik, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "think box",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "think box",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "think box",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "think box",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 4,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Idea Tank",
+        "BaseUrl": "https://environmentforlearning.com/moebler/idea-tank/",
+        "Price": 1000.00,
+        "Category": [ 
+            { "Id": 3, "Name": "Akustik" }
+        ],
+        "MainCategory": { "Id": 3, "Name": "Akustik" },
+        "Zones": [
+            { "Name": "Stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "Gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "Filtplader i 100% uld udvendigt og indvendigt", "Height": "200cm", "Width": "100/126cm", "Depth": "100cm" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Hule som kan bygges sammen i serier. Kan rumme op til fire elever som samarbejder eller arbejder hver for sig. Møblet bidrager positivt til læringsrummets efterklangstid med 13 m2 akustisk dæmpede filtplader i 100% uld udvendigt og indvendigt. Det er også muligt at vælge plader i krydsfiner med højtrykslaminat i eg eller whiteboard.",
+                "Html": "<p></p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Idea Tank Acoustic | Environment for learning", "Html": "<p>Idea Tank Acoustic | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "idea tank, akustik, learingsmoebler, environment for learning",
+                "Html": "<p>idea tank, akustik, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "idea tank",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "ideatank",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "ideatank",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "idea tank",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 5,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Idea Tank Triple",
+        "BaseUrl": "https://environmentforlearning.com/moebler/idea-tank-acoustic-triple/",
+        "Price": 1000.00,
+        "Category": [ 
+            { "Id": 3, "Name": "Akustik" }
+        ],
+        "MainCategory": { "Id": 3, "Name": "Akustik" },
+        "Zones": [
+            { "Name": "Stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "Gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "200cm", "Width": "226cm", "Depth": "100cm" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Hvis I har god plads, så er der her et møbel, som kan bruges af op til 8 elever. De kan arbejde uforstyrret i 3 eller 4 grupper. ",
+                "Html": "<p>Hvis I har god plads, så er der her et møbel, som kan bruges af op til 8 elever. De kan arbejde uforstyrret i 3 eller 4 grupper. </p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "idea tank, idea tank triple, akustik, learingsmoebler, environment for learning",
+                "Html": "<p>idea tank, idea tank triple, akustik, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "idea tank triple",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "idea tank triple",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "idea tank triple",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "idea tank triple",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 12, "Name": "Product name" },
+            { "Id": 2, "Category": 12, "Name": "Product name" },
+            { "Id": 2, "Category": 12, "Name": "Product name" },
+            { "Id": 2, "Category": 12, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 6,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Feedback zone",
+        "BaseUrl": "https://environmentforlearning.com/moebler/feedbackzone/",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 4, "Name": "Feedbackzone" }
+        ],
+        "MainCategory": { "Id": 4, "Name": "Feedbackzone" },
+        "Zones": [
+            { "Name": "Feedbackzone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "cm", "Width": "cm", "Depth": "cm" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Vi har skabt underviserens zone til de korte samtaler med eleverne om hvor de er nu (status), hvor de skal hen og hvad det næste skridt er. Feedbackzonen er tydeligt markeret med rødt i læringsrummet og underviseren har plads til sin computer og personlige ting i en skuffe i enden af højbordet. Eleverne kommer løbende på besøg i feedbackzonen og den står altid klar til de vigtige korte samtaler.",
+                "Html": "<p>Vi har skabt underviserens zone til de korte samtaler med eleverne om hvor de er nu (status), hvor de skal hen og hvad det næste skridt er. Feedbackzonen er tydeligt markeret med rødt i læringsrummet og underviseren har plads til sin computer og personlige ting i en skuffe i enden af højbordet. Eleverne kommer løbende på besøg i feedbackzonen og den står altid klar til de vigtige korte samtaler.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Feedback zone | Environment for learning", "Html": "<p>Feedback zone | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "læringszoner, feedbackzone, learingsmoebler, environment for learning",
+                "Html": "<p>læringszoner, feedbackzone, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "Feedback zone",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "Feedback zone",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "Feedback zone",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "think-box-acoustic",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 7,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "High Table",
+        "BaseUrl": "https://environmentforlearning.com/moebler/hoejbord/",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 5, "Name": "borde" }
+        ],
+        "MainCategory": { "Id": 5, "Name": "borde" },
+        "Zones": [
+            { "Name": "Stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "Gruppezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "Feedbackzone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "Højbord", "Height": "102cm", "Width": "100cm", "Depth": "70cm" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Højbordet kan bruges i alle stillezone eller gruppezone og i feedbackzonen. Passer godt med højstolen Isidoro og kan fås med en udtræksskuffe i enden",
+                "Html": "<p>Højbordet kan bruges i alle stillezone eller gruppezone og i feedbackzonen. Passer godt med højstolen Isidoro og kan fås med en udtræksskuffe i enden</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "High Table | Environment for learning", "Html": "<p>High Table | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "hoejbord, borde, learingsmoebler, environment for learning",
+                "Html": "<p>hoejbord, borde, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "High table",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "High table",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "High table",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "High table",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 7,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Maker Box",
+        "BaseUrl": "https://environmentforlearning.com/moebler/maker-box/",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 10, "Name": "" }
+        ],
+        "MainCategory": { "Id": 10, "Name": "" },
+        "Zones": [
+            { "Name": "Gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "cm", "Width": "cm", "Depth": "cm" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Op til 4 elever kan arbejde ved højbordene enter på hver side eller overfor hinanden. Akustisk dæmpede plader, klasse A er bygget ind i møblet. Det er muligt at vælge plader i lakeret birketræ/birketræ med højtrykslaminat/skrivebare magnetiske plader. Der er tale om et modulopbygget system, hvor metalrammerne også kan bruges til opbevaring, højborde, kupésofaer og trapper. Det hele kan løbende bygges til og bygges om.",
+                "Html": "<p></p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": ", learingsmoebler, environment for learning",
+                "Html": "<p>, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 8,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "The Bench",
+        "BaseUrl": "https://environmentforlearning.com/moebler/the-bench/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 6, "Name": "stole" }
+        ],
+        "MainCategory": { "Id": 6, "Name": "stole" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "55cm", "Width": "100cm", "Depth": "100cm" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Robust bænk som består af krydsfiner med højtrykslaminat i eg, pulverlakeret stål og en hynde, som kan gøres rent med sprit (op til 70%), er vandtæt og holdbarheden er høj (100.000 martindale). Der er både mulighed for både at gemme sig under og arbejde ovenpå bænken. Kan både bruges i et læringsmiljø eller i et større rum såsom et læringscenter eller en aula.",
+                "Html": "<p></p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "the bench, learingsmoebler, environment for learning",
+                "Html": "<p>the bench, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 11,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Puffs",
+        "BaseUrl": "https://environmentforlearning.com/moebler/puffs/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 6, "Name": "stole" }
+        ],
+        "MainCategory": { "Id": 6, "Name": "stole" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "Træbund, skum og slidstærkt stof", "Height": "30cm", "Width": "", "Depth": "", "Dia":"60/80/120cm" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Runde puffer i diameter 60, 80 og 120 og alle 30cm. i højden. Træbund og skum i god kvalitet og meget slidstærkt stof. Vi producerer selv. Fås i mange farver.",
+                "Html": "<p>Runde puffer i diameter 60, 80 og 120 og alle 30cm. i højden. Træbund og skum i god kvalitet og meget slidstærkt stof. Vi producerer selv. Fås i mange farver.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "puffs, learingsmoebler, environment for learning",
+                "Html": "<p>puffs, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 16,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Isidoro",
+        "BaseUrl": "https://environmentforlearning.com/moebler/isidoro/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 6, "Name": "stole" }
+        ],
+        "MainCategory": { "Id": 6, "Name": "stole" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "allezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "feedbackzone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "63/73cm", "Width": "", "Depth": "", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Yderst populær højstol fra Gaber, som har vundet mange møbelpriser. Meget holdbar og funktionel. Fås i højden 73cm og 63 cm. Højstolen stables uden høje løft, er ridsefast, antistatisk, UV bestandig og i helstøbt plast med metal i hvert ben. Den kommer med 5 års brudgaranti. Der er en smule bevægelse i stolen, som kan virke beroligende på nogle børn.",
+                "Html": "<p>Yderst populær højstol fra Gaber, som har vundet mange møbelpriser. Meget holdbar og funktionel. Fås i højden 73cm og 63 cm. Højstolen stables uden høje løft, er ridsefast, antistatisk, UV bestandig og i helstøbt plast med metal i hvert ben. Den kommer med 5 års brudgaranti. Der er en smule bevægelse i stolen, som kan virke beroligende på nogle børn.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "isidoro, højstol, stole, learingsmoebler, environment for learning",
+                "Html": "<p>isidoro, højstol, stole, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 17,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Jubel",
+        "BaseUrl": "https://environmentforlearning.com/moebler/gaber-jubel/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 6, "Name": "stole" },
+            { "Id": 11, "Name": "rum for læring" },
+            { "Id": 9, "Name": "klassesæt" }
+        ],
+        "MainCategory": { "Id": 6, "Name": "stole" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "rum for læring", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Stabelstol, Jubel, fra Gaber i Italien. Fås med fire ben, meder eller fuldstøbt i plast, som støjer mindst. Fylder ikke ud i rummet, når den stables. Fantastisk siddekomfort. Passer godt til indretningskonceptet Rum for Læring.",
+                "Html": "<p>Stabelstol, Jubel, fra Gaber i Italien. Fås med fire ben, meder eller fuldstøbt i plast, som støjer mindst. Fylder ikke ud i rummet, når den stables. Fantastisk siddekomfort. Passer godt til indretningskonceptet Rum for Læring.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "jubel, stole, learingsmoebler, environment for learning",
+                "Html": "<p>jubel, stole, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 18,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Isidora",
+        "BaseUrl": "https://environmentforlearning.com/moebler/isidora/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 6, "Name": "stole" },
+            { "Id": 9, "Name": "klassesæt" }
+        ],
+        "MainCategory": { "Id": 6, "Name": "stole" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Stole fra Gaber. Holdbar og anderledes stol, som signalerer noget andet end en traditionel skolestol. Fås med armlæn og når de lægges op på et bord, så lettes rengøringen. Meget støjsvage.",
+                "Html": "<p>Stole fra Gaber. Holdbar og anderledes stol, som signalerer noget andet end en traditionel skolestol. Fås med armlæn og når de lægges op på et bord, så lettes rengøringen. Meget støjsvage.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "jubel, stole, learingsmoebler, environment for learning",
+                "Html": "<p>jubel, stole, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 19,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Slot Fill",
+        "BaseUrl": "https://environmentforlearning.com/moebler/slot-fill/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 6, "Name": "stole" },
+            { "Id": 9, "Name": "klassesæt" },
+            { "Id": 11, "Name": "rum for læring" }
+        ],
+        "MainCategory": { "Id": 6, "Name": "stole" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Konferencestol fra Gaber. Fås både med fire ben eller meder, med eller uden armlæn og i flere farver. Prisstærk stol i god kvalitet og siddekomfort. Passer perfekt til læringskonceptet Rum for Læring",
+                "Html": "<p>Konferencestol fra Gaber. Fås både med fire ben eller meder, med eller uden armlæn og i flere farver. Prisstærk stol i god kvalitet og siddekomfort. Passer perfekt til læringskonceptet Rum for Læring</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "slot fill, stole, learingsmoebler, environment for learning",
+                "Html": "<p>slot fill, stole, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 20,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Akami",
+        "BaseUrl": "https://environmentforlearning.com/moebler/akami/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 6, "Name": "stole" },
+            { "Id": 9, "Name": "klassesæt" },
+            { "Id": 11, "Name": "rum for læring" }
+        ],
+        "MainCategory": { "Id": 6, "Name": "stole" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Gennemført og flot stol med en god siddekomfort. AKAMI har vundet flere designpriser – Interior Design Award, IF Design Awards 2015, Good Design Award 2013, winner Interior Innovation Award 2014 og FX International Interior Design Award. Kan fås med beslag, så den kan sættes op i serier i et større lokale.",
+                "Html": "<p>Gennemført og flot stol med en god siddekomfort. AKAMI har vundet flere designpriser – Interior Design Award, IF Design Awards 2015, Good Design Award 2013, winner Interior Innovation Award 2014 og FX International Interior Design Award. Kan fås med beslag, så den kan sættes op i serier i et større lokale.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "akami, stole, learingsmoebler, environment for learning",
+                "Html": "<p>akami, stole, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 26,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Cocoon",
+        "BaseUrl": "https://environmentforlearning.com/moebler/skæermvaeg-100-uld/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 7, "Name": "diverse" },
+            { "Id": 3, "Name": "akustik" },
+            { "Id": 10, "Name": "rum i rummet" },
+            { "Id": 11, "Name": "rum for læring" }
+        ],
+        "MainCategory": { "Id": 7, "Name": "diverse" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "48cm", "Width": "50cm", "Depth": "48cm", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Bordskærm som skærmer både visuelt og auditivt. B:50cm x D:48 x H:48. Kan foldes sammen og hænges på væggen. Seks bordskærme til en elevgruppe giver mulighed for at skabe små rum til fordybelse. Køb direkte via webshoppen.",
+                "Html": "<p>Bordskærm som skærmer både visuelt og auditivt. B:50cm x D:48 x H:48. Kan foldes sammen og hænges på væggen. Seks bordskærme til en elevgruppe giver mulighed for at skabe små rum til fordybelse. Køb direkte via webshoppen.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "cocoon, akustik, learingsmoebler, environment for learning",
+                "Html": "<p>akami, akustik, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 27,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Soft cushins",
+        "BaseUrl": "https://environmentforlearning.com/moebler/siddepude/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 7, "Name": "diverse" },
+            { "Id": 6, "Name": "stole" },
+            { "Id": 10, "Name": "rum i rummet" },
+            { "Id": 11, "Name": "rum for læring" }
+        ],
+        "MainCategory": { "Id": 6, "Name": "stole" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "6cm", "Width": "", "Depth": "", "Dia":"48cm" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Se de forskellige farver på billederne. Stof er crib5 (brandhæmmende), vandtæt og meget holdbart (100.000 Martindale). Med hank så de f.eks. kan hænge på kroge. Rabat ved køb af mange siddepuder.",
+                "Html": "<p>Se de forskellige farver på billederne. Stof er crib5 (brandhæmmende), vandtæt og meget holdbart (100.000 Martindale). Med hank så de f.eks. kan hænge på kroge. Rabat ved køb af mange siddepuder.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "soft cushins, siddehynde, stol, learingsmoebler, environment for learning",
+                "Html": "<p>soft cushins, siddehynde, stol, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 28,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Pizza",
+        "BaseUrl": "https://environmentforlearning.com/moebler/rundt-hyndeseat-i-fire-dele/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 7, "Name": "diverse" },
+            { "Id": 6, "Name": "stole" }
+        ],
+        "MainCategory": { "Id": 7, "Name": "diverse" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Mange børn arbejder godt, når de sidder på gulvet. dette hyndesæt kan lægges i en slange eller i en cirkel. De er monteret med velcro på de lige sider. Stoffet kan afmonteres, er vandtæt, kan sprittes af, er REACH compliant og meget holdbart.",
+                "Html": "<p>Mange børn arbejder godt, når de sidder på gulvet. dette hyndesæt kan lægges i en slange eller i en cirkel. De er monteret med velcro på de lige sider. Stoffet kan afmonteres, er vandtæt, kan sprittes af, er REACH compliant og meget holdbart.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "pizza, siddehynde, stol, learingsmoebler, environment for learning",
+                "Html": "<p>pizza, siddehynde, stol, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 29,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Acoustic Panel",
+        "BaseUrl": "https://environmentforlearning.com/moebler/akustikpaneler/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 7, "Name": "diverse" },
+            { "Id": 3, "Name": "akustik" }
+        ],
+        "MainCategory": { "Id": 7, "Name": "diverse" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "60cm", "Width": "60cm", "Depth": "4cm", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Vores akustikpaneler er 60cm x 60cm x 4cm. Produkterne er klasse A med stenuld og 100% uld på fronten. Uld og stenuld er det bedste af det bedste og derfor helt uden for kategori brandmæssigt. Panelerne kan af den grund monteres i en flugtvej. Med udgangspunkt i ønsket om høj holdbarhed i et undervisningsmiljø har vi valgt at sætte pladen i en aluminiumsramme. Onde tunger siger, at akustikprodukter er verdens bedste produkter, som ingen vil købe. Vi tænker at de forbedrer et læringsmiljø mærkbart og at de understøtter elevernes læringsresultater og trivsel.",
+                "Html": "<p>Vores akustikpaneler er 60cm x 60cm x 4cm. Produkterne er klasse A med stenuld og 100% uld på fronten. Uld og stenuld er det bedste af det bedste og derfor helt uden for kategori brandmæssigt. Panelerne kan af den grund monteres i en flugtvej. Med udgangspunkt i ønsket om høj holdbarhed i et undervisningsmiljø har vi valgt at sætte pladen i en aluminiumsramme. Onde tunger siger, at akustikprodukter er verdens bedste produkter, som ingen vil købe. Vi tænker at de forbedrer et læringsmiljø mærkbart og at de understøtter elevernes læringsresultater og trivsel.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "akustik panel, learingsmoebler, environment for learning",
+                "Html": "<p>akustik panel, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 31,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Bookworm",
+        "BaseUrl": "https://environmentforlearning.com/moebler/bookworm ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 7, "Name": "diverse" },
+            { "Id": 8, "Name": "opbevaring" }
+        ],
+        "MainCategory": { "Id": 8, "Name": "opbevaring" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "215cm", "Width": "106cm", "Depth": "106cm", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Bookworm er to huler sat ovenpå hinanden og den rummer op til 6 børn på et meget lille område. Bookworm kan både placeres i et hjørne og i større lokaler som rumdeler. H:215cm x 106cm x 106cm. Er fremstillet i 19,6mm krydsfiner med højtrykslaminat i eg. Der medfølger hynder i meget slidstærkt stof til begge niveauer.",
+                "Html": "<p>Bookworm er to huler sat ovenpå hinanden og den rummer op til 6 børn på et meget lille område. Bookworm kan både placeres i et hjørne og i større lokaler som rumdeler. H:215cm x 106cm x 106cm. Er fremstillet i 19,6mm krydsfiner med højtrykslaminat i eg. Der medfølger hynder i meget slidstærkt stof til begge niveauer.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "bookworm, bogreol, learingsmoebler, environment for learning",
+                "Html": "<p>bookworm, bogreol, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 32,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Callero MakerHub Trolley",
+        "BaseUrl": "https://environmentforlearning.com/moebler/callero-shield-makerhub-trolley/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 7, "Name": "diverse" },
+            { "Id": 8, "Name": "opbevaring" }
+        ],
+        "MainCategory": { "Id": 8, "Name": "opbevaring" },
+        "Zones": [
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "107cm", "Width": "102cm", "Depth": "43cm", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Her er et dobbeltsidet møbel, som lægger op til samarbejde. Skrivebare flader og opbevaring af materialer i måske verdens bedste kasser. H:107cm x B:102cm x D:43cm. Kan bruges i mange sammenhænge herunder til at skabe rum i rum fornemmelse,  der kan skiftes mellem whiteboard, opslagstavle og kridttavle.",
+                "Html": "<p>Her er et dobbeltsidet møbel, som lægger op til samarbejde. Skrivebare flader og opbevaring af materialer i måske verdens bedste kasser. H:107cm x B:102cm x D:43cm. Kan bruges i mange sammenhænge herunder til at skabe rum i rum fornemmelse,  der kan skiftes mellem whiteboard, opslagstavle og kridttavle.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "callero makerhub trolley, learingsmoebler, environment for learning",
+                "Html": "<p>callero makerhub trolley, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 33,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Makerspace Trolley",
+        "BaseUrl": "https://environmentforlearning.com/moebler/makerspace-trolley/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 7, "Name": "diverse" },
+            { "Id": 8, "Name": "opbevaring" }
+        ],
+        "MainCategory": { "Id": 8, "Name": "opbevaring" },
+        "Zones": [
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "156cm", "Width": "102,5cm", "Depth": "43cm", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Praktisk vogn fra Gratnells som passer godt til STEM-aktiviteter, faglokaler eller i et makerspace. Der er god plads til materialer i billedkunst, naturfag eller håndværk & design.",
+                "Html": "<p>Praktisk vogn fra Gratnells som passer godt til STEM-aktiviteter, faglokaler eller i et makerspace. Der er god plads til materialer i billedkunst, naturfag eller håndværk & design.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "spacemaker trolley, learingsmoebler, environment for learning",
+                "Html": "<p>spacemaker trolley, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 34,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Rover Cart",
+        "BaseUrl": "https://environmentforlearning.com/moebler/rover-cart/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 7, "Name": "diverse" },
+            { "Id": 8, "Name": "opbevaring" }
+        ],
+        "MainCategory": { "Id": 8, "Name": "opbevaring" },
+        "Zones": [
+            { "Name": "", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "117cm", "Width": "58cm", "Depth": "76cm", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Hvis I opbevarer jeres materialer centralt, så kan I vælge tre kasser, som passer præcis til indholdet i undervisningen og køre dem på vognen ud til eleverne.",
+                "Html": "<p>Hvis I opbevarer jeres materialer centralt, så kan I vælge tre kasser, som passer præcis til indholdet i undervisningen og køre dem på vognen ud til eleverne.</p>"
+            },{
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "spacemaker trolley, learingsmoebler, environment for learning",
+                "Html": "<p>spacemaker trolley, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 35,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Storage Trolley III",
+        "BaseUrl": "https://environmentforlearning.com/moebler/materialevogn2/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 7, "Name": "diverse" },
+            { "Id": 8, "Name": "opbevaring" }
+        ],
+        "MainCategory": { "Id": 8, "Name": "opbevaring" },
+        "Zones": [
+            { "Name": "", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "100cm", "Width": "108cm", "Depth": "50cm", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Meget robust materialevogn f.eks. til elevopbevaring eller undervisningsmaterialer. Passer til Gratnells kasser som kan købes med. Vognen har plads til 30 lave kasser, 15 dybe eller en blanding af de to slags. Bordpladen er i krydsfiner med højtrykslaminat.",
+                "Html": "<p>Meget robust materialevogn f.eks. til elevopbevaring eller undervisningsmaterialer. Passer til Gratnells kasser som kan købes med. Vognen har plads til 30 lave kasser, 15 dybe eller en blanding af de to slags. Bordpladen er i krydsfiner med højtrykslaminat.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "storage trolley III, learingsmoebler, environment for learning",
+                "Html": "<p>storage trolley III, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 36,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Storage Trolley II",
+        "BaseUrl": "https://environmentforlearning.com/moebler/materialevogn1/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 7, "Name": "diverse" },
+            { "Id": 8, "Name": "opbevaring" }
+        ],
+        "MainCategory": { "Id": 8, "Name": "opbevaring" },
+        "Zones": [
+            { "Name": "", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "90cm", "Width": "71cm", "Depth": "42cm", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Meget robust materialevogn f.eks. til elevopbevaring eller undervisningsmaterialer. Passer til Gratnells kasser som kan følge med. Vognen har plads til 16 lave kasser, 8 dybe eller en blanding af de to slags. Bordpladen er i krydsfiner med højtrykslaminat på toppen.",
+                "Html": "<p>Meget robust materialevogn f.eks. til elevopbevaring eller undervisningsmaterialer. Passer til Gratnells kasser som kan følge med. Vognen har plads til 16 lave kasser, 8 dybe eller en blanding af de to slags. Bordpladen er i krydsfiner med højtrykslaminat på toppen.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "storage trolley II, learingsmoebler, environment for learning",
+                "Html": "<p>storage trolley II, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 37,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Shoe Rack",
+        "BaseUrl": "https://environmentforlearning.com/moebler/skoreol/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 8, "Name": "opbevaring" }
+        ],
+        "MainCategory": { "Id": 8, "Name": "opbevaring" },
+        "Zones": [
+            { "Name": "", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "100cm", "Width": "100cm", "Depth": "50cm", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Meget robust reol på hjul til opbevaring af op til 32 par sko. Dimensioner: B:100cm x H:100cm x D:50cm. Kan monteres med en plade i krydsfiner med højtrykslaminat øverst.",
+                "Html": "<p>Meget robust reol på hjul til opbevaring af op til 32 par sko. Dimensioner: B:100cm x H:100cm x D:50cm. Kan monteres med en plade i krydsfiner med højtrykslaminat øverst.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "shoe rack, learingsmoebler, environment for learning",
+                "Html": "<p>shoe rack, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 38,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Learnometer",
+        "BaseUrl": "https://environmentforlearning.com/moebler/learnometer/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 7, "Name": "diverse" },
+            { "Id": 3, "Name": "akustik" }
+        ],
+        "MainCategory": { "Id": 7, "Name": "diverse" },
+        "Zones": [
+            { "Name": "", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Learnometer er et revolutionerende produkt med et stort potentiale på alle skoler. Den måler CO2, kemikalier (TVOCs), støvpartikler, temperatur, luftfugtighed, lys (lux) og støj (decibel).",
+                "Html": "<p>Learnometer er et revolutionerende produkt med et stort potentiale på alle skoler. Den måler CO2, kemikalier (TVOCs), støvpartikler, temperatur, luftfugtighed, lys (lux) og støj (decibel).</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "learnometer, learingsmoebler, environment for learning",
+                "Html": "<p>learnometer, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 10,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Work Table",
+        "BaseUrl": "https://environmentforlearning.com/moebler/work-table/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 5, "Name": "borde" },
+            { "Id": 8, "Name": "opbevaring" }
+        ],
+        "MainCategory": { "Id": 5, "Name": "borde" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "80cm", "Width": "240cm", "Depth": "60cm", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Mulighed for justering i højden, så det kan passe til både børn og unge. Udskæring på den ene side, som giver mulighed for at have både ben og stole under bordpladen. Eleverne kan både sidde og stå ved arbejdsbordet.",
+                "Html": "<p>Mulighed for justering i højden, så det kan passe til både børn og unge. Udskæring på den ene side, som giver mulighed for at have både ben og stole under bordpladen. Eleverne kan både sidde og stå ved arbejdsbordet.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "work table, bord, learingsmoebler, environment for learning",
+                "Html": "<p>work table, bord, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 12,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Zonemaster",
+        "BaseUrl": "https://environmentforlearning.com/moebler/zonemaster/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 7, "Name": "diverse" },
+            { "Id": 10, "Name": "rum i rummet" }
+        ],
+        "MainCategory": { "Id": 5, "Name": "borde" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "90cm", "Width": "240cm", "Depth": "60cm", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Højbord og hule på én gang. Zonemaster kombinerer det bedste fra højbordet, hvor eleverne får et godt overblik med to huler, hvor eleverne kan skærmes visuelt.",
+                "Html": "<p>Højbord og hule på én gang. Zonemaster kombinerer det bedste fra højbordet, hvor eleverne får et godt overblik med to huler, hvor eleverne kan skærmes visuelt.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "zonemaster, højbord, bord, learingsmoebler, environment for learning",
+                "Html": "<p>zonemaster, højbord, bord, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 13,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Tiered Seating",
+        "BaseUrl": "https://environmentforlearning.com/moebler/learingstrappe/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 2, "Name": "læringstrapper" }
+        ],
+        "MainCategory": { "Id": 2, "Name": "læringstrapper" },
+        "Zones": [
+            { "Name": "allezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "120cm", "Width": "210cm", "Depth": "240cm", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Solid konstruktion i 18mm lakeret birkefiner – stor nok til en klasse. Hvert trin er 60cm. i dybden. God plads både at samle eleverne og til alm. skolearbejde. Mulighed for opbevaring i nederste trin. På billederne er tre trapper sat i forlængelse af hinanden",
+                "Html": "<p>Solid konstruktion i 18mm lakeret birkefiner – stor nok til en klasse. Hvert trin er 60cm. i dybden. God plads både at samle eleverne og til alm. skolearbejde. Mulighed for opbevaring i nederste trin. På billederne er tre trapper sat i forlængelse af hinanden</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "tiered seating, learingstrappe, learingsmoebler, environment for learning",
+                "Html": "<p>tiered seating, learingstrappe, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 14,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Roomy",
+        "BaseUrl": "https://environmentforlearning.com/moebler/roomy/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 10, "Name": "rum i rummet" }
+        ],
+        "MainCategory": { "Id": 10, "Name": "rum i rummet" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "107cm", "Width": "70cm", "Depth": "120cm", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Læsehule som kan bruges af elever på skift eller af en bestemt elev i længere tid. Roomy kan fremme inklusionen af enkelte elever, så de bliver en større del af fællesskabet.",
+                "Html": "<p>Læsehule som kan bruges af elever på skift eller af en bestemt elev i længere tid. Roomy kan fremme inklusionen af enkelte elever, så de bliver en større del af fællesskabet.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "roomy, learingsmoebler, environment for learning",
+                "Html": "<p>roomy, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 15,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Organic Podium II",
+        "BaseUrl": "https://environmentforlearning.com/moebler/organisk-podie-ii/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 6, "Name": "stole" },
+            { "Id": 7, "Name": "diverse" }
+        ],
+        "MainCategory": { "Id": 6, "Name": "diverse" },
+        "Zones": [
+            { "Name": "", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Unikt produkt med mulighed for flere niveauer. Materialer er lamineret birk og langhåret tæppe på toppen, rillet mdf på siderne og trælister lodret. Der er kræset for detaljerne og resultatet kan ses på billederne. Kan bruges alle steder hvor børn mødes på en skole eller i et bibliotek.",
+                "Html": "<p>Unikt produkt med mulighed for flere niveauer. Materialer er lamineret birk og langhåret tæppe på toppen, rillet mdf på siderne og trælister lodret. Der er kræset for detaljerne og resultatet kan ses på billederne. Kan bruges alle steder hvor børn mødes på en skole eller i et bibliotek.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "organic podium, learingsmoebler, environment for learning",
+                "Html": "<p>organic podium, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 21,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Claro",
+        "BaseUrl": "https://environmentforlearning.com/moebler/claro/ ",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 5, "Name": "borde" }
+        ],
+        "MainCategory": { "Id": 5, "Name": "borde" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "75cm", "Width": "70cm", "Depth": "70cm", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Compactlaminat på toppen. Kan holde til at stå udendørs. Fantastisk kvalitetsbord, som ikke tåler sammenligning med billige skoleborde.",
+                "Html": "<p>Compactlaminat på toppen. Kan holde til at stå udendørs. Fantastisk kvalitetsbord, som ikke tåler sammenligning med billige skoleborde.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "borde, learingsmoebler, environment for learning",
+                "Html": "<p>borde, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 22,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Step",
+        "BaseUrl": "https://environmentforlearning.com/moebler/step/",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 5, "Name": "borde" }
+        ],
+        "MainCategory": { "Id": 5, "Name": "borde" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "feedbackzone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "110cm", "Width": "120cm", "Depth": "50cm", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Højbord til de ældste elever. Kan fås i mange farver på både stel og bordplade. Elegant kvalitetsprodukt med mange års levetid.",
+                "Html": "<p>Højbord til de ældste elever. Kan fås i mange farver på både stel og bordplade. Elegant kvalitetsprodukt med mange års levetid.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "borde, learingsmoebler, environment for learning",
+                "Html": "<p>borde, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 23,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Up.Grade",
+        "BaseUrl": "https://environmentforlearning.com/moebler/up-grade/",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 5, "Name": "borde" },
+            { "Id": 6, "Name": "stole" },
+            { "Id": 9, "Name": "klassesæt" }
+        ],
+        "MainCategory": { "Id": 5, "Name": "borde" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "", "Width": "124/70cm", "Depth": "60cm", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Fleksibelt bord og stol som kan flyttes rundt i læringsrummet. Der er mulighed for at lave mange forskellige opstillinger, da det aldrig tager mere end 3 min. at ændre fra den ene til den anden opstilling. UP.GRADE er patentgodkendt. Bordet består kun af to bordben og en bordplade. Både bordene og stolene kan justeres i højden.",
+                "Html": "<p>Fleksibelt bord og stol som kan flyttes rundt i læringsrummet. Der er mulighed for at lave mange forskellige opstillinger, da det aldrig tager mere end 3 min. at ændre fra den ene til den anden opstilling. UP.GRADE er patentgodkendt. Bordet består kun af to bordben og en bordplade. Både bordene og stolene kan justeres i højden.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "borde, stole, learingsmoebler, environment for learning",
+                "Html": "<p>borde, stole, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 24,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Mansard",
+        "BaseUrl": "https://environmentforlearning.com/moebler/mansard/",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 7, "Name": "diverse" },
+            { "Id": 10, "Name": "rum i rummet" }
+        ],
+        "MainCategory": { "Id": 10, "Name": "rum i rummet" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Mansard er et bestemt type tag, som man f.eks. brugte i København. Dette møbel kan bruges i større åbne arealer, hvor der er ønsker om et rum i rummet.",
+                "Html": "<p>Mansard er et bestemt type tag, som man f.eks. brugte i København. Dette møbel kan bruges i større åbne arealer, hvor der er ønsker om et rum i rummet.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "rum i rummet, learingsmoebler, environment for learning",
+                "Html": "<p>rum i rummet, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 25,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Søjle med bordplade til væg",
+        "BaseUrl": "https://environmentforlearning.com/moebler/soejle-med-bordplade-til-vaeg/",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 5, "Name": "borde" }
+        ],
+        "MainCategory": { "Id": 10, "Name": "rum i rummet" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "feedbackzone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Søjle med bordplade til vægmontering, som giver mulighed for både at stå eller sidde i læringsrummet. Skal ikke til strøm.",
+                "Html": "<p>Søjle med bordplade til vægmontering, som giver mulighed for både at stå eller sidde i læringsrummet. Skal ikke til strøm.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "borde, learingsmoebler, environment for learning",
+                "Html": "<p>borde, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 30,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Ovalt bord",
+        "BaseUrl": "https://environmentforlearning.com/moebler/rum-for-laering-ovalt-bord/",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 5, "Name": "borde" },
+            { "Id": 9, "Name": "klassesæt" },
+            { "Id": 11, "Name": "rum for læring" }
+        ],
+        "MainCategory": { "Id": 5, "Name": "borde" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "feedbackzone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "", "Width": "130cm", "Depth": "80cm", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "Højdejusterbart bord på hjul med en oval bordplade på 130cm x 80cm. Bordet er bygget til skolebrug. Både stellet og bordpladen er ekstremt holdbar. Bordpladen er 1,96cm krydsfiner med højtrykslaminat i flere farver. Kan også fås med whiteboard. Passer perfekt til rum for læring",
+                "Html": "<p>Højdejusterbart bord på hjul med en oval bordplade på 130cm x 80cm. Bordet er bygget til skolebrug. Både stellet og bordpladen er ekstremt holdbar. Bordpladen er 1,96cm krydsfiner med højtrykslaminat i flere farver. Kan også fås med whiteboard. Passer perfekt til rum for læring</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "borde, learingsmoebler, environment for learning",
+                "Html": "<p>borde, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 39,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Stickers - Design 1",
+        "BaseUrl": "https://environmentforlearning.com/moebler/klistermaerker-for-boern/",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 7, "Name": "diverse" }
+        ],
+        "MainCategory": { "Id": 7, "Name": "diverse" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "feedbackzone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "allezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "De forskellige læringszoner kan defineres med klistermærker. I kan f.eks. montere dem på de møbler I har i forvejen. Klistermærkerne kan afmonteres igen.",
+                "Html": "<p>De forskellige læringszoner kan defineres med klistermærker. I kan f.eks. montere dem på de møbler I har i forvejen. Klistermærkerne kan afmonteres igen.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Stickers - Design 2 | Environment for learning", "Html": "<p>Stickers | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "klistermaerker, learingsmoebler, environment for learning",
+                "Html": "<p>klistermaerker, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "klistermaerker",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "klistermaerker",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "klistermaerker",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "klistermaerker",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    },
+
+    {
+        "Id": 40,
+        "Language": "da",
+        "Priority": 2,
+        "Name": "Stickers - Design 2",
+        "BaseUrl": "https://environmentforlearning.com/moebler/klistermaerker-for-unge/",
+        "Price": 1000.00,
+        "Category":[ 
+            { "Id": 7, "Name": "diverse" }
+        ],
+        "MainCategory": { "Id": 7, "Name": "diverse" },
+        "Zones": [
+            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "feedbackzone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "allezone", "Url": "/", "ImgUrl": "/" },
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+        ],
+        "Dimentions": [
+            { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
+        ],
+        "Descriptions": [
+            {
+                "DescriptionTypeID": 1,
+                "DescriptionType": "HOVED",
+                "Text": "De forskellige læringszoner kan defineres med klistermærker. I kan f.eks. montere dem på de møbler I har i forvejen. Klistermærkerne kan afmonteres igen.",
+                "Html": "<p>De forskellige læringszoner kan defineres med klistermærker. I kan f.eks. montere dem på de møbler I har i forvejen. Klistermærkerne kan afmonteres igen.</p>"
+            },
+            {
+                "DescriptionTypeID": 2,
+                "DescriptionType": "TEXT",
+                "Text": "",
+                "Html": "<p></p>"
+            },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Stickers - Design 2 | Environment for learning", "Html": "<p>Stickers | Environment for learning</p>" },
+            {
+                "DescriptionTypeID": 4,
+                "DescriptionType": "Html meta tags",
+                "Text": "klistermaerker, learingsmoebler, environment for learning",
+                "Html": "<p>klistermaerker, learingsmoebler, environment for learning</p>"
+            }
+        ],
+        "Files": [
+            {
+                "Id": 1,
+                "Name": "klistermaerker",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null,
+                "MetaTag": null
+            },
+            {
+                "Id": 2,
+                "Name": "klistermaerker",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 3,
+                "Name": "klistermaerker",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            },
+            {
+                "Id": 4,
+                "Name": "klistermaerker",
+                "FileType": "image/jpeg",
+                "Uri": "/",
+                "Copyright": "Environment for learning",
+                "AltText": null,
+                "Description": null
+            }
+        ],
+        "RelatedProducts": [
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" },
+            { "Id": 2, "Category": 2, "Name": "Product name" }
+        ]
+    }
+       
+]
