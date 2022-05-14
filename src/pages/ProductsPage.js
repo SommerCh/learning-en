@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
-// import placeholderImg from "../assets/placeholderImg";
 
 export default function ProductsPage() {
     const [products, setProducts] = useState([]);
     const [categories, setCategories] = useState([]);
-    const [search, setSearch] = useState("");
+    const [searchValue, setSearchValue] = useState("");
 
     // Fetch categories
     useEffect(() => {
@@ -16,7 +15,6 @@ export default function ProductsPage() {
         }
         getData();
     }, [])
-
 
     // Fetch products
     useEffect(() => {
@@ -37,10 +35,14 @@ export default function ProductsPage() {
     }
 
 
+
+
     return (
-        <>  <section className="page">
+        <>  
+            <section className="page">
                 <h1 className="page-title">Produkter</h1>
 
+                {/* Categories mapped and displayed */}
                 <section className="category-cntr">          
                     {categories.map(element => ( 
                         <article className="category-article">  
@@ -52,8 +54,10 @@ export default function ProductsPage() {
                     ))}
                 </section>
 
+                {/* Filter and searchbar */}
                 <section className="filter-cntr">
-                    <input className="search" type="text" onChange={(e) => setSearch(e.target.value.toLowerCase())} onkeyup="search(this.value)" placeholder="Søg..." />
+                    <input className="search" type="text" onChange={(e) => setSearchValue(e.target.value.toLowerCase())} onkeyup="search(this.value)" placeholder="Søg..." />
+                    
                     <select className="filter" value="" onChange="">
                         <option value="all">Filter</option>
                         <option value="this">this</option>
@@ -62,6 +66,23 @@ export default function ProductsPage() {
                     </select>
                 </section>
 
+                {/* Searched products displayed */}
+                <section className="article-cntr"> 
+                    {products.filter((element) => element.Name.toLowerCase().includes(searchValue)).map((element) => ( 
+                        <article className="article-box">  
+                            <div className="article-img">
+                                <img src={element.Files?.lenght ? element?.Files[0]?.Uri : getImg(element)} alt={element.Name} />
+                            </div>           
+                            <div className="article-details">
+                                <h2>{element?.Name}</h2>
+                                <p>{element.MainCategory?.Name}</p>  
+                                <p className="description line-clamp">{element.Descriptions[0]?.Text}</p>
+                            </div>
+                        </article>
+                    ))} 
+                </section>
+
+                {/* Products mapped and displayed */}
                 <section className="article-cntr">          
                     {products.map(element => ( 
                         <article className="article-box">  
@@ -72,11 +93,25 @@ export default function ProductsPage() {
                                 <h2>{element?.Name}</h2>
                                 <p>{element.MainCategory?.Name}</p>  
                                 <p className="description line-clamp">{element.Descriptions[0]?.Text}</p>
-                                {/* <span>{getSubCat(element)}</span>  */}
                             </div>
                         </article>
                     ))}
+
+
+                    {/* {products.map(element => ( 
+                        <article className="article-box">  
+                            <div className="article-img">
+                                <img src={element.Files?.lenght ? element?.Files[0]?.Uri : getImg(element)} alt={element.Name} />
+                            </div>           
+                            <div className="article-details">
+                                <h2>{element?.Name}</h2>
+                                <p>{element.MainCategory?.Name}</p>  
+                                <p className="description line-clamp">{element.Descriptions[0]?.Text}</p>
+                            </div>
+                        </article>
+                    ))} */}
                 </section>
+
             </section>
         </>
     );
