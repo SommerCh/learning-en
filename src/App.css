@@ -362,3 +362,13 @@ h1 {
   filter: grayscale(100%);
   height: 100vh;
 }
+
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+
+.classroom img{
+  width: 100%;
+}
