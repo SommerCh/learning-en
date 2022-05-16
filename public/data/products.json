@@ -5,6 +5,7 @@
         "Priority": 2,
         "Name": "Magnifier I",
         "BaseUrl": "https://environmentforlearning.com/moebler/magnifier/",
+        "Keywords":["magnifier", "læringstrapper", "trappe", "trapper", "borde", "bord", "stol", "stole"],
         "Price": 1000.00,
         "Category": [
             { "Id": 2, "Name": "Læringstrapper" }
@@ -45,18 +46,17 @@
             {
                 "Id": 1,
                 "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/magnifier-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
-                "Description": null,
-                "MetaTag": null
+                "Description": null
             },
             {
                 "Id": 2,
                 "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/magnifier-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -64,8 +64,8 @@
             {
                 "Id": 3,
                 "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/magnifier-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -73,8 +73,8 @@
             {
                 "Id": 4,
                 "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/magnifier-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -94,6 +94,7 @@
         "Priority": 2,
         "Name": "Think Box",
         "BaseUrl": "https://environmentforlearning.com/moebler/think-box/",
+        "Keywords":["think", "box", "akustik", "gruppezone", "stillezone", "borde", "bord", "stol", "stole"],
         "Price": 1000.00,
         "Category": [ 
             { "Id": 3, "Name": "Akustik" }
@@ -131,8 +132,8 @@
             {
                 "Id": 1,
                 "Name": "think box",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/thinkbox-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -141,8 +142,8 @@
             {
                 "Id": 2,
                 "Name": "think box",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/thinkbox-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -150,8 +151,8 @@
             {
                 "Id": 3,
                 "Name": "think box",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/thinkbox-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -159,8 +160,8 @@
             {
                 "Id": 4,
                 "Name": "think box",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/thinkbox-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -180,6 +181,7 @@
         "Priority": 2,
         "Name": "Idea Tank",
         "BaseUrl": "https://environmentforlearning.com/moebler/idea-tank/",
+        "Keywords":["idea", "tank", "akustik", "stillezone", "gruppezone", "borde", "bord", "stol", "stole"],
         "Price": 1000.00,
         "Category": [ 
             { "Id": 3, "Name": "Akustik" }
@@ -216,9 +218,9 @@
         "Files": [
             {
                 "Id": 1,
-                "Name": "idea tank",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/ideatank-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -226,27 +228,27 @@
             },
             {
                 "Id": 2,
-                "Name": "ideatank",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/ideatank-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
             },
             {
                 "Id": 3,
-                "Name": "ideatank",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/ideatank-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
             },
             {
                 "Id": 4,
-                "Name": "idea tank",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/ideatank-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -266,6 +268,7 @@
         "Priority": 2,
         "Name": "Idea Tank Triple",
         "BaseUrl": "https://environmentforlearning.com/moebler/idea-tank-acoustic-triple/",
+        "Keywords":["idea", "tank", "triple", "borde", "bord", "stol", "stole", "akustik", "stillezone", "gruppezone"],
         "Price": 1000.00,
         "Category": [ 
             { "Id": 3, "Name": "Akustik" }
@@ -302,9 +305,9 @@
         "Files": [
             {
                 "Id": 1,
-                "Name": "idea tank triple",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/ideatanktriple-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -312,27 +315,27 @@
             },
             {
                 "Id": 2,
-                "Name": "idea tank triple",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/ideatanktriple-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
             },
             {
                 "Id": 3,
-                "Name": "idea tank triple",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/ideatanktriple-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
             },
             {
                 "Id": 4,
-                "Name": "idea tank triple",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/ideatanktriple-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -350,8 +353,9 @@
         "Id": 6,
         "Language": "da",
         "Priority": 2,
-        "Name": "Feedback zone",
+        "Name": "Feedbackzone",
         "BaseUrl": "https://environmentforlearning.com/moebler/feedbackzone/",
+        "Keywords":["feedbackzone", "borde", "bord", "stol", "stole"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 4, "Name": "Feedbackzone" }
@@ -387,9 +391,9 @@
         "Files": [
             {
                 "Id": 1,
-                "Name": "Feedback zone",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/feedbackzone-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -397,27 +401,27 @@
             },
             {
                 "Id": 2,
-                "Name": "Feedback zone",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/feedbackzone-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
             },
             {
                 "Id": 3,
-                "Name": "Feedback zone",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/feedbackzone-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
             },
             {
                 "Id": 4,
-                "Name": "think-box-acoustic",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/feedbackzone-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -437,6 +441,7 @@
         "Priority": 2,
         "Name": "High Table",
         "BaseUrl": "https://environmentforlearning.com/moebler/hoejbord/",
+        "Keywords":["high", "table", "borde", "bord", "stillezone", "gruppezone", "feedbackzone"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 5, "Name": "borde" }
@@ -474,9 +479,9 @@
         "Files": [
             {
                 "Id": 1,
-                "Name": "High table",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/hightable-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -484,27 +489,27 @@
             },
             {
                 "Id": 2,
-                "Name": "High table",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/hightable-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
             },
             {
                 "Id": 3,
-                "Name": "High table",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/hightable-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
             },
             {
                 "Id": 4,
-                "Name": "High table",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/hightable-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -524,11 +529,12 @@
         "Priority": 2,
         "Name": "Maker Box",
         "BaseUrl": "https://environmentforlearning.com/moebler/maker-box/",
+        "Keywords":["maker", "box", "diverse", "gruppezone"],
         "Price": 1000.00,
         "Category":[ 
-            { "Id": 10, "Name": "" }
+            { "Id": 7, "Name": "diverse" }
         ],
-        "MainCategory": { "Id": 10, "Name": "" },
+        "MainCategory": { "Id": 7, "Name": "diverse" },
         "Zones": [
             { "Name": "Gruppezone", "Url": "/", "ImgUrl": "/" }
         ],
@@ -560,8 +566,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/makerbox-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -570,8 +576,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/makerbox-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -579,8 +585,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/makerbox-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -588,8 +594,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/makerbox-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -609,6 +615,7 @@
         "Priority": 2,
         "Name": "The Bench",
         "BaseUrl": "https://environmentforlearning.com/moebler/the-bench/ ",
+        "Keywords":["bænk", "bench", "stol", "stole", "gruppezone", "stillezone"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 6, "Name": "stole" }
@@ -646,8 +653,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/thebench-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -656,8 +663,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/thebench-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -665,8 +672,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/thebench-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -674,8 +681,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/thebench-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -695,6 +702,7 @@
         "Priority": 2,
         "Name": "Puffs",
         "BaseUrl": "https://environmentforlearning.com/moebler/puffs/ ",
+        "Keywords":["puffs", "puffer", "stol", "stole", "gruppezone", "stillezone"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 6, "Name": "stole" }
@@ -732,8 +740,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/puffs-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -742,8 +750,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/puffs-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -751,8 +759,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/puffs-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -760,8 +768,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/puffs-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -781,6 +789,7 @@
         "Priority": 2,
         "Name": "Isidoro",
         "BaseUrl": "https://environmentforlearning.com/moebler/isidoro/ ",
+        "Keywords":["isidoro", "stol", "stole", "gruppezone", "stillezone", "allezone", "feedbackzone"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 6, "Name": "stole" }
@@ -820,8 +829,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/isidoro-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -830,8 +839,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/isidoro-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -839,8 +848,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/isidoro-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -848,8 +857,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/isidoro-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -869,6 +878,7 @@
         "Priority": 2,
         "Name": "Jubel",
         "BaseUrl": "https://environmentforlearning.com/moebler/gaber-jubel/ ",
+        "Keywords":["jubel", "stol", "stole", "bord", "borde", "klassesæt", "gruppezone", "stillezone", "rum for læring"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 6, "Name": "stole" },
@@ -878,8 +888,7 @@
         "MainCategory": { "Id": 6, "Name": "stole" },
         "Zones": [
             { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "rum for læring", "Url": "/", "ImgUrl": "/" }
+            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
@@ -909,8 +918,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/jubel-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -919,8 +928,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/jubel-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -928,8 +937,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/jubel-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -937,8 +946,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/jubel-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -958,6 +967,7 @@
         "Priority": 2,
         "Name": "Isidora",
         "BaseUrl": "https://environmentforlearning.com/moebler/isidora/ ",
+        "Keywords":["isidora", "stol", "stole", "klassesæt", "gruppezone", "stillezone"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 6, "Name": "stole" },
@@ -996,8 +1006,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/isidora-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1006,8 +1016,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/isidora-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1015,8 +1025,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/isidora-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1024,8 +1034,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/isidora-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1045,6 +1055,7 @@
         "Priority": 2,
         "Name": "Slot Fill",
         "BaseUrl": "https://environmentforlearning.com/moebler/slot-fill/ ",
+        "Keywords":["slot fill", "stol", "stole", "gruppezone", "stillezone", "klassesæt", "rum for læring"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 6, "Name": "stole" },
@@ -1084,8 +1095,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/slotfill-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1094,8 +1105,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/slotfill-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1103,8 +1114,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/slotfill-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1112,8 +1123,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/slotfill-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1133,6 +1144,7 @@
         "Priority": 2,
         "Name": "Akami",
         "BaseUrl": "https://environmentforlearning.com/moebler/akami/ ",
+        "Keywords":["akami", "stol", "stole", "gruppezone", "stillezone", "klassesæt", "rum for læring"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 6, "Name": "stole" },
@@ -1172,8 +1184,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/akami-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1182,8 +1194,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/akami-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1191,8 +1203,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/akami-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1200,8 +1212,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/akami-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1221,6 +1233,7 @@
         "Priority": 2,
         "Name": "Cocoon",
         "BaseUrl": "https://environmentforlearning.com/moebler/skæermvaeg-100-uld/ ",
+        "Keywords":["cocoon", "akustik", "diverse", "gruppezone", "stillezone", "rum i rummet", "rum for læring"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 7, "Name": "diverse" },
@@ -1261,8 +1274,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/cocoon-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1271,8 +1284,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/cocoon-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1280,8 +1293,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/cocoon-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1289,8 +1302,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/cocoon-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1308,8 +1321,9 @@
         "Id": 27,
         "Language": "da",
         "Priority": 2,
-        "Name": "Soft cushins",
+        "Name": "Soft cushions",
         "BaseUrl": "https://environmentforlearning.com/moebler/siddepude/ ",
+        "Keywords":["soft", "cushins", "stol", "stole", "gruppezone", "stillezone", "diverse", "rum i rummet", "rum for læring"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 7, "Name": "diverse" },
@@ -1350,8 +1364,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/softcushions-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1360,8 +1374,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/softcushions-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1369,8 +1383,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/softcushions-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1378,8 +1392,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/softcushions-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1399,6 +1413,7 @@
         "Priority": 2,
         "Name": "Pizza",
         "BaseUrl": "https://environmentforlearning.com/moebler/rundt-hyndeseat-i-fire-dele/ ",
+        "Keywords":["pizza", "stol", "stole", "gruppezone", "stillezone", "diverse"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 7, "Name": "diverse" },
@@ -1437,8 +1452,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/pizza-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1447,8 +1462,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/pizza-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1456,8 +1471,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/pizza-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1465,8 +1480,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/pizza-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1486,6 +1501,7 @@
         "Priority": 2,
         "Name": "Acoustic Panel",
         "BaseUrl": "https://environmentforlearning.com/moebler/akustikpaneler/ ",
+        "Keywords":["acoustik", "panel", "diverse", "akustik", "stillezone"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 7, "Name": "diverse" },
@@ -1523,8 +1539,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/acousticpanel-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1533,8 +1549,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/acousticpanel-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1542,8 +1558,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/acousticpanel-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1551,8 +1567,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/acousticpanel-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1572,6 +1588,7 @@
         "Priority": 2,
         "Name": "Bookworm",
         "BaseUrl": "https://environmentforlearning.com/moebler/bookworm ",
+        "Keywords":["bookworm", "opbevaring", "gruppezone", "stillezone", "diverse"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 7, "Name": "diverse" },
@@ -1610,8 +1627,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/bookworm-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1620,8 +1637,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/bookworm-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1629,8 +1646,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/bookworm-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1638,8 +1655,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/bookworm-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1659,6 +1676,7 @@
         "Priority": 2,
         "Name": "Callero MakerHub Trolley",
         "BaseUrl": "https://environmentforlearning.com/moebler/callero-shield-makerhub-trolley/ ",
+        "Keywords":["callero", "makerhub", "trolley", "diverse", "opbevaring", "gruppezone"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 7, "Name": "diverse" },
@@ -1696,8 +1714,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/calleromakerhubtrolley-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1706,8 +1724,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/calleromakerhubtrolley-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1715,8 +1733,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/calleromakerhubtrolley-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1724,8 +1742,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/calleromakerhubtrolley-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1745,6 +1763,7 @@
         "Priority": 2,
         "Name": "Makerspace Trolley",
         "BaseUrl": "https://environmentforlearning.com/moebler/makerspace-trolley/ ",
+        "Keywords":["makerspace", "trolley", "diverse", "gruppezone", "opbevaring"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 7, "Name": "diverse" },
@@ -1782,8 +1801,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/makerspacetrolley-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1792,8 +1811,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/makerspacetrolley-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1801,8 +1820,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/makerspacetrolley-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1810,8 +1829,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/makerspacetrolley-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1831,6 +1850,7 @@
         "Priority": 2,
         "Name": "Rover Cart",
         "BaseUrl": "https://environmentforlearning.com/moebler/rover-cart/ ",
+        "Keywords":["rover", "cart", "diverse", "opbevaring" ],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 7, "Name": "diverse" },
@@ -1867,8 +1887,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/rovercart-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1877,8 +1897,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/rovercart-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1886,8 +1906,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/rovercart-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1895,8 +1915,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/rovercart-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1916,6 +1936,7 @@
         "Priority": 2,
         "Name": "Storage Trolley III",
         "BaseUrl": "https://environmentforlearning.com/moebler/materialevogn2/ ",
+        "Keywords":["storage", "trolley", "diverse", "opbevaring"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 7, "Name": "diverse" },
@@ -1953,8 +1974,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/storagetrolleyiii-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1963,8 +1984,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/storagetrolleyiii-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1972,8 +1993,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/storagetrolleyiii-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1981,8 +2002,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/storagetrolleyiii-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2002,6 +2023,7 @@
         "Priority": 2,
         "Name": "Storage Trolley II",
         "BaseUrl": "https://environmentforlearning.com/moebler/materialevogn1/ ",
+        "Keywords":["storage", "trolley", "diverse", "opbevaring"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 7, "Name": "diverse" },
@@ -2039,8 +2061,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/storagetrolleyii-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2049,8 +2071,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/storagetrolleyii-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2058,8 +2080,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/storagetrolleyii-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2067,8 +2089,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/storagetrolleyii-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2088,6 +2110,7 @@
         "Priority": 2,
         "Name": "Shoe Rack",
         "BaseUrl": "https://environmentforlearning.com/moebler/skoreol/ ",
+        "Keywords":["shoe", "rack", "opbevaring", "diverse", "sko", "reol", "skoreol"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 8, "Name": "opbevaring" }
@@ -2124,8 +2147,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/shoerack-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2134,8 +2157,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/shoerack-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2143,8 +2166,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/shoerack-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2152,8 +2175,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/shoerack-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2173,6 +2196,7 @@
         "Priority": 2,
         "Name": "Learnometer",
         "BaseUrl": "https://environmentforlearning.com/moebler/learnometer/ ",
+        "Keywords":["learnometer", "diverse", "akustik"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 7, "Name": "diverse" },
@@ -2210,8 +2234,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/learnometer-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2220,8 +2244,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/learnometer-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2229,8 +2253,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/learnometer-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2238,8 +2262,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/learnometer-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2259,6 +2283,7 @@
         "Priority": 2,
         "Name": "Work Table",
         "BaseUrl": "https://environmentforlearning.com/moebler/work-table/ ",
+        "Keywords":["work", "table", "bord", "borde", "opbevaring", "gruppezone", "stillezone"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 5, "Name": "borde" },
@@ -2297,8 +2322,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/worktable-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2307,8 +2332,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/worktable-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2316,8 +2341,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/worktable-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2325,8 +2350,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/worktable-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2346,6 +2371,7 @@
         "Priority": 2,
         "Name": "Zonemaster",
         "BaseUrl": "https://environmentforlearning.com/moebler/zonemaster/ ",
+        "Keywords":["zonemaster", "diverse", "rum i rummet", "stillezone", "gruppezone"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 7, "Name": "diverse" },
@@ -2384,8 +2410,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/zonemaster-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2394,8 +2420,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/zonemaster-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2403,8 +2429,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/zonemaster-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2412,8 +2438,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/zonemaster-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2433,6 +2459,7 @@
         "Priority": 2,
         "Name": "Tiered Seating",
         "BaseUrl": "https://environmentforlearning.com/moebler/learingstrappe/ ",
+        "Keywords":["tiered", "seating", "læringstrapper", "trappe", "trapper", "allezone", "gruppezone"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 2, "Name": "læringstrapper" }
@@ -2470,8 +2497,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/tieredseating-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2480,8 +2507,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/tieredseating-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2489,8 +2516,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/tieredseating-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2498,8 +2525,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/tieredseating-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2519,6 +2546,7 @@
         "Priority": 2,
         "Name": "Roomy",
         "BaseUrl": "https://environmentforlearning.com/moebler/roomy/ ",
+        "Keywords":["roomy", "stillezone", "rum i rummet"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 10, "Name": "rum i rummet" }
@@ -2555,8 +2583,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/roomy-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2565,8 +2593,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/roomy-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2574,8 +2602,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/roomy-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2583,8 +2611,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/roomy-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2604,6 +2632,7 @@
         "Priority": 2,
         "Name": "Organic Podium II",
         "BaseUrl": "https://environmentforlearning.com/moebler/organisk-podie-ii/ ",
+        "Keywords":["organic", "podium", "stol", "stole", "diverse"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 6, "Name": "stole" },
@@ -2641,8 +2670,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/organicpodiumii-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2651,8 +2680,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2660,8 +2689,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2669,8 +2698,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2690,6 +2719,7 @@
         "Priority": 2,
         "Name": "Claro",
         "BaseUrl": "https://environmentforlearning.com/moebler/claro/ ",
+        "Keywords":["claro", "bord", "borde", "gruppezone", "stillezone"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 5, "Name": "borde" }
@@ -2727,8 +2757,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/claro-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2737,8 +2767,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/claro-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2746,8 +2776,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/claro-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2755,8 +2785,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/claro-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2776,6 +2806,7 @@
         "Priority": 2,
         "Name": "Step",
         "BaseUrl": "https://environmentforlearning.com/moebler/step/",
+        "Keywords":["step", "bord", "borde", "gruppezone", "stillezone", "feedbackzone"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 5, "Name": "borde" }
@@ -2814,8 +2845,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/step-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2824,8 +2855,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/step-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2833,8 +2864,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/step-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2842,8 +2873,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/step-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2863,6 +2894,7 @@
         "Priority": 2,
         "Name": "Up.Grade",
         "BaseUrl": "https://environmentforlearning.com/moebler/up-grade/",
+        "Keywords":["up", "grade", "bord", "borde", "stol", "stole", "gruppezone", "stillezone"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 5, "Name": "borde" },
@@ -2902,8 +2934,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/upgrade-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2912,8 +2944,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/upgrade-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2921,8 +2953,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/upgrade-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2930,8 +2962,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/upgrade-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2951,6 +2983,7 @@
         "Priority": 2,
         "Name": "Mansard",
         "BaseUrl": "https://environmentforlearning.com/moebler/mansard/",
+        "Keywords":["mansard", "diverse", "rum i rummet", "gruppezone", "stillezone"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 7, "Name": "diverse" },
@@ -2989,8 +3022,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/mansard-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2999,8 +3032,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/mansard-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3008,8 +3041,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/mansard-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3017,8 +3050,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/mansard-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3038,6 +3071,7 @@
         "Priority": 2,
         "Name": "Søjle m. bordplade til væg",
         "BaseUrl": "https://environmentforlearning.com/moebler/soejle-med-bordplade-til-vaeg/",
+        "Keywords":["søjle", "bordplade", "væg", "bord", "borde", "gruppezone", "stillezone", "feedbackzone"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 5, "Name": "borde" }
@@ -3076,8 +3110,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/søjlembordplade-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -3086,8 +3120,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/søjlembordplade-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3095,8 +3129,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/søjlembordplade-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3104,8 +3138,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/søjlembordplade-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3125,6 +3159,7 @@
         "Priority": 2,
         "Name": "Ovalt bord",
         "BaseUrl": "https://environmentforlearning.com/moebler/rum-for-laering-ovalt-bord/",
+        "Keywords":["ovalt", "bord", "borde", "gruppezone", "stillezone", "feedbackzone", "klassesæt", "rum for læring"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 5, "Name": "borde" },
@@ -3165,8 +3200,8 @@
             {
                 "Id": 1,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/ovaltbord-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -3175,8 +3210,8 @@
             {
                 "Id": 2,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/ovaltbord-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3184,8 +3219,8 @@
             {
                 "Id": 3,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/ovaltbord-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3193,8 +3228,8 @@
             {
                 "Id": 4,
                 "Name": "",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "FileType": "image",
+                "Uri": "images/ovaltbord-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3214,6 +3249,7 @@
         "Priority": 2,
         "Name": "Stickers - Design 1",
         "BaseUrl": "https://environmentforlearning.com/moebler/klistermaerker-for-boern/",
+        "Keywords":["stickers", "klistermærker", "diverse", "gruppezone", "stillezone", "allezone", "feedbackzone"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 7, "Name": "diverse" }
@@ -3252,9 +3288,9 @@
         "Files": [
             {
                 "Id": 1,
-                "Name": "klistermaerker",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/stickersdesigni-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -3262,27 +3298,27 @@
             },
             {
                 "Id": 2,
-                "Name": "klistermaerker",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/stickersdesigni-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
             },
             {
                 "Id": 3,
-                "Name": "klistermaerker",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/stickersdesigni-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
             },
             {
                 "Id": 4,
-                "Name": "klistermaerker",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/stickersdesigni-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3302,6 +3338,7 @@
         "Priority": 2,
         "Name": "Stickers - Design 2",
         "BaseUrl": "https://environmentforlearning.com/moebler/klistermaerker-for-unge/",
+        "Keywords":["stickers", "klistermærker", "diverse", "gruppezone", "stillezone", "allezone", "feedbackzone"],
         "Price": 1000.00,
         "Category":[ 
             { "Id": 7, "Name": "diverse" }
@@ -3340,9 +3377,9 @@
         "Files": [
             {
                 "Id": 1,
-                "Name": "klistermaerker",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/stickersdesignii-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -3350,27 +3387,27 @@
             },
             {
                 "Id": 2,
-                "Name": "klistermaerker",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/stickersdesignii-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
             },
             {
                 "Id": 3,
-                "Name": "klistermaerker",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/stickersdesignii-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
             },
             {
                 "Id": 4,
-                "Name": "klistermaerker",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/stickersdesignii-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null

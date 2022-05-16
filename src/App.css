@@ -1,3 +1,57 @@
+/* ---------- ROOTS ---------- */
+:root {
+    /* Primary colors */
+    --clr-yellow: #DCB12D;
+    --clr-blue: #2E5599;
+    --clr-red: #C5272D;
+    --clr-green: #A9CB6B;
+    --clr-white: #FFFFFF;
+    --clr-black: #000000;
+    --clr-d-grey: #363636;
+    --clr-l-grey: #EAEAEA;
+
+    /* Secondary colors */
+    --clr-d-yellow: #A78726;
+    --clr-d-blue: #0A1E5B;
+    --clr-d-red: #8D2024;
+    --clr-d-green: #56723C;
+    --clr-l-yellow: #F6E1A1;
+    --clr-l-blue: #AABFED;
+    --clr-l-red: #FC9FAA;
+    --clr-l-green: #E0F1C1;
+
+    /* Text & Font */
+    --ff-body: 'Averta', Verdana, Arial, sans-serif;
+    --fs-p-main: 0.8750em; /* Main paragraph size */
+    --fs-p-small: 0.7500em;
+    --fs-p-large: 1em; 
+    --fs-h-large: 3.125em; /* x-Large header size */
+    --fs-h-medium: 1.625em; /* Med header size */
+    --fs-h-small: 1.5em; /* Small header size */
+}
+
+/* ---------- FONT IMPORTS ---------- */
+@font-face {
+    font-family: 'Averta';
+    src: url('assets/fonts/Averta/AvertaPE-Regular.woff2') format('woff2'),
+         url('assets/fonts/Averta/AvertaPE-Regular.woff') format('woff'),
+         url('assets/fonts/Averta/AvertaPE-Regular.ttf') format('truetype');
+  }
+
+/* ---------- GENERAL ---------- */
+body {
+    font-family: var(--ff-body);
+    font-size: 16px; /* default size for em */
+}
+
+p {
+    font-size: var(--fs-p-main);
+}
+
+h1 {
+    font-size: var(--fs-h-medium);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;

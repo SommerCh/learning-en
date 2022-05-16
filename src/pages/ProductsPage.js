@@ -82,35 +82,7 @@ export default function ProductsPage() {
                     ))} 
                 </section>
 
-                {/* Products mapped and displayed */}
-                <section className="article-cntr">          
-                    {products.map(element => ( 
-                        <article className="article-box">  
-                            <div className="article-img">
-                                <img src={element.Files?.lenght ? element?.Files[0]?.Uri : getImg(element)} alt={element.Name} />
-                            </div>           
-                            <div className="article-details">
-                                <h2>{element?.Name}</h2>
-                                <p>{element.MainCategory?.Name}</p>  
-                                <p className="description line-clamp">{element.Descriptions[0]?.Text}</p>
-                            </div>
-                        </article>
-                    ))}
 
-
-                    {/* {products.map(element => ( 
-                        <article className="article-box">  
-                            <div className="article-img">
-                                <img src={element.Files?.lenght ? element?.Files[0]?.Uri : getImg(element)} alt={element.Name} />
-                            </div>           
-                            <div className="article-details">
-                                <h2>{element?.Name}</h2>
-                                <p>{element.MainCategory?.Name}</p>  
-                                <p className="description line-clamp">{element.Descriptions[0]?.Text}</p>
-                            </div>
-                        </article>
-                    ))} */}
-                </section>
 
             </section>
         </>
