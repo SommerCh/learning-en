@@ -311,8 +311,6 @@ h1 {
   font-size: 3em;
 } */
 
-
-
 /* Slides */
 .slides-wrapper {
   display: flex;
@@ -363,12 +361,38 @@ h1 {
   height: 100vh;
 }
 
-.flex{
+/* home */
+.page {
+  background-color: darkgray;
+  height: 100vh;
+  width: 100%;
+}
+/* info */
+.flex {
   display: flex;
   justify-content: space-evenly;
   gap: 1em;
 }
 
-.classroom img{
+.classroom img {
   width: 100%;
+}
+
+.classroom {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section1 .flex {
+  flex-direction: column;
+}
+
+.section2 .classroom h2 {
+  position: absolute;
+}
+
+.section2 {
+  width: 50%;
+  margin: 0 auto;
 }
