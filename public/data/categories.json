@@ -20,20 +20,10 @@
         ],
         "Files": [
             {
-                "Id": 1,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
-                "Copyright": "Environment for learning",
-                "AltText": null,
-                "Description": null,
-                "MetaTag": null
-            },
-            {
                 "Id": 2,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/tieredseating-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -62,20 +52,10 @@
         ],
         "Files": [
             {
-                "Id": 1,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
-                "Copyright": "Environment for learning",
-                "AltText": null,
-                "Description": null,
-                "MetaTag": null
-            },
-            {
                 "Id": 2,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/acousticpanel-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -104,20 +84,10 @@
         ],
         "Files": [
             {
-                "Id": 1,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
-                "Copyright": "Environment for learning",
-                "AltText": null,
-                "Description": null,
-                "MetaTag": null
-            },
-            {
                 "Id": 2,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/storagetrolleyiii-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -146,20 +116,10 @@
         ],
         "Files": [
             {
-                "Id": 1,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
-                "Copyright": "Environment for learning",
-                "AltText": null,
-                "Description": null,
-                "MetaTag": null
-            },
-            {
                 "Id": 2,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/worktable-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -188,20 +148,10 @@
         ],
         "Files": [
             {
-                "Id": 1,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
-                "Copyright": "Environment for learning",
-                "AltText": null,
-                "Description": null,
-                "MetaTag": null
-            },
-            {
                 "Id": 2,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/slotfill-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -230,20 +180,10 @@
         ],
         "Files": [
             {
-                "Id": 1,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
-                "Copyright": "Environment for learning",
-                "AltText": null,
-                "Description": null,
-                "MetaTag": null
-            },
-            {
                 "Id": 2,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/organicpodiumii-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -272,20 +212,10 @@
         ],
         "Files": [
             {
-                "Id": 1,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
-                "Copyright": "Environment for learning",
-                "AltText": null,
-                "Description": null,
-                "MetaTag": null
-            },
-            {
                 "Id": 2,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/zonemaster-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -314,20 +244,10 @@
         ],
         "Files": [
             {
-                "Id": 1,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
-                "Copyright": "Environment for learning",
-                "AltText": null,
-                "Description": null,
-                "MetaTag": null
-            },
-            {
                 "Id": 2,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/mansard-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -356,20 +276,10 @@
         ],
         "Files": [
             {
-                "Id": 1,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
-                "Copyright": "Environment for learning",
-                "AltText": null,
-                "Description": null,
-                "MetaTag": null
-            },
-            {
                 "Id": 2,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/hightable-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -398,20 +308,10 @@
         ],
         "Files": [
             {
-                "Id": 1,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
-                "Copyright": "Environment for learning",
-                "AltText": null,
-                "Description": null,
-                "MetaTag": null
-            },
-            {
                 "Id": 2,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/roomy-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -440,20 +340,10 @@
         ],
         "Files": [
             {
-                "Id": 1,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
-                "Copyright": "Environment for learning",
-                "AltText": null,
-                "Description": null,
-                "MetaTag": null
-            },
-            {
                 "Id": 2,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/ideatank-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -482,24 +372,15 @@
         ],
         "Files": [
             {
-                "Id": 1,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
-                "Copyright": "Environment for learning",
-                "AltText": null,
-                "Description": null,
-                "MetaTag": null
-            },
-            {
                 "Id": 2,
-                "Name": "magnifier I læringstrappe",
-                "FileType": "image/jpeg",
-                "Uri": "/",
+                "Name": "",
+                "FileType": "image",
+                "Uri": "images/magnifier-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
             }
         ]
     }
+
 ]

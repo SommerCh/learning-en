@@ -47,8 +47,8 @@ export default function ProductsPage() {
                     {categories.map(element => ( 
                         <article className="category-article">  
                             <div className="category-img">
-                                <img src={element.Files?.lenght ? element?.Files[0]?.Uri : getImg(element)} alt={element.Name} />
                                 <div className="article-title"> <span>{element?.Name}</span></div>  
+                                <img src={element.Files?.lenght ? element?.Files[0]?.Uri : getImg(element)} alt={element.Name} />
                             </div>  
                         </article>
                     ))}

@@ -5,10 +5,11 @@
     --clr-blue: #2E5599;
     --clr-red: #C5272D;
     --clr-green: #A9CB6B;
-    --clr-white: #FFFFFF;
-    --clr-black: #000000;
-    --clr-d-grey: #363636;
-    --clr-l-grey: #EAEAEA;
+
+    --white: #FFFFFF;
+    --black: #000000;
+    --d-grey: #363636;
+    --l-grey: #EAEAEA;
 
     /* Secondary colors */
     --clr-d-yellow: #A78726;
@@ -432,7 +433,8 @@ h1 {
     margin: 5px 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    column-gap: .8em;
+    row-gap: .2em;
 }
 
 @media (min-width: 600px) {
@@ -452,8 +454,7 @@ h1 {
     text-align: center;
     margin: 5px 0px;
     padding: 0;
-    background-color: #fff;
-    color: #000;
+    background-color: var(--white);
     transition: ease-in .2s;
     cursor: pointer;
 }
@@ -464,26 +465,36 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.2);
-    height: 50px;
-    max-width: 100%;
+    height: 45px;
+    width: 100%;
+    position: relative;
 }
 
 @media (min-width: 600px) {
     .category-cntr>.category-article>.category-img {
-        height: 60px;
+        height: 50px;
     }
 }
 
 @media (min-width: 992px) {
     .category-cntr>.category-article>.category-img {
-        height: 60px;
+        height: 50px;
     }
 }
 
 .category-cntr>.category-article>.category-img img {
     width: 100%;
-    height: 120px;
+    height: 100%;
+    top: 0;
+    left: 0;
     object-fit: cover;
+    position: absolute;
+    filter: brightness(80%);
+    transition: ease-in .2s;
+}
+
+.category-article:hover .category-img img {
+    filter: brightness(95%);
 }
 
 .category-article:hover {
@@ -491,14 +502,22 @@ h1 {
 }
 
 .article-title {
-    word-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .article-title span {
-    margin: 0px;
+    margin: 1em;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
+    color: var(--white);
     text-transform: uppercase;
+    letter-spacing: 0.8px;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 1);
 }
 
 
@@ -508,12 +527,12 @@ h1 {
     margin: 0px 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    gap: .8em;
 }
 
 @media (min-width: 600px) {
     .article-cntr {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
@@ -522,7 +541,6 @@ h1 {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
-
 
 .article-box {
     height: auto;
