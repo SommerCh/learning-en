@@ -31,6 +31,7 @@
     --fs-h-small: 1.5em; /* Small header size */
 }
 
+
 /* ---------- FONT IMPORTS ---------- */
 @font-face {
     font-family: 'Averta';
@@ -38,6 +39,7 @@
          url('assets/fonts/Averta/AvertaPE-Regular.woff') format('woff'),
          url('assets/fonts/Averta/AvertaPE-Regular.ttf') format('truetype');
   }
+
 
 /* ---------- GENERAL ---------- */
 body {

@@ -5,7 +5,7 @@
         "Priority": 2,
         "Name": "Magnifier I",
         "BaseUrl": "https://environmentforlearning.com/moebler/magnifier/",
-        "Keywords":["magnifier", "læringstrapper", "trappe", "trapper", "borde", "bord", "stol", "stole"],
+        "Keywords":["magnifier", "læringstrapper", "trappe", "trapper", "borde", "bord", "stol", "stole", "allezone", "gruppezone"], 
         "Price": 1000.00,
         "Category": [
             { "Id": 2, "Name": "Læringstrapper" }
@@ -358,9 +358,9 @@
         "Keywords":["feedbackzone", "borde", "bord", "stol", "stole"],
         "Price": 1000.00,
         "Category":[ 
-            { "Id": 4, "Name": "Feedbackzone" }
+            { "Id": 10, "Name": "Feedbackzone" }
         ],
-        "MainCategory": { "Id": 4, "Name": "Feedbackzone" },
+        "MainCategory": { "Id": 10, "Name": "Feedbackzone" },
         "Zones": [
             { "Name": "Feedbackzone", "Url": "/", "ImgUrl": "/" }
         ],
@@ -882,7 +882,6 @@
         "Price": 1000.00,
         "Category":[ 
             { "Id": 6, "Name": "stole" },
-            { "Id": 11, "Name": "rum for læring" },
             { "Id": 9, "Name": "klassesæt" }
         ],
         "MainCategory": { "Id": 6, "Name": "stole" },
@@ -1059,8 +1058,7 @@
         "Price": 1000.00,
         "Category":[ 
             { "Id": 6, "Name": "stole" },
-            { "Id": 9, "Name": "klassesæt" },
-            { "Id": 11, "Name": "rum for læring" }
+            { "Id": 9, "Name": "klassesæt" }
         ],
         "MainCategory": { "Id": 6, "Name": "stole" },
         "Zones": [
@@ -1148,8 +1146,7 @@
         "Price": 1000.00,
         "Category":[ 
             { "Id": 6, "Name": "stole" },
-            { "Id": 9, "Name": "klassesæt" },
-            { "Id": 11, "Name": "rum for læring" }
+            { "Id": 9, "Name": "klassesæt" }
         ],
         "MainCategory": { "Id": 6, "Name": "stole" },
         "Zones": [
@@ -1238,8 +1235,7 @@
         "Category":[ 
             { "Id": 7, "Name": "diverse" },
             { "Id": 3, "Name": "akustik" },
-            { "Id": 10, "Name": "rum i rummet" },
-            { "Id": 11, "Name": "rum for læring" }
+            { "Id": 10, "Name": "rum i rummet" }
         ],
         "MainCategory": { "Id": 7, "Name": "diverse" },
         "Zones": [
@@ -1328,8 +1324,7 @@
         "Category":[ 
             { "Id": 7, "Name": "diverse" },
             { "Id": 6, "Name": "stole" },
-            { "Id": 10, "Name": "rum i rummet" },
-            { "Id": 11, "Name": "rum for læring" }
+            { "Id": 10, "Name": "rum i rummet" }
         ],
         "MainCategory": { "Id": 6, "Name": "stole" },
         "Zones": [
@@ -2638,7 +2633,7 @@
             { "Id": 6, "Name": "stole" },
             { "Id": 7, "Name": "diverse" }
         ],
-        "MainCategory": { "Id": 6, "Name": "diverse" },
+        "MainCategory": { "Id": 7, "Name": "diverse" },
         "Zones": [
             { "Name": "", "Url": "/", "ImgUrl": "/" }
         ],
@@ -3163,8 +3158,7 @@
         "Price": 1000.00,
         "Category":[ 
             { "Id": 5, "Name": "borde" },
-            { "Id": 9, "Name": "klassesæt" },
-            { "Id": 11, "Name": "rum for læring" }
+            { "Id": 9, "Name": "klassesæt" }
         ],
         "MainCategory": { "Id": 5, "Name": "borde" },
         "Zones": [

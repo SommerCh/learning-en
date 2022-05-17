@@ -64,7 +64,7 @@
     },
 
     {
-        "Id": 4,
+        "Id": 8,
         "Language": "da",
         "Priority": 2,
         "Name": "Opbevaring",
@@ -192,7 +192,7 @@
     },
 
     {
-        "Id": 8,
+        "Id": 10,
         "Language": "da",
         "Priority": 2,
         "Name": "Rum i rummet",

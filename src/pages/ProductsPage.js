@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+// import { BiSearch } from "react-icons/bi";
 
 export default function ProductsPage() {
     const [products, setProducts] = useState([]);
@@ -35,6 +36,49 @@ export default function ProductsPage() {
     }
 
 
+    // Fetch products by main category
+    // Læringstrapper
+    function isTrapper(products) {
+        return products.MainCategory.Id === 2;
+    }
+    console.log(products.find(isTrapper));
+
+    // Akustik
+    function isAkustik(products) {
+        return products.MainCategory.Id === 3;
+    }
+    console.log(products.find(isAkustik));
+
+    // Opbevaring
+    function isOpbevaring(products) {
+        return products.MainCategory.Id === 4;
+    }
+    console.log(products.find(isOpbevaring));
+
+    // Borde
+    function isBorde(products) {
+        return products.MainCategory.Id === 5;
+    }
+    console.log(products.find(isBorde));
+
+    // Stole
+    function isStole(products) {
+        return products.MainCategory.Id === 6;
+    }
+    console.log(products.find(isStole));
+
+    // Diverse
+    function isDiverse(products) {
+        return products.MainCategory.Id === 7;
+    }
+    console.log(products.find(isDiverse));
+
+    // Rum i rummet
+    function isRum(products) {
+        return products.MainCategory.Id === 8;
+    }
+    console.log(products.find(isRum));
+
 
 
     return (
@@ -44,11 +88,11 @@ export default function ProductsPage() {
 
                 {/* Categories mapped and displayed */}
                 <section className="category-cntr">          
-                    {categories.map(element => ( 
+                    {categories.map(category => ( 
                         <article className="category-article">  
-                            <div className="category-img">
-                                <div className="article-title"> <span>{element?.Name}</span></div>  
-                                <img src={element.Files?.lenght ? element?.Files[0]?.Uri : getImg(element)} alt={element.Name} />
+                            <div className="category-img" onClick="">
+                                <div className="article-title"> <span>{category?.Name}</span></div>  
+                                <img src={category.Files?.lenght ? category?.Files[0]?.Uri : getImg(category)} alt={category.Name} />
                             </div>  
                         </article>
                     ))}
@@ -56,7 +100,11 @@ export default function ProductsPage() {
 
                 {/* Filter and searchbar */}
                 <section className="filter-cntr">
-                    <input className="search" type="text" onChange={(e) => setSearchValue(e.target.value.toLowerCase())} onkeyup="search(this.value)" placeholder="Søg..." />
+                    {/* <BiSearch/> */}
+                    <input className="search" type="text" 
+                        onChange={(e) => setSearchValue(e.target.value.toLowerCase())} 
+                        onkeyup="search(this.value)" placeholder="Søg..." 
+                    />
                     
                     <select className="filter" value="" onChange="">
                         <option value="all">Filter</option>
@@ -68,15 +116,15 @@ export default function ProductsPage() {
 
                 {/* Searched products displayed */}
                 <section className="article-cntr"> 
-                    {products.filter((element) => element.Name.toLowerCase().includes(searchValue)).map((element) => ( 
+                    {products.filter((product) => product.Name.toLowerCase().includes(searchValue)).map((product) => ( 
                         <article className="article-box">  
                             <div className="article-img">
-                                <img src={element.Files?.lenght ? element?.Files[0]?.Uri : getImg(element)} alt={element.Name} />
+                                <img src={product.Files?.lenght ? product?.Files[0]?.Uri : getImg(product)} alt={product.Name} />
                             </div>           
                             <div className="article-details">
-                                <h2>{element?.Name}</h2>
-                                <p>{element.MainCategory?.Name}</p>  
-                                <p className="description line-clamp">{element.Descriptions[0]?.Text}</p>
+                                <h2 key={product.Keywords}>{product?.Name}</h2>
+                                <p>{product.MainCategory?.Name}</p>  
+                                <p className="description line-clamp">{product.Descriptions[0]?.Text}</p>
                             </div>
                         </article>
                     ))} 
