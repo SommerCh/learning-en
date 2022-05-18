@@ -10,17 +10,19 @@ export default function ProductsPage() {
             const response = await fetch("/data/categories.json");
             const data = await response.json();
             setCategories(data);
-            console.log(data);
+            // console.log(data);
         }
         getData();
     }, [])
 
     // Fetch category imgs
-    function getImg(category) {
+    function getCatImg(category) {
         if (category.Files?.length >= 1) {
             return category.Files[0]?.Uri;
         } 
     }
+
+    
 
     return (
         <>  
@@ -33,7 +35,7 @@ export default function ProductsPage() {
                         <article className="category-article" key={category.Id}>  
                             <div className="category-img" >
                                 <div className="article-title"> <span>{category?.Name}</span></div>  
-                                <img src={category.Files?.lenght ? category?.Files[0]?.Uri : getImg(category)} alt={category.Name} />
+                                <img src={getCatImg(category)} alt={category.Name} />
                             </div>  
                         </article>
                     ))}

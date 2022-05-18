@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+// import { MdOutlineArrowRightAlt } from "react-icons/md";
 import Tooltip from "./ToolTip";
 
-export default function ProductArticles() {
+export default function ProductArticles({product}) {
     const [products, setProducts] = useState([]);
     const [searchValue, setSearchValue] = useState("");
+    const navigate = useNavigate();
 
     // Fetch products
     useEffect(() => {
@@ -11,7 +14,7 @@ export default function ProductArticles() {
             const response = await fetch("/data/products.json");
             const data = await response.json();
             setProducts(data);
-            console.log(data);
+            // console.log(data);
         }
         getData();
     }, [])
@@ -76,6 +79,11 @@ export default function ProductArticles() {
         }
     }
 
+    function handleClick() {
+        navigate(`/products/${product?.Id}`);
+        console.log(product.Id)
+    }
+
 
     return (
         <>  
@@ -86,20 +94,21 @@ export default function ProductArticles() {
                     onChange={(e) => setSearchValue(e.target.value.toLowerCase())} 
                 />
                 
-                <select className="filter" value="all" >
+                <select className="filter" >
                     <option value="all">Filter</option>
                     <option value="this">this</option>
                     <option value="that">that</option>
                     <option value="other">other</option>
                 </select>
             </section>
+            
 
-            {/* Searched products displayed */}
-            <section className="article-cntr"> 
+             {/* Searched products displayed */}
+             <section className="article-cntr"> 
                 {products.filter((product) => product.Name.toLowerCase().includes(searchValue)).map((product) => ( 
-                    <article className="article-box" key={product?.Id}>  
+                    <article className="article-box" key={product?.Id} onClick={handleClick}>  
                         <div className="article-img">
-                            <img src={product.Files?.lenght ? product?.Files[0]?.Uri : getImg(product)} alt={product.Name} />
+                            <img src={getImg(product)} alt={product.Name} />
                         </div>           
                         <div className="article-details">
                             <h2 key={product.Keywords}>{product?.Name}</h2>
@@ -108,10 +117,11 @@ export default function ProductArticles() {
                                 <div className="badge-cntr">{getZones(product)}</div>
                             </div>
                             <p className="description line-clamp">{product.Descriptions[0]?.Text}</p>
+                            {/* <button><MdOutlineArrowRightAlt/></button> */}
                         </div>
                     </article>
                 ))} 
-            </section>
+            </section> 
         </>
     );    
 }
