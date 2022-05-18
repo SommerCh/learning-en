@@ -19,9 +19,9 @@ export default function Navbar() {
             </div>
             
             <div className={`burger ${isClosed ? "" : "open"}`} onClick={() => setClosed(!isClosed)}>
-                <div class="line line1"></div>
-                <div class=" line line2"></div>
-                <div class=" line line3"></div>
+                <div className="line line1"></div>
+                <div className=" line line2"></div>
+                <div className=" line line3"></div>
 
                 <ul className={`menu ${isClosed ? "" : "open"}`}>
                     <li>

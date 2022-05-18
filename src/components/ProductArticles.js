@@ -27,11 +27,11 @@ export default function ProductArticles() {
             {/* Filter and searchbar */}
             <section className="filter-cntr">
                 <input className="search" type="text" 
+                    onKeyUp="search(this.value)" placeholder="Søg..." 
                     onChange={(e) => setSearchValue(e.target.value.toLowerCase())} 
-                    onkeyup="search(this.value)" placeholder="Søg..." 
                 />
                 
-                <select className="filter" value="" onChange="">
+                <select className="filter" value="all" >
                     <option value="all">Filter</option>
                     <option value="this">this</option>
                     <option value="that">that</option>

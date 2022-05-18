@@ -12,8 +12,8 @@
         ],
         "MainCategory": { "Id": 2, "Name": "Læringstrapper" },
         "Zones": [
-            { "Name": "Allezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "Gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "allezone", "Id": 13, "ImgUrl": "/images/badges/allezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "Metalmoduler", "Height": "50cm", "Width": "100cm", "Depth": "100cm" },
@@ -101,8 +101,8 @@
         ],
         "MainCategory": { "Id": 3, "Name": "Akustik" },
         "Zones": [
-            { "Name": "Stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "Gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "Metalrammer med plader i krydsfiner", "Height": "200cm", "Width": "200cm", "Depth": "100/126cm" }
@@ -188,8 +188,8 @@
         ],
         "MainCategory": { "Id": 3, "Name": "Akustik" },
         "Zones": [
-            { "Name": "Stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "Gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "Filtplader i 100% uld udvendigt og indvendigt", "Height": "200cm", "Width": "100/126cm", "Depth": "100cm" }
@@ -275,8 +275,8 @@
         ],
         "MainCategory": { "Id": 3, "Name": "Akustik" },
         "Zones": [
-            { "Name": "Stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "Gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "200cm", "Width": "226cm", "Depth": "100cm" }
@@ -362,7 +362,7 @@
         ],
         "MainCategory": { "Id": 10, "Name": "Feedbackzone" },
         "Zones": [
-            { "Name": "Feedbackzone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "feedbackzone", "Id": 10, "ImgUrl": "/images/badges/feedbackzone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "cm", "Width": "cm", "Depth": "cm" }
@@ -448,9 +448,9 @@
         ],
         "MainCategory": { "Id": 5, "Name": "borde" },
         "Zones": [
-            { "Name": "Stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "Gruppezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "Feedbackzone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "feedbackzone", "Id": 10, "ImgUrl": "/images/badges/feedbackzone-1.svg" },
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "Højbord", "Height": "102cm", "Width": "100cm", "Depth": "70cm" }
@@ -536,7 +536,7 @@
         ],
         "MainCategory": { "Id": 7, "Name": "diverse" },
         "Zones": [
-            { "Name": "Gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "cm", "Width": "cm", "Depth": "cm" }
@@ -622,8 +622,8 @@
         ],
         "MainCategory": { "Id": 6, "Name": "stole" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "55cm", "Width": "100cm", "Depth": "100cm" }
@@ -709,8 +709,8 @@
         ],
         "MainCategory": { "Id": 6, "Name": "stole" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "Træbund, skum og slidstærkt stof", "Height": "30cm", "Width": "", "Depth": "", "Dia":"60/80/120cm" }
@@ -796,10 +796,10 @@
         ],
         "MainCategory": { "Id": 6, "Name": "stole" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "allezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "feedbackzone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "feedbackzone", "Id": 10, "ImgUrl": "/images/badges/feedbackzone-1.svg" },
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" },
+            { "Name": "allezone", "Id": 13, "ImgUrl": "/images/badges/allezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "63/73cm", "Width": "", "Depth": "", "Dia":"" }
@@ -886,8 +886,8 @@
         ],
         "MainCategory": { "Id": 6, "Name": "stole" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
@@ -974,8 +974,8 @@
         ],
         "MainCategory": { "Id": 6, "Name": "stole" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
@@ -1062,8 +1062,8 @@
         ],
         "MainCategory": { "Id": 6, "Name": "stole" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
@@ -1150,8 +1150,8 @@
         ],
         "MainCategory": { "Id": 6, "Name": "stole" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
@@ -1239,8 +1239,8 @@
         ],
         "MainCategory": { "Id": 7, "Name": "diverse" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "48cm", "Width": "50cm", "Depth": "48cm", "Dia":"" }
@@ -1328,8 +1328,8 @@
         ],
         "MainCategory": { "Id": 6, "Name": "stole" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "6cm", "Width": "", "Depth": "", "Dia":"48cm" }
@@ -1416,8 +1416,8 @@
         ],
         "MainCategory": { "Id": 7, "Name": "diverse" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
@@ -1504,7 +1504,7 @@
         ],
         "MainCategory": { "Id": 7, "Name": "diverse" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "60cm", "Width": "60cm", "Depth": "4cm", "Dia":"" }
@@ -1591,8 +1591,8 @@
         ],
         "MainCategory": { "Id": 8, "Name": "opbevaring" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "215cm", "Width": "106cm", "Depth": "106cm", "Dia":"" }
@@ -1679,7 +1679,7 @@
         ],
         "MainCategory": { "Id": 8, "Name": "opbevaring" },
         "Zones": [
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "107cm", "Width": "102cm", "Depth": "43cm", "Dia":"" }
@@ -1766,7 +1766,7 @@
         ],
         "MainCategory": { "Id": 8, "Name": "opbevaring" },
         "Zones": [
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "156cm", "Width": "102,5cm", "Depth": "43cm", "Dia":"" }
@@ -1853,7 +1853,7 @@
         ],
         "MainCategory": { "Id": 8, "Name": "opbevaring" },
         "Zones": [
-            { "Name": "", "Url": "/", "ImgUrl": "/" }
+            { "Name": "", "Id": "", "ImgUrl": "/" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "117cm", "Width": "58cm", "Depth": "76cm", "Dia":"" }
@@ -1939,7 +1939,7 @@
         ],
         "MainCategory": { "Id": 8, "Name": "opbevaring" },
         "Zones": [
-            { "Name": "", "Url": "/", "ImgUrl": "/" }
+            { "Name": "", "Id": "", "ImgUrl": "/" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "100cm", "Width": "108cm", "Depth": "50cm", "Dia":"" }
@@ -2026,7 +2026,7 @@
         ],
         "MainCategory": { "Id": 8, "Name": "opbevaring" },
         "Zones": [
-            { "Name": "", "Url": "/", "ImgUrl": "/" }
+            { "Name": "", "Id": "", "ImgUrl": "/" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "90cm", "Width": "71cm", "Depth": "42cm", "Dia":"" }
@@ -2112,7 +2112,7 @@
         ],
         "MainCategory": { "Id": 8, "Name": "opbevaring" },
         "Zones": [
-            { "Name": "", "Url": "/", "ImgUrl": "/" }
+            { "Name": "", "Id": "", "ImgUrl": "/" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "100cm", "Width": "100cm", "Depth": "50cm", "Dia":"" }
@@ -2199,7 +2199,7 @@
         ],
         "MainCategory": { "Id": 7, "Name": "diverse" },
         "Zones": [
-            { "Name": "", "Url": "/", "ImgUrl": "/" }
+            { "Name": "", "Id": "", "ImgUrl": "/" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
@@ -2286,8 +2286,8 @@
         ],
         "MainCategory": { "Id": 5, "Name": "borde" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "80cm", "Width": "240cm", "Depth": "60cm", "Dia":"" }
@@ -2374,8 +2374,8 @@
         ],
         "MainCategory": { "Id": 5, "Name": "borde" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "90cm", "Width": "240cm", "Depth": "60cm", "Dia":"" }
@@ -2461,8 +2461,8 @@
         ],
         "MainCategory": { "Id": 2, "Name": "læringstrapper" },
         "Zones": [
-            { "Name": "allezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" },
+            { "Name": "allezone", "Id": 13, "ImgUrl": "/images/badges/allezone-1.svg" }            
         ],
         "Dimentions": [
             { "Part": "", "Height": "120cm", "Width": "210cm", "Depth": "240cm", "Dia":"" }
@@ -2548,7 +2548,7 @@
         ],
         "MainCategory": { "Id": 10, "Name": "rum i rummet" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "107cm", "Width": "70cm", "Depth": "120cm", "Dia":"" }
@@ -2635,7 +2635,7 @@
         ],
         "MainCategory": { "Id": 7, "Name": "diverse" },
         "Zones": [
-            { "Name": "", "Url": "/", "ImgUrl": "/" }
+            { "Name": "", "Id": "", "ImgUrl": "/" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
@@ -2721,8 +2721,8 @@
         ],
         "MainCategory": { "Id": 5, "Name": "borde" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "75cm", "Width": "70cm", "Depth": "70cm", "Dia":"" }
@@ -2808,9 +2808,9 @@
         ],
         "MainCategory": { "Id": 5, "Name": "borde" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "feedbackzone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "feedbackzone", "Id": 10, "ImgUrl": "/images/badges/feedbackzone-1.svg" },
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "110cm", "Width": "120cm", "Depth": "50cm", "Dia":"" }
@@ -2898,8 +2898,8 @@
         ],
         "MainCategory": { "Id": 5, "Name": "borde" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "", "Width": "124/70cm", "Depth": "60cm", "Dia":"" }
@@ -2986,8 +2986,8 @@
         ],
         "MainCategory": { "Id": 10, "Name": "rum i rummet" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
@@ -3073,9 +3073,9 @@
         ],
         "MainCategory": { "Id": 10, "Name": "rum i rummet" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "feedbackzone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "feedbackzone", "Id": 10, "ImgUrl": "/images/badges/feedbackzone-1.svg" },
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
@@ -3162,9 +3162,9 @@
         ],
         "MainCategory": { "Id": 5, "Name": "borde" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "feedbackzone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "feedbackzone", "Id": 10, "ImgUrl": "/images/badges/feedbackzone-1.svg" },
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "", "Width": "130cm", "Depth": "80cm", "Dia":"" }
@@ -3250,10 +3250,10 @@
         ],
         "MainCategory": { "Id": 7, "Name": "diverse" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "feedbackzone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "allezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "feedbackzone", "Id": 10, "ImgUrl": "/images/badges/feedbackzone-1.svg" },
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" },
+            { "Name": "allezone", "Id": 13, "ImgUrl": "/images/badges/allezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
@@ -3339,10 +3339,10 @@
         ],
         "MainCategory": { "Id": 7, "Name": "diverse" },
         "Zones": [
-            { "Name": "stillezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "feedbackzone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "allezone", "Url": "/", "ImgUrl": "/" },
-            { "Name": "gruppezone", "Url": "/", "ImgUrl": "/" }
+            { "Name": "feedbackzone", "Id": 10, "ImgUrl": "/images/badges/feedbackzone-1.svg" },
+            { "Name": "stillezone", "Id": 11, "ImgUrl": "/images/badges/stillezone-1.svg" },
+            { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" },
+            { "Name": "allezone", "Id": 13, "ImgUrl": "/images/badges/allezone-1.svg" }
         ],
         "Dimentions": [
             { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
