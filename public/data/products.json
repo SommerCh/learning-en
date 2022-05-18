@@ -1852,9 +1852,7 @@
             { "Id": 8, "Name": "opbevaring" }
         ],
         "MainCategory": { "Id": 8, "Name": "opbevaring" },
-        "Zones": [
-            { "Name": "", "Id": "", "ImgUrl": "/" }
-        ],
+        "Zones": [],
         "Dimentions": [
             { "Part": "", "Height": "117cm", "Width": "58cm", "Depth": "76cm", "Dia":"" }
         ],
@@ -1938,9 +1936,7 @@
             { "Id": 8, "Name": "opbevaring" }
         ],
         "MainCategory": { "Id": 8, "Name": "opbevaring" },
-        "Zones": [
-            { "Name": "", "Id": "", "ImgUrl": "/" }
-        ],
+        "Zones": [],
         "Dimentions": [
             { "Part": "", "Height": "100cm", "Width": "108cm", "Depth": "50cm", "Dia":"" }
         ],
@@ -2025,9 +2021,7 @@
             { "Id": 8, "Name": "opbevaring" }
         ],
         "MainCategory": { "Id": 8, "Name": "opbevaring" },
-        "Zones": [
-            { "Name": "", "Id": "", "ImgUrl": "/" }
-        ],
+        "Zones": [],
         "Dimentions": [
             { "Part": "", "Height": "90cm", "Width": "71cm", "Depth": "42cm", "Dia":"" }
         ],
@@ -2111,9 +2105,7 @@
             { "Id": 8, "Name": "opbevaring" }
         ],
         "MainCategory": { "Id": 8, "Name": "opbevaring" },
-        "Zones": [
-            { "Name": "", "Id": "", "ImgUrl": "/" }
-        ],
+        "Zones": [],
         "Dimentions": [
             { "Part": "", "Height": "100cm", "Width": "100cm", "Depth": "50cm", "Dia":"" }
         ],
@@ -2198,9 +2190,7 @@
             { "Id": 3, "Name": "akustik" }
         ],
         "MainCategory": { "Id": 7, "Name": "diverse" },
-        "Zones": [
-            { "Name": "", "Id": "", "ImgUrl": "/" }
-        ],
+        "Zones": [],
         "Dimentions": [
             { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
         ],
@@ -2634,9 +2624,7 @@
             { "Id": 7, "Name": "diverse" }
         ],
         "MainCategory": { "Id": 7, "Name": "diverse" },
-        "Zones": [
-            { "Name": "", "Id": "", "ImgUrl": "/" }
-        ],
+        "Zones": [],
         "Dimentions": [
             { "Part": "", "Height": "", "Width": "", "Depth": "", "Dia":"" }
         ],
@@ -3064,7 +3052,7 @@
         "Id": 2523268259,
         "Language": "da",
         "Priority": 2,
-        "Name": "Søjle m. bordplade til væg",
+        "Name": "Søjle m. bordplade",
         "BaseUrl": "https://environmentforlearning.com/moebler/soejle-med-bordplade-til-vaeg/",
         "Keywords":["søjle", "bordplade", "væg", "bord", "borde", "gruppezone", "stillezone", "feedbackzone"],
         "Price": 1000.00,
