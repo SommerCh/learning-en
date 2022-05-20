@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Categories from "../components/Categories";
 import ProductArticles from "../components/ProductArticles";
 
 export default function ProductsPage() {
@@ -30,7 +31,8 @@ export default function ProductsPage() {
                 <h1 className="page-title">Produkter</h1>
 
                 {/* Categories mapped and displayed */}
-                <section className="category-cntr">          
+                <Categories/>
+                {/* <section className="category-cntr">          
                     {categories.map(category => ( 
                         <article className="category-article" key={category.Id}>  
                             <div className="category-img" >
@@ -39,10 +41,10 @@ export default function ProductsPage() {
                             </div>  
                         </article>
                     ))}
-                </section>
+                </section> */}
                 
                 {/* Products and search function  */}
-                <ProductArticles/> 
+                {/* <ProductArticles/>  */}
 
             </section>
         </>

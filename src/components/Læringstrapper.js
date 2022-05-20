@@ -1,23 +1,27 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 // import { MdOutlineArrowRightAlt } from "react-icons/md";
 import Tooltip from "./ToolTip";
 
-export default function ProductArticles({product}) {
-    const [products, setProducts] = useState([]);
+export default function Læringstrapper() {
+    const [læringstrapper, setLæringstrapper] = useState([]);
     const [searchValue, setSearchValue] = useState("");
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     // Fetch products
     useEffect(() => {
         async function getData() {
             const response = await fetch("/data/products.json");
             const data = await response.json();
-            setProducts(data);
-            // console.log(data);
+            setLæringstrapper(data);
         }
         getData();
     }, [])
+
+    var json = `{ "MainCategory": { "Id": 2, "Name": "Læringstrapper" } }`;
+    var obj = JSON.parse(json);
+    var values = Object.keys(obj).map(function (key) { return obj[key]; });
+    console.log(values);
 
     // Fetch product imgs
     function getImg(product) {
@@ -79,34 +83,36 @@ export default function ProductArticles({product}) {
         }
     }
 
-    function handleClick() {
-        navigate(`/products/${product?.Id}`);
-        console.log(product.Id)
-    }
+    // function handleClick() {
+    //     navigate(`/products/${product?.Id}`);
+    //     console.log(product.Id)
+    // }
 
 
     return (
         <>  
             {/* Filter and searchbar */}
             <section className="filter-cntr">
-                <input className="search" type="text" 
-                    // onKeyUp="search(this.value)" 
-                    placeholder="Søg..." 
-                    onChange={(e) => setSearchValue(e.target.value.toLowerCase())} 
-                />
-                
-                <select className="filter" >
-                    <option value="all">Filter</option>
-                    <option value="this">this</option>
-                    <option value="that">that</option>
-                    <option value="other">other</option>
-                </select>
+                <div>
+                    <input className="search" type="text" 
+                        // onKeyUp="search(this.value)" 
+                        placeholder="Søg..." 
+                        onChange={(e) => setSearchValue(e.target.value.toLowerCase())} 
+                    />
+                    
+                    <select className="filter" >
+                        <option value="all">Filter</option>
+                        <option value="this">this</option>
+                        <option value="that">that</option>
+                        <option value="other">other</option>
+                    </select>
+                </div>
             </section>
             
 
              {/* Searched products displayed */}
              <section className="article-cntr"> 
-                {products.filter((product) => product.Name.toLowerCase().includes(searchValue)).map((product) => ( 
+                {læringstrapper.filter((product) => product.Name.toLowerCase().includes(searchValue)).map((product) => ( 
                     <article className="article-box" key={product?.Id} 
                     // onClick={handleClick}
                     >  
