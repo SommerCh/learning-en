@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 // import { MdOutlineArrowRightAlt } from "react-icons/md";
 import Tooltip from "./ToolTip";
 
 export default function ProductArticles({product}) {
     const [products, setProducts] = useState([]);
     const [searchValue, setSearchValue] = useState("");
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     // Fetch products
     useEffect(() => {
@@ -79,10 +79,10 @@ export default function ProductArticles({product}) {
         }
     }
 
-    function handleClick() {
-        navigate(`/products/${product?.Id}`);
-        console.log(product.Id)
-    }
+    // function handleClick() {
+    //     navigate(`/products/${product?.Id}`);
+    //     console.log(product.Id)
+    // }
 
 
     return (

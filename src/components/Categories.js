@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import Tooltip from "./ToolTip";
-// import { Link } from "react-router-dom";
 import TrappeImg from "../assets/product-imgs/tieredseating-0.webp";
 import AkustikImg from "../assets/product-imgs/acousticpanel-0.webp";
 import OpbevaringImg from "../assets/product-imgs/storagetrolleyiii-1.webp";
@@ -15,6 +14,9 @@ import GruppezoneImg from "../assets/product-imgs/ideatank-0.webp";
 import AllezoneImg from "../assets/product-imgs/magnifier-0.webp";
 import ProductArticles from "./ProductArticles";
 import Læringstrapper from "./Læringstrapper";
+import Akustik from "./Akustik";
+import Opbevaring from "./Opbevaring";
+import Borde from "./Borde";
 
 
 export default function Categories() {
@@ -116,17 +118,6 @@ export default function Categories() {
 
     return (
         <>  
-            {/* <section className="category-cntr">       
-            {categories.map(category => (    
-                <article className="category-article">  
-                    <div className="category-img" >
-                        <div className="article-title"> <span>{category?.Name}</span></div>  
-                        <img src={getCatImg(category)} alt="" />
-                    </div>  
-                </article>
-                       ))}
-            </section> */}
-
             <section className="category-cntr">
 
                 <article className="category-article">  
@@ -288,25 +279,6 @@ export default function Categories() {
                         <>
                             <h3>Læringstrapper</h3>
                             <Læringstrapper/>
-                            {/* <section className="article-cntr"> 
-                                {products.map((product) => ( 
-                                    <article className="article-box" key={product?.Id} 
-                                    // onClick={handleClick}
-                                    >  
-                                        <div className="article-img">
-                                            <img src={getImg(product)} alt={product.Name} />
-                                        </div>           
-                                        <div className="article-details">
-                                            <h2 key={product.Keywords}>{product?.Name}</h2>
-                                            <div className="details-section">
-                                                <p>{product.MainCategory?.Name}</p>  
-                                                <div className="badge-cntr">{getZones(product)}</div>
-                                            </div>
-                                            <p className="description line-clamp">{product.Descriptions[0]?.Text}</p>
-                                        </div>
-                                    </article>
-                                ))} 
-                            </section>  */}
                         </> 
                     )}
 
@@ -314,25 +286,7 @@ export default function Categories() {
                     {activeTab === 'akustik' && (
                         <>
                             <h3>Akustik</h3>
-                            <section className="article-cntr"> 
-                                {products.map((product) => ( 
-                                    <article className="article-box" key={product?.Id} 
-                                    // onClick={handleClick}
-                                    >  
-                                        <div className="article-img">
-                                            <img src={getImg(product)} alt={product.Name} />
-                                        </div>           
-                                        <div className="article-details">
-                                            <h2 key={product.Keywords}>{product?.Name}</h2>
-                                            <div className="details-section">
-                                                <p>{product.MainCategory?.Name}</p>  
-                                                <div className="badge-cntr">{getZones(product)}</div>
-                                            </div>
-                                            <p className="description line-clamp">{product.Descriptions[0]?.Text}</p>
-                                        </div>
-                                    </article>
-                                ))} 
-                            </section> 
+                           <Akustik/>
                         </> 
                     )}
 
@@ -340,25 +294,7 @@ export default function Categories() {
                     {activeTab === 'opbevaring' && (
                         <>
                             <h3>Opbevaring</h3>
-                            <section className="article-cntr"> 
-                                {products.map((product) => ( 
-                                    <article className="article-box" key={product?.Id} 
-                                    // onClick={handleClick}
-                                    >  
-                                        <div className="article-img">
-                                            <img src={getImg(product)} alt={product.Name} />
-                                        </div>           
-                                        <div className="article-details">
-                                            <h2 key={product.Keywords}>{product?.Name}</h2>
-                                            <div className="details-section">
-                                                <p>{product.MainCategory?.Name}</p>  
-                                                <div className="badge-cntr">{getZones(product)}</div>
-                                            </div>
-                                            <p className="description line-clamp">{product.Descriptions[0]?.Text}</p>
-                                        </div>
-                                    </article>
-                                ))} 
-                            </section> 
+                            <Opbevaring />
                         </> 
                     )} 
 
@@ -366,25 +302,7 @@ export default function Categories() {
                     {activeTab === 'borde' && (
                         <>
                             <h3>Borde</h3>
-                            <section className="article-cntr"> 
-                                {products.map((product) => ( 
-                                    <article className="article-box" key={product?.Id} 
-                                    // onClick={handleClick}
-                                    >  
-                                        <div className="article-img">
-                                            <img src={getImg(product)} alt={product.Name} />
-                                        </div>           
-                                        <div className="article-details">
-                                            <h2 key={product.Keywords}>{product?.Name}</h2>
-                                            <div className="details-section">
-                                                <p>{product.MainCategory?.Name}</p>  
-                                                <div className="badge-cntr">{getZones(product)}</div>
-                                            </div>
-                                            <p className="description line-clamp">{product.Descriptions[0]?.Text}</p>
-                                        </div>
-                                    </article>
-                                ))} 
-                            </section> 
+                           <Borde />
                         </> 
                     )}
 

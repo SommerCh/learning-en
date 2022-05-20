@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Tooltip from "./ToolTip";
 
-export default function Læringstrapper() {
+export default function Borde() {
     const [products, setProducts] = useState([]);
 
     // Fetch products
@@ -80,10 +80,10 @@ export default function Læringstrapper() {
 
 
     return (
-        <>  
+        <>             
              {/* Filtered products displayed */}
              <section className="article-cntr"> 
-                {products.filter((product) => product.MainCategory.Id === 2).map((product) => ( 
+                {products.filter((product) => product.MainCategory.Id === 5).map((product) => ( 
                     <article className="article-box" key={product?.Id}>  
                         <div className="article-img">
                             <img src={getImg(product)} alt={product.Name} />

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Tooltip from "./ToolTip";
 
-export default function Læringstrapper() {
+export default function Akustik() {
     const [products, setProducts] = useState([]);
 
     // Fetch products
@@ -80,11 +80,11 @@ export default function Læringstrapper() {
 
 
     return (
-        <>  
+        <>             
              {/* Filtered products displayed */}
              <section className="article-cntr"> 
-                {products.filter((product) => product.MainCategory.Id === 2).map((product) => ( 
-                    <article className="article-box" key={product?.Id}>  
+                {products.filter((product) => product.MainCategory.Id === 3).map((product) => ( 
+                    <article className="article-box" key={product?.Id} >  
                         <div className="article-img">
                             <img src={getImg(product)} alt={product.Name} />
                         </div>           
