@@ -279,6 +279,23 @@ export default function Categories() {
                         <>
                             <h3>Læringstrapper</h3>
                             <Læringstrapper/>
+                            {/* <section className="article-cntr"> 
+                                {products.filter((product) => product.MainCategory.Id === 2).map((product) => ( 
+                                    <article className="article-box" key={product?.Id}>  
+                                        <div className="article-img">
+                                            <img src={getImg(product)} alt={product.Name} />
+                                        </div>           
+                                        <div className="article-details">
+                                            <h2 key={product.Keywords}>{product?.Name}</h2>
+                                            <div className="details-section">
+                                                <p>{product.MainCategory?.Name}</p>  
+                                                <div className="badge-cntr">{getZones(product)}</div>
+                                            </div>
+                                            <p className="description line-clamp">{product.Descriptions[0]?.Text}</p>
+                                        </div>
+                                    </article>
+                                ))} 
+                            </section> */}
                         </> 
                     )}
 
@@ -287,6 +304,23 @@ export default function Categories() {
                         <>
                             <h3>Akustik</h3>
                            <Akustik/>
+                           {/* <section className="article-cntr"> 
+                                {products.filter((product) => product.MainCategory.Id === 3).map((product) => ( 
+                                    <article className="article-box" key={product?.Id}>  
+                                        <div className="article-img">
+                                            <img src={getImg(product)} alt={product.Name} />
+                                        </div>           
+                                        <div className="article-details">
+                                            <h2 key={product.Keywords}>{product?.Name}</h2>
+                                            <div className="details-section">
+                                                <p>{product.MainCategory?.Name}</p>  
+                                                <div className="badge-cntr">{getZones(product)}</div>
+                                            </div>
+                                            <p className="description line-clamp">{product.Descriptions[0]?.Text}</p>
+                                        </div>
+                                    </article>
+                                ))} 
+                            </section> */}
                         </> 
                     )}
 
@@ -295,6 +329,23 @@ export default function Categories() {
                         <>
                             <h3>Opbevaring</h3>
                             <Opbevaring />
+                            {/* <section className="article-cntr"> 
+                                {products.filter((product) => product.MainCategory.Id === 8).map((product) => ( 
+                                    <article className="article-box" key={product?.Id}>  
+                                        <div className="article-img">
+                                            <img src={getImg(product)} alt={product.Name} />
+                                        </div>           
+                                        <div className="article-details">
+                                            <h2 key={product.Keywords}>{product?.Name}</h2>
+                                            <div className="details-section">
+                                                <p>{product.MainCategory?.Name}</p>  
+                                                <div className="badge-cntr">{getZones(product)}</div>
+                                            </div>
+                                            <p className="description line-clamp">{product.Descriptions[0]?.Text}</p>
+                                        </div>
+                                    </article>
+                                ))} 
+                            </section> */}
                         </> 
                     )} 
 
@@ -303,6 +354,23 @@ export default function Categories() {
                         <>
                             <h3>Borde</h3>
                            <Borde />
+                           {/* <section className="article-cntr"> 
+                                {products.filter((product) => product.MainCategory.Id === 5).map((product) => ( 
+                                    <article className="article-box" key={product?.Id}>  
+                                        <div className="article-img">
+                                            <img src={getImg(product)} alt={product.Name} />
+                                        </div>           
+                                        <div className="article-details">
+                                            <h2 key={product.Keywords}>{product?.Name}</h2>
+                                            <div className="details-section">
+                                                <p>{product.MainCategory?.Name}</p>  
+                                                <div className="badge-cntr">{getZones(product)}</div>
+                                            </div>
+                                            <p className="description line-clamp">{product.Descriptions[0]?.Text}</p>
+                                        </div>
+                                    </article>
+                                ))} 
+                            </section> */}
                         </> 
                     )}
 
@@ -311,10 +379,8 @@ export default function Categories() {
                         <>
                             <h3>Stole</h3>
                             <section className="article-cntr"> 
-                                {products.map((product) => ( 
-                                    <article className="article-box" key={product?.Id} 
-                                    // onClick={handleClick}
-                                    >  
+                                {products.filter((product) => product.MainCategory.Id === 6).map((product) => ( 
+                                    <article className="article-box" key={product?.Id}>  
                                         <div className="article-img">
                                             <img src={getImg(product)} alt={product.Name} />
                                         </div>           
@@ -328,7 +394,7 @@ export default function Categories() {
                                         </div>
                                     </article>
                                 ))} 
-                            </section> 
+                            </section>
                         </> 
                     )}
 
@@ -337,10 +403,8 @@ export default function Categories() {
                         <>
                             <h3>Diverse</h3>
                             <section className="article-cntr"> 
-                                {products.map((product) => ( 
-                                    <article className="article-box" key={product?.Id} 
-                                    // onClick={handleClick}
-                                    >  
+                                {products.filter((product) => product.MainCategory.Id === 7).map((product) => ( 
+                                    <article className="article-box" key={product?.Id}>  
                                         <div className="article-img">
                                             <img src={getImg(product)} alt={product.Name} />
                                         </div>           
@@ -354,7 +418,7 @@ export default function Categories() {
                                         </div>
                                     </article>
                                 ))} 
-                            </section> 
+                            </section>
                         </> 
                     )}
 
@@ -363,10 +427,8 @@ export default function Categories() {
                         <>
                             <h3>Rum i rummet</h3>
                             <section className="article-cntr"> 
-                                {products.map((product) => ( 
-                                    <article className="article-box" key={product?.Id} 
-                                    // onClick={handleClick}
-                                    >  
+                                {products.filter((product) => product.MainCategory.Id === 8).map((product) => ( 
+                                    <article className="article-box" key={product?.Id}>  
                                         <div className="article-img">
                                             <img src={getImg(product)} alt={product.Name} />
                                         </div>           
@@ -380,7 +442,7 @@ export default function Categories() {
                                         </div>
                                     </article>
                                 ))} 
-                            </section> 
+                            </section>
                         </> 
                     )}
 
@@ -389,10 +451,8 @@ export default function Categories() {
                         <>
                             <h3>Klassesæt</h3>
                             <section className="article-cntr"> 
-                                {products.map((product) => ( 
-                                    <article className="article-box" key={product?.Id} 
-                                    // onClick={handleClick}
-                                    >  
+                                {products.filter((product) => product.MainCategory.Id === 9).map((product) => ( 
+                                    <article className="article-box" key={product?.Id}>  
                                         <div className="article-img">
                                             <img src={getImg(product)} alt={product.Name} />
                                         </div>           
@@ -406,7 +466,7 @@ export default function Categories() {
                                         </div>
                                     </article>
                                 ))} 
-                            </section> 
+                            </section>
                         </> 
                     )}
 
@@ -415,10 +475,8 @@ export default function Categories() {
                         <>
                             <h3>Feedbackzone</h3>
                             <section className="article-cntr"> 
-                                {products.map((product) => ( 
-                                    <article className="article-box" key={product?.Id} 
-                                    // onClick={handleClick}
-                                    >  
+                                {products.filter((product) => product.MainCategory.Id === 10).map((product) => ( 
+                                    <article className="article-box" key={product?.Id}>  
                                         <div className="article-img">
                                             <img src={getImg(product)} alt={product.Name} />
                                         </div>           
@@ -432,7 +490,7 @@ export default function Categories() {
                                         </div>
                                     </article>
                                 ))} 
-                            </section> 
+                            </section>
                         </> 
                     )}
 
@@ -441,10 +499,8 @@ export default function Categories() {
                         <>
                             <h3>Stillezone</h3>
                             <section className="article-cntr"> 
-                                {products.map((product) => ( 
-                                    <article className="article-box" key={product?.Id} 
-                                    // onClick={handleClick}
-                                    >  
+                                {products.filter((product) => product.MainCategory.Id === 11).map((product) => ( 
+                                    <article className="article-box" key={product?.Id}>  
                                         <div className="article-img">
                                             <img src={getImg(product)} alt={product.Name} />
                                         </div>           
@@ -458,7 +514,7 @@ export default function Categories() {
                                         </div>
                                     </article>
                                 ))} 
-                            </section> 
+                            </section>
                         </> 
                     )}
 
@@ -467,10 +523,8 @@ export default function Categories() {
                         <>
                             <h3>Gruppezone</h3>
                             <section className="article-cntr"> 
-                                {products.map((product) => ( 
-                                    <article className="article-box" key={product?.Id} 
-                                    // onClick={handleClick}
-                                    >  
+                                {products.filter((product) => product.MainCategory.Id === 12).map((product) => ( 
+                                    <article className="article-box" key={product?.Id}>  
                                         <div className="article-img">
                                             <img src={getImg(product)} alt={product.Name} />
                                         </div>           
@@ -484,7 +538,7 @@ export default function Categories() {
                                         </div>
                                     </article>
                                 ))} 
-                            </section> 
+                            </section>
                         </> 
                     )}
 
@@ -493,10 +547,8 @@ export default function Categories() {
                         <>
                             <h3>Allezone</h3>
                             <section className="article-cntr"> 
-                                {products.map((product) => ( 
-                                    <article className="article-box" key={product?.Id} 
-                                    // onClick={handleClick}
-                                    >  
+                                {products.filter((product) => product.MainCategory.Id === 13).map((product) => ( 
+                                    <article className="article-box" key={product?.Id}>  
                                         <div className="article-img">
                                             <img src={getImg(product)} alt={product.Name} />
                                         </div>           
@@ -510,12 +562,10 @@ export default function Categories() {
                                         </div>
                                     </article>
                                 ))} 
-                            </section> 
+                            </section>
                         </> 
                     )}
 
-
-                <section className="article-cntr"></section>
 
         </>
     );
