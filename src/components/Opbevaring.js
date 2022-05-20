@@ -83,7 +83,7 @@ export default function Opbevaring() {
         <>             
              {/* Filtered products displayed */}
              <section className="article-cntr"> 
-                {products.filter((product) => product.MainCategory.Id === 8).map((product) => ( 
+                {products.filter((product) => product.MainCategory.Id === 4).map((product) => ( 
                     <article className="article-box" key={product?.Id}>  
                         <div className="article-img">
                             <img src={getImg(product)} alt={product.Name} />

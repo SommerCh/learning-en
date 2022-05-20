@@ -1,23 +1,19 @@
 import { useState, useEffect } from "react";
-// import { useNavigate } from "react-router-dom";
-// import { MdOutlineArrowRightAlt } from "react-icons/md";
 import Tooltip from "./ToolTip";
 
-export default function ProductArticles({product}) {
+export default function Feedbackzone() {
     const [products, setProducts] = useState([]);
-    const [searchValue, setSearchValue] = useState("");
-    // const navigate = useNavigate();
 
     // Fetch products
     useEffect(() => {
         async function getData() {
             const response = await fetch("/data/products.json");
             const data = await response.json();
-            setProducts(data);
-            // console.log(data);
-        }
+            setProducts(data); 
+        } 
         getData();
     }, [])
+
 
     // Fetch product imgs
     function getImg(product) {
@@ -79,35 +75,16 @@ export default function ProductArticles({product}) {
         }
     }
 
-    // function handleClick() {
-    //     navigate(`/products/${product?.Id}`);
-    //     console.log(product.Id)
-    // }
+
+
 
 
     return (
-        <>  
-            {/* Filter and searchbar */}
-            <section className="filter-cntr">
-                <input className="search" type="text" 
-                    // onKeyUp="search(this.value)" 
-                    placeholder="Søg..." 
-                    onChange={(e) => setSearchValue(e.target.value.toLowerCase())} 
-                />
-                
-                <select className="filter" >
-                    <option value="all">Filter</option>
-                    <option value="this">this</option>
-                    <option value="that">that</option>
-                    <option value="other">other</option>
-                </select>
-            </section>
-            
-
-             {/* Searched products displayed */}
+        <>             
+             {/* Filtered products displayed */}
              <section className="article-cntr"> 
-                {products.filter((product) => product.Name.toLowerCase().includes(searchValue)).map((product) => ( 
-                    <article className="article-box" key={product?.Id} >  
+                {products.filter((product) => product.MainCategory.Id === 10).map((product) => ( 
+                    <article className="article-box" key={product?.Id}>  
                         <div className="article-img">
                             <img src={getImg(product)} alt={product.Name} />
                         </div>           
