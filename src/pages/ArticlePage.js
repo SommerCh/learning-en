@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-// import ProductArticles from "../components/ProductArticles";
 import PlaceholderImg from "../assets/placeholder-img.png";
 
 export default function ArticlePage() {
@@ -25,41 +24,44 @@ export default function ArticlePage() {
             <section className="page">
                 <h1 className="page-title">Article Page</h1>
                 
-                <article className="article-page" key={product.Id}>  
+                <article className="article-page" key={product?.Id}>  
                     <div className="article-img">
                         <img src={PlaceholderImg} alt="" />
                     </div>           
                     <div className="article-details">
-                        <h2>Product {product.Name}</h2>
-                        <div className="details-section">
-                            <p>Main Category {product.MainCategory}</p>  
-                        </div>
-                        <p className="description">
-                            Product description <br/>
-                            
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate, 
-                            justo ut consequat pretium, turpis massa hendrerit dui, et cursus dolor enim eu mi. 
-                            Curabitur in dolor leo. Cras vel urna eros. Nulla velit risus, porta at auctor sit amet, 
-                            sodales ut ligula.
-                        </p>
-                        <div>
-                            <div>
-                                <span>H: 100cm</span>
-                                <span>B: 100cm </span>
-                                <span>L: 500cm </span>
-                            </div>
-                            <div>
-                                <span>Lorem ipsum dolor sit amet.</span>
-                                <span>Lorem ipsum dolor sit amet. </span>
-                                <span>Lorem ipsum dolor sit amet. </span>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </article>     
+                        <h2>Product Name{product.Name}</h2>
+                        <h4>Main Category {product.MainCategory}</h4>  
 
-                {/* <ProductArticles product={product?.Id}/> */}
-                    
+                        <div className="details-section">
+                            <div className="details-text"> 
+                                <h4>Product description</h4>
+                                <p>{product.Descriptions?.Text}
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Nulla auctor turpis ac lectus venenatis, non malesuada lectus accumsan. <br/>
+                                Vivamus sed mi massa. Aliquam in fringilla sem, non feugiat turpis. 
+                                Nullam convallis varius erat id ornare. 
+                                Aenean dapibus enim eu ligula luctus finibus.
+                                </p>
+                            </div>
+
+                            <div className="details-box">
+                                <div className="details-inner-content">
+                                    <h4>Dimentioner</h4>
+                                    <span>H: {product.Dimentions?.Height} 000cm</span>
+                                    <span>B: {product.Dimentions?.Width} 000cm</span>
+                                    <span>L: {product.Dimentions?.Depth} 000cm</span>
+                                </div>
+                                <div className="details-inner-content">
+                                    <h4>Zoner</h4>
+                                    <span>Lorem ipsum</span>
+                                    <span>Lorem ipsum</span>
+                                    <span>Lorem ipsum</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </article>                       
 
             </section>
         </>

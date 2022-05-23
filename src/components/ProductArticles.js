@@ -14,7 +14,6 @@ export default function ProductArticles({product}) {
             const response = await fetch("/data/products.json");
             const data = await response.json();
             setProducts(data);
-            // console.log(data);
         }
         getData();
         
@@ -81,7 +80,7 @@ export default function ProductArticles({product}) {
     }
 
     function handleClick() {
-        navigate(`/article/&{product.Id}`);
+        navigate(`/article/${product?.Id}`);
     }
 
 
@@ -90,7 +89,6 @@ export default function ProductArticles({product}) {
             {/* Filter and searchbar */}
             <section className="filter-cntr">
                 <input className="search" type="text" 
-                    // onKeyUp="search(this.value)" 
                     placeholder="Søg..." 
                     onChange={(e) => setSearchValue(e.target.value.toLowerCase())} 
                 />
@@ -115,7 +113,9 @@ export default function ProductArticles({product}) {
                             <h2 key={product.Keywords}>{product?.Name}</h2>
                             <div className="details-section">
                                 <p>{product.MainCategory?.Name}</p>  
-                                <div className="badge-cntr">{getZones(product)}</div>
+                                <div className="badge-cntr">
+                                    {getZones(product)}
+                                </div>
                             </div>
                             <p className="description line-clamp">{product.Descriptions[0]?.Text}</p>
                         </div>
