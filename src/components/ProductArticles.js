@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
-// import { useNavigate } from "react-router-dom";
-// import { MdOutlineArrowRightAlt } from "react-icons/md";
 import Tooltip from "./ToolTip";
+import {  useNavigate } from "react-router-dom";
 
 export default function ProductArticles({product}) {
     const [products, setProducts] = useState([]);
     const [searchValue, setSearchValue] = useState("");
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
+
 
     // Fetch products
     useEffect(() => {
@@ -17,8 +17,9 @@ export default function ProductArticles({product}) {
             // console.log(data);
         }
         getData();
+        
     }, [])
-
+        
     // Fetch product imgs
     function getImg(product) {
         if (product.Files?.length >= 1) {
@@ -79,10 +80,9 @@ export default function ProductArticles({product}) {
         }
     }
 
-    // function handleClick() {
-    //     navigate(`/products/${product?.Id}`);
-    //     console.log(product.Id)
-    // }
+    function handleClick() {
+        navigate(`/article/&{product.Id}`);
+    }
 
 
     return (
@@ -107,7 +107,7 @@ export default function ProductArticles({product}) {
              {/* Searched products displayed */}
              <section className="article-cntr"> 
                 {products.filter((product) => product.Name.toLowerCase().includes(searchValue)).map((product) => ( 
-                    <article className="article-box" key={product?.Id} >  
+                    <article className="article-box" key={product?.Id} onClick={handleClick} >  
                         <div className="article-img">
                             <img src={getImg(product)} alt={product.Name} />
                         </div>           

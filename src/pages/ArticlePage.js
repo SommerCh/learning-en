@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import ProductArticles from "../components/ProductArticles";
+// import ProductArticles from "../components/ProductArticles";
 import PlaceholderImg from "../assets/placeholder-img.png";
 
 export default function ArticlePage() {
@@ -13,17 +13,11 @@ export default function ArticlePage() {
         async function getProduct() {
             const response = await fetch(url);
             const responseData = await response.json();
-            setProduct(responseData.data[0]);
+            setProduct(responseData.data);
+            console.log(responseData.data)
         }
         getProduct();
     }, [url]);
-
-    // Fetch  imgs
-    function getImg(product) {
-        if (product.Files?.length >= 1) {
-            return product.Files[0]?.Uri;
-        } 
-    }
 
 
     return (
@@ -31,24 +25,40 @@ export default function ArticlePage() {
             <section className="page">
                 <h1 className="page-title">Article Page</h1>
                 
-                <article className="article-box">  
+                <article className="article-page" key={product.Id}>  
                     <div className="article-img">
-                        <img src={PlaceholderImg} alt=""
-                        // {product.Files?.lenght ? product?.Files[0]?.Uri : getImg(product)} alt={product.Name} 
-                        />
+                        <img src={PlaceholderImg} alt="" />
                     </div>           
                     <div className="article-details">
-                        <h2>Product</h2>
+                        <h2>Product {product.Name}</h2>
                         <div className="details-section">
-                            <p>Main Category</p>  
-                            {/* <div className="badge-cntr">{getZones(product)}</div> */}
+                            <p>Main Category {product.MainCategory}</p>  
                         </div>
-                        <p className="description line-clamp">Product description</p>
+                        <p className="description">
+                            Product description <br/>
+                            
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate, 
+                            justo ut consequat pretium, turpis massa hendrerit dui, et cursus dolor enim eu mi. 
+                            Curabitur in dolor leo. Cras vel urna eros. Nulla velit risus, porta at auctor sit amet, 
+                            sodales ut ligula.
+                        </p>
+                        <div>
+                            <div>
+                                <span>H: 100cm</span>
+                                <span>B: 100cm </span>
+                                <span>L: 500cm </span>
+                            </div>
+                            <div>
+                                <span>Lorem ipsum dolor sit amet.</span>
+                                <span>Lorem ipsum dolor sit amet. </span>
+                                <span>Lorem ipsum dolor sit amet. </span>
+                            </div>
+                        </div>
                         
                     </div>
                 </article>     
 
-                <ProductArticles product={product?.Id}/>
+                {/* <ProductArticles product={product?.Id}/> */}
                     
 
             </section>
