@@ -1,12 +1,15 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '../components/Splide/splide.css';
+import PlaceholderImg from '../assets/placeholder-img.png';
+import { BiArrowBack } from 'react-icons/bi'
 
 
 export default function ArticlePage() {
     const [product, setProduct] = useState({});
     const params = useParams();
+    const navigate = useNavigate();
     const url = `http://localhost:3000/products/?id=${params.productId}`;
 
 
@@ -24,24 +27,23 @@ export default function ArticlePage() {
     return (
         <>
             <section className="page">
-                <h1 className="page-title">Article Page</h1>
-                
+                <h1 className="page-title"> <button onClick={window.onpopstate = () => { navigate("/products"); }} className="back-btn"><BiArrowBack/> </button> Læringsmøbler </h1>                
                 <article className="article-page" key={product?.Id}>  
                     <div className="thumbnail-slides">
                         <Splide aria-label="article gallery">
                             <SplideSlide>
                                 <div className='splide-img-cntr'>
-                                    <img src="https://picsum.photos/500/350" data-splide-lazy="https://picsum.photos/500/350" alt=""/>
+                                <img src={PlaceholderImg} data-splide-lazy={PlaceholderImg} alt=""/>  
                                 </div>
                             </SplideSlide>
                             <SplideSlide>
                                 <div className='splide-img-cntr'>
-                                    <img src="https://picsum.photos/400/300" data-splide-lazy="https://picsum.photos/400/300" alt=""/>
+                                <img src={PlaceholderImg} data-splide-lazy={PlaceholderImg} alt=""/>  
                                 </div>
                             </SplideSlide>
                             <SplideSlide>
                                 <div className='splide-img-cntr'>
-                                    <img src="https://picsum.photos/400/350" data-splide-lazy="https://picsum.photos/400/350" alt=""/>                    
+                                    <img src={PlaceholderImg} data-splide-lazy={PlaceholderImg} alt=""/>                    
                                 </div>
                             </SplideSlide>
                         </Splide>
