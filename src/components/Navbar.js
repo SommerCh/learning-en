@@ -29,6 +29,14 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li>
+            <NavLink to="/products" className={({ isActive }) => (isActive ? "active" : "")}>
+              <span className="icon">
+                Produkter
+                <FiStar />
+              </span>
+            </NavLink>
+          </li>
+          <li>
             <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>
               <span className="icon">
                 About
