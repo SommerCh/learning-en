@@ -15,7 +15,11 @@ export default function ArticlePage() {
 
     useEffect(() => {
         async function getProduct() {
-            const response = await fetch(url);
+            const response = await fetch(url, {
+                headers : { 
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+               }});
             const responseData = await response.json();
             setProduct(responseData.data);
             console.log(responseData.data)
