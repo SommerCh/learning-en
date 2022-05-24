@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Video from "../assets/video-farver..mp4";
+import Video from "../assets/video/video-farver.mp4";
 
 export default function Section4() {
   gsap.registerPlugin(ScrollTrigger);
@@ -45,7 +45,6 @@ export default function Section4() {
 
   return (
     <div className="section s4">
-      <h2>Løsning</h2>
       <div className="videoplayer" >
         <video ref={videoRef} id="video" controls autoplay muted>
           <source className="videosource" src={Video} type="video/mp4" />

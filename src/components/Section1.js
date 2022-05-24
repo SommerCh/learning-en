@@ -7,8 +7,7 @@ import Red from "../assets/red.png";
 import Yellow from "../assets/yellow.png";
 import Blue from "../assets/blue.png";
 import Green from "../assets/green.png";
-import { FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
-
+import { FiFacebook, FiInstagram, FiLinkedin, FiChevronDown } from "react-icons/fi";
 
 export default function Section1() {
   gsap.registerPlugin(ScrollTrigger);
@@ -106,7 +105,6 @@ export default function Section1() {
       ".content h1",
       {
         y: 0,
-      
       },
       {
         yPercent: 170,
@@ -126,6 +124,7 @@ export default function Section1() {
       top: "0%",
       paused: true,
       scale: "0.5",
+      zIndex: "200",
     });
 
     gsap.to(".frontpage-logo", {
@@ -200,6 +199,7 @@ export default function Section1() {
           </div>
         </div>
       </div>
+
     </div>
   );
 }

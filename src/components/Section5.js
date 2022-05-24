@@ -1,14 +1,27 @@
+import { useState } from "react";
 import Sound1 from "../assets/sound/lydniveauet-.mp3";
 import Sound2 from "../assets/sound/lydniveauet-_2mp3.mp3";
+
 export default function Section5() {
+  const [playing, setPlaying] = useState(false);
+
   const audio1 = new Audio(Sound1);
   const audio2 = new Audio(Sound2);
 
   const Play1 = () => {
-    audio1.play();
+    if (audio1.paused) {
+      audio1.play();
+    } else {
+      audio1.pause();
+    }
   };
+
   const Play2 = () => {
-    audio2.play();
+    if (audio2.paused) {
+      audio2.play();
+    } else {
+      audio2.pause();
+    }
   };
 
   return (
@@ -22,18 +35,7 @@ export default function Section5() {
         </button>
       </div>
 
-      <h2>Kontakt</h2>
 
-      <address>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse enim praesentium ratione
-          suscipit sunt quo libero est excepturi cupiditate. Reprehenderit odit ipsa ab eius
-          consequatur molestiae hic dicta architecto ut.
-        </p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque laboriosam aliquid libero
-        ullam necessitatibus. Deserunt sint quidem neque eius quasi quibusdam earum assumenda
-        suscipit accusantium placeat! Reiciendis temporibus voluptate blanditiis.
-      </address>
     </div>
   );
 }
