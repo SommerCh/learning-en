@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import PlaceholderImg from "../assets/placeholder-img.png";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '../components/Splide/splide.css';
+
 
 export default function ArticlePage() {
     const [product, setProduct] = useState({});
@@ -25,8 +27,25 @@ export default function ArticlePage() {
                 <h1 className="page-title">Article Page</h1>
                 
                 <article className="article-page" key={product?.Id}>  
-                    <div className="article-img">
-                        <img src={PlaceholderImg} alt="" />
+                    <div className="thumbnail-slides">
+                        <Splide aria-label="article gallery">
+                            <SplideSlide>
+                                <div className='splide-img-cntr'>
+                                    <img src="https://picsum.photos/500/350" data-splide-lazy="https://picsum.photos/500/350" alt=""/>
+                                </div>
+                            </SplideSlide>
+                            <SplideSlide>
+                                <div className='splide-img-cntr'>
+                                    <img src="https://picsum.photos/400/300" data-splide-lazy="https://picsum.photos/400/300" alt=""/>
+                                </div>
+                            </SplideSlide>
+                            <SplideSlide>
+                                <div className='splide-img-cntr'>
+                                    <img src="https://picsum.photos/400/350" data-splide-lazy="https://picsum.photos/400/350" alt=""/>                    
+                                </div>
+                            </SplideSlide>
+                        </Splide>
+                        {/* <img src={PlaceholderImg} alt="" /> */}
                     </div>           
                     <div className="article-details">
                         <h2>Product Name{product.Name}</h2>

@@ -100,7 +100,7 @@ nav {
   background-color: #262626;
 }
 
-ul {
+nav>ul {
   position: fixed;
   top: 4em;
   left: 0;
@@ -115,12 +115,12 @@ ul {
   animation: menu 0.5s ease-in-out;
 }
 
-li {
+nav>ul>li {
   padding: 1em;
   font-size: 1.5em;
 }
 
-li a {
+nav>ul>li a {
   color: black;
 }
 
@@ -878,4 +878,8 @@ h1 {
   border: solid green 0px;
   display: flex;
   flex-direction: column;
+}
+
+.thumbnail-slides {
+  background-color: #000;
 }
