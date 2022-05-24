@@ -1,36 +1,21 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Klasse1 from "../assets/klasse.jpg";
-import Klasse2 from "../assets/klasse2.jpg";
-import Klasse3 from "../assets/klasse3.jpg";
-
+import Section1 from "../components/Section1";
+import Section2 from "../components/Section2";
+import Section3 from "../components/Section3";
+import Section4 from "../components/Section4";
+import Section5 from "../components/Section5";
 
 export default function Home() {
   gsap.registerPlugin(ScrollTrigger);
 
   return (
     <div className="home">
-      <h1>Fremtidens møbler til nutidens børn</h1>
-
-      <div className="flex">
-
-     
-        <div className="classroom">
-        <h2>1950</h2>
-          <img src={Klasse3} alt="classroom" />
-        </div>
-
-        <div className="classroom">
-        <h2>1970</h2>
-          <img src={Klasse1} alt="classroom" />
-        </div>
-
-        <div className="classroom">
-          <h2>2020</h2>
-          <img src={Klasse2} alt="classroom" />
-        </div>
-
-      </div>
+      <Section1/>
+      <Section2/>
+      <Section3/>
+      <Section4/>
+      <Section5/>
     </div>
   );
 }
