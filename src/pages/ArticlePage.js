@@ -51,7 +51,6 @@ export default function ArticlePage() {
                                 </div>
                             </SplideSlide>
                         </Splide>
-                        {/* <img src={PlaceholderImg} alt="" /> */}
                     </div>           
                     <div className="article-details">
                         <h2>Product Name{product.Name}</h2>
