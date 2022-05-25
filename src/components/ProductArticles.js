@@ -79,7 +79,7 @@ export default function ProductArticles({product}) {
         }
     }
 
-    function handleClick() {
+    function handleClick(product) {
         navigate(`/article/${product?.Id}`);
     }
 
@@ -105,7 +105,7 @@ export default function ProductArticles({product}) {
              {/* Searched products displayed */}
              <section className="article-cntr"> 
                 {products.filter((product) => product.Name.toLowerCase().includes(searchValue)).map((product) => ( 
-                    <article className="article-box" key={product?.Id} onClick={handleClick} >  
+                    <article className="article-box" key={product?.Id} onClick={handleClick(product)} >  
                         <div className="article-img">
                             <img src={getImg(product)} alt={product.Name} />
                         </div>           

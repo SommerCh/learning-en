@@ -15,11 +15,7 @@ export default function ArticlePage() {
 
     useEffect(() => {
         async function getProduct() {
-            const response = await fetch(url, {
-                headers : { 
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-               }});
+            const response = await fetch(url);
             const responseData = await response.json();
             setProduct(responseData.data);
             console.log(responseData.data)
@@ -27,27 +23,31 @@ export default function ArticlePage() {
         getProduct();
     }, [url]);
 
+    function handleClickBack() {
+        navigate(`/products`);
+    }
+
 
     return (
         <>
             <section className="page">
-                <h1 className="page-title"> <button onClick={window.onpopstate = () => { navigate("/products"); }} className="back-btn"><BiArrowBack/> </button> Læringsmøbler </h1>                
+                <h1 className="page-title"> <button onClick={handleClickBack} className="back-btn"><BiArrowBack/> </button> Læringsmøbler </h1>                
                 <article className="article-page" key={product?.Id}>  
                     <div className="thumbnail-slides">
                         <Splide aria-label="article gallery">
                             <SplideSlide>
                                 <div className='splide-img-cntr'>
-                                <img src={PlaceholderImg} data-splide-lazy={PlaceholderImg} alt=""/>  
+                                <img src={product.Files?.Uri} data-splide-lazy={PlaceholderImg} alt=""/>  
                                 </div>
                             </SplideSlide>
                             <SplideSlide>
                                 <div className='splide-img-cntr'>
-                                <img src={PlaceholderImg} data-splide-lazy={PlaceholderImg} alt=""/>  
+                                <img src={product.Files?.Uri} data-splide-lazy={PlaceholderImg} alt=""/>  
                                 </div>
                             </SplideSlide>
                             <SplideSlide>
                                 <div className='splide-img-cntr'>
-                                    <img src={PlaceholderImg} data-splide-lazy={PlaceholderImg} alt=""/>                    
+                                    <img src={product.Files?.Uri} data-splide-lazy={PlaceholderImg} alt=""/>                    
                                 </div>
                             </SplideSlide>
                         </Splide>
