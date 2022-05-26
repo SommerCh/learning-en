@@ -45,23 +45,21 @@ export default function ArticlePage() {
                                 </SplideSlide>
                             ))}
                         </Splide>
-                        {/* {product.Files?.map(img => (
-                            <img key={img.Id} alt={img.Name} src={img.Uri}/>
-                                        
-                        ))} */}
                     </div>           
                     <div className="article-details">
                         <h1>{product?.Name}</h1>
-                        <h3>{product.MainCategory?.Name}</h3>  
+                        <h4>{product.MainCategory?.Name}</h4>  
 
                         <div className="details-section">
                             <div className="details-text-cntr">
                                 <div className="details-text"> 
-                                    <h4>Product description</h4>
-                                    <p key={product.Descriptions.DescriptionTypeID} dangerouslySetInnerHTML={{ __html: product.Descriptions[0].Html }}></p>
+                                    <h3 className="details-section-title">Beskrivelse</h3>
+                                    {/* <p key={product.Descriptions[0].DescriptionTypeID} dangerouslySetInnerHTML={{ __html: product.Descriptions[0].Text }}></p> */}
+                                    <p>{product.Descriptions?.lenght ? product.Descriptios[0]?.Text : product?.Name} </p>
+
                                 </div>
                                 <div className="details-zones-cntr">
-                                    <h4>Zoner</h4>
+                                    <h3 className="details-section-title">Zoner</h3>
                                     {product.Zones?.map(zone => (
                                         <div className="details-zones">
                                             <img key={zone.Id} alt={zone.Name} src={zone.ImgUrl}/>
@@ -72,7 +70,7 @@ export default function ArticlePage() {
                             </div>
 
                             <div className="details-inner-content">
-                                <h4>Dimentioner</h4>
+                                <h3 className="details-section-title">Dimentioner</h3>
                                 <div className="details-dimentions-cntr">
                                     {product.Dimentions?.map(dimention => (
                                         <div className="details-dimentions">
