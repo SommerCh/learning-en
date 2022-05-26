@@ -129,7 +129,7 @@
                 "Id": 1,
                 "Name": "think box",
                 "FileType": "image",
-                "Uri": "images/thinkbox-0.webp",
+                "Uri": "../images/thinkbox-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -139,7 +139,7 @@
                 "Id": 2,
                 "Name": "think box",
                 "FileType": "image",
-                "Uri": "images/thinkbox-1.webp",
+                "Uri": "../images/thinkbox-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -148,7 +148,7 @@
                 "Id": 3,
                 "Name": "think box",
                 "FileType": "image",
-                "Uri": "images/thinkbox-2.webp",
+                "Uri": "../images/thinkbox-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -157,7 +157,7 @@
                 "Id": 4,
                 "Name": "think box",
                 "FileType": "image",
-                "Uri": "images/thinkbox-3.webp",
+                "Uri": "../images/thinkbox-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null

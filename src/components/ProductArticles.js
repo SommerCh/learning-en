@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Tooltip from "./ToolTip";
 import {  useNavigate } from "react-router-dom";
+import { FaSearch } from "react-icons/fa";
 
 export default function ProductArticles({product}) {
     const [products, setProducts] = useState([]);
@@ -88,10 +89,13 @@ export default function ProductArticles({product}) {
         <>  
             {/* Filter and searchbar */}
             <section className="filter-cntr">
-                <input className="search" type="text" 
-                    placeholder="Søg..." 
-                    onChange={(e) => setSearchValue(e.target.value.toLowerCase())} 
-                />
+                <div>
+                    <FaSearch/>
+                    <input className="search" type="text" 
+                        placeholder="Søg..." 
+                        onChange={(e) => setSearchValue(e.target.value.toLowerCase())} 
+                    />
+                </div>
                 
                 <select className="filter" >
                     <option value="all">Filter</option>
