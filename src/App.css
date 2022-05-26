@@ -23,7 +23,7 @@
 
   /* Text & Font */
   --ff-body: 'Averta', Verdana, Arial, sans-serif;
-  --fs-p-main: 0.8750em; /* Main paragraph size */
+  --fs-p-main: 14px; /* 0.8750em; */ /* Main paragraph size */
   --fs-p-small: 0.7500em;
   --fs-p-large: 1em; 
   --fs-h-large: 3.125em; /* x-Large header size */
@@ -685,6 +685,10 @@ h1 {
   font-size: 1em;
   text-align: left;
   word-wrap: break-word;
+}
+
+.article-details h4 {
+  text-transform: capitalize;
 }
 
 .article-details p {

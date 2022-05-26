@@ -71,7 +71,6 @@
     display: flex;
     justify-content: center;
     border: solid red 0px;
-    background-color: rgba(255, 255, 255, .2);
 }
 
 .splide-img-cntr > img {

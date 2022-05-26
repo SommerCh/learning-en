@@ -57,9 +57,23 @@ export default function ArticlePage() {
                                     {product.Descriptions?.map(description => (
                                         <p key={description.DescriptionTypeID} dangerouslySetInnerHTML={{ __html: description.Html }}></p>
                                     ))}
-                                    {/* <p key={product.Descriptions.DescriptionTypeID} dangerouslySetInnerHTML={{ __html: product.Descriptions.Html }}></p> */}
+
+                                    <div className="details-inner-content">
+                                        <h3 className="details-section-title">Dimentioner</h3>
+                                        <div className="details-dimentions-cntr">
+                                            {product.Dimentions?.map(dimention => (
+                                                <div className="details-dimentions">
+                                                    <div className="dimentions-section"> <span>Del:</span> <span key={dimention.Name} dangerouslySetInnerHTML={{ __html: dimention.Part }}></span></div>
+                                                    <div className="dimentions-section"> <span>Højde:</span> <span key={dimention.Name} dangerouslySetInnerHTML={{ __html: dimention.Height }}></span></div>
+                                                    <div className="dimentions-section"> <span>Bredde:</span> <span key={dimention.Name} dangerouslySetInnerHTML={{ __html: dimention.Width }}></span></div>
+                                                    <div className="dimentions-section"> <span>Dybte:</span> <span key={dimention.Name} dangerouslySetInnerHTML={{ __html: dimention.Depth }}></span></div>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
 
                                 </div>
+                                
                                 <div className="details-zones-cntr">
                                     <h3 className="details-section-title">Zoner</h3>
                                     {product.Zones?.map(zone => (
@@ -71,7 +85,7 @@ export default function ArticlePage() {
                                 </div>
                             </div>
 
-                            <div className="details-inner-content">
+                            {/* <div className="details-inner-content">
                                 <h3 className="details-section-title">Dimentioner</h3>
                                 <div className="details-dimentions-cntr">
                                     {product.Dimentions?.map(dimention => (
@@ -83,7 +97,7 @@ export default function ArticlePage() {
                                         </div>
                                     ))}
                                 </div>
-                            </div>
+                            </div> */}
 
                         </div>
 
