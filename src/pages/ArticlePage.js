@@ -63,7 +63,7 @@ export default function ArticlePage() {
                                         <div className="details-dimentions-cntr">
                                             {product.Dimentions?.map(dimention => (
                                                 <div className="details-dimentions">
-                                                    <div className="dimentions-section"> <span>Del:</span> <span key={dimention.Name} dangerouslySetInnerHTML={{ __html: dimention.Part }}></span></div>
+                                                    <div className="dimentions-section"> <span key={dimention.Name} dangerouslySetInnerHTML={{ __html: dimention.Part }}></span></div>
                                                     <div className="dimentions-section"> <span>Højde:</span> <span key={dimention.Name} dangerouslySetInnerHTML={{ __html: dimention.Height }}></span></div>
                                                     <div className="dimentions-section"> <span>Bredde:</span> <span key={dimention.Name} dangerouslySetInnerHTML={{ __html: dimention.Width }}></span></div>
                                                     <div className="dimentions-section"> <span>Dybte:</span> <span key={dimention.Name} dangerouslySetInnerHTML={{ __html: dimention.Depth }}></span></div>
@@ -71,11 +71,10 @@ export default function ArticlePage() {
                                             ))}
                                         </div>
                                     </div>
-
                                 </div>
                                 
                                 <div className="details-zones-cntr">
-                                    <h3 className="details-section-title">Zoner</h3>
+                                    <h3 className="details-section-title">Zoner </h3>
                                     {product.Zones?.map(zone => (
                                         <div className="details-zones" key={zone.Id}>
                                             <img alt={zone.Name} src={zone.ImgUrl}/>
@@ -83,22 +82,8 @@ export default function ArticlePage() {
                                         </div>
                                     ))}
                                 </div>
+                                
                             </div>
-
-                            {/* <div className="details-inner-content">
-                                <h3 className="details-section-title">Dimentioner</h3>
-                                <div className="details-dimentions-cntr">
-                                    {product.Dimentions?.map(dimention => (
-                                        <div className="details-dimentions">
-                                            <div className="dimentions-section"> <span>Del:</span> <span key={dimention.Name} dangerouslySetInnerHTML={{ __html: dimention.Part }}></span></div>
-                                            <div className="dimentions-section"> <span>Højde:</span> <span key={dimention.Name} dangerouslySetInnerHTML={{ __html: dimention.Height }}></span></div>
-                                            <div className="dimentions-section"> <span>Bredde:</span> <span key={dimention.Name} dangerouslySetInnerHTML={{ __html: dimention.Width }}></span></div>
-                                            <div className="dimentions-section"> <span>Dybte:</span> <span key={dimention.Name} dangerouslySetInnerHTML={{ __html: dimention.Depth }}></span></div>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div> */}
-
                         </div>
 
                     </div>
