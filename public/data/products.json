@@ -192,14 +192,14 @@
             { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
-            { "Part": "Filtplader i 100% uld udvendigt og indvendigt", "Height": "200cm", "Width": "100/126cm", "Depth": "100cm" }
+            { "Part": "Filtplader i 100% uld", "Height": "200cm", "Width": "100/126cm", "Depth": "100cm" }
         ],
         "Descriptions": [
             {
                 "DescriptionTypeID": 1,
                 "DescriptionType": "HOVED",
                 "Text": "Hule som kan bygges sammen i serier. Kan rumme op til fire elever som samarbejder eller arbejder hver for sig. Møblet bidrager positivt til læringsrummets efterklangstid med 13 m2 akustisk dæmpede filtplader i 100% uld udvendigt og indvendigt. Det er også muligt at vælge plader i krydsfiner med højtrykslaminat i eg eller whiteboard.",
-                "Html": "<p></p>"
+                "Html": "<p>Hule som kan bygges sammen i serier. Kan rumme op til fire elever som samarbejder eller arbejder hver for sig. Møblet bidrager positivt til læringsrummets efterklangstid med 13 m2 akustisk dæmpede filtplader i 100% uld udvendigt og indvendigt. Det er også muligt at vælge plader i krydsfiner med højtrykslaminat i eg eller whiteboard.</p>"
             },
             {
                 "DescriptionTypeID": 2,

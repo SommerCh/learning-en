@@ -54,16 +54,18 @@ export default function ArticlePage() {
                             <div className="details-text-cntr">
                                 <div className="details-text"> 
                                     <h3 className="details-section-title">Beskrivelse</h3>
-                                    {/* <p key={product.Descriptions[0].DescriptionTypeID} dangerouslySetInnerHTML={{ __html: product.Descriptions[0].Text }}></p> */}
-                                    <p>{product.Descriptions?.lenght ? product.Descriptios[0]?.Text : product?.Name} </p>
+                                    {product.Descriptions?.map(description => (
+                                        <p key={description.DescriptionTypeID} dangerouslySetInnerHTML={{ __html: description.Html }}></p>
+                                    ))}
+                                    {/* <p key={product.Descriptions.DescriptionTypeID} dangerouslySetInnerHTML={{ __html: product.Descriptions.Html }}></p> */}
 
                                 </div>
                                 <div className="details-zones-cntr">
                                     <h3 className="details-section-title">Zoner</h3>
                                     {product.Zones?.map(zone => (
-                                        <div className="details-zones">
-                                            <img key={zone.Id} alt={zone.Name} src={zone.ImgUrl}/>
-                                            <span key={zone.Id} dangerouslySetInnerHTML={{ __html: zone.Name }}></span>
+                                        <div className="details-zones" key={zone.Id}>
+                                            <img alt={zone.Name} src={zone.ImgUrl}/>
+                                            <span dangerouslySetInnerHTML={{ __html: zone.Name }}></span>
                                         </div>
                                     ))}
                                 </div>
