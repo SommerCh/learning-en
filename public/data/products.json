@@ -18,8 +18,8 @@
         "Dimentions": [
             { "Part": "Metalmoduler", "Height": "50cm", "Width": "100cm", "Depth": "100cm" },
             { "Part": "Ståplader i eg", "Height": "1,9cm", "Width": null, "Depth": null },
-            { "Part": "Siddepladeri eg", "Height": "1,36cm", "Width": null, "Depth": null },
-            { "Part": "Puffer i møbelskum med høj densitet og holdbarhed", "Height": "25cm", "Width": "100cm", "Depth": "50cm" }
+            { "Part": "Siddeplader i eg", "Height": "1,36cm", "Width": null, "Depth": null },
+            { "Part": "Puffer", "Height": "25cm", "Width": "100cm", "Depth": "50cm" }
         ],
         "Descriptions": [
             {
@@ -47,7 +47,7 @@
                 "Id": 1,
                 "Name": "magnifier I læringstrappe",
                 "FileType": "image",
-                "Uri": "images/magnifier-0.webp",
+                "Uri": "../images/magnifier-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -56,7 +56,7 @@
                 "Id": 2,
                 "Name": "magnifier I læringstrappe",
                 "FileType": "image",
-                "Uri": "images/magnifier-1.webp",
+                "Uri": "../images/magnifier-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -65,7 +65,7 @@
                 "Id": 3,
                 "Name": "magnifier I læringstrappe",
                 "FileType": "image",
-                "Uri": "images/magnifier-2.webp",
+                "Uri": "../images/magnifier-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -74,7 +74,7 @@
                 "Id": 4,
                 "Name": "magnifier I læringstrappe",
                 "FileType": "image",
-                "Uri": "images/magnifier-3.webp",
+                "Uri": "../images/magnifier-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null

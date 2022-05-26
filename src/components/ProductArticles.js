@@ -79,9 +79,9 @@ export default function ProductArticles({product}) {
         }
     }
 
-    function handleClick(product) {
-        navigate(`/article/${product?.Id}`);
-    }
+    // function handleClick(product) {
+    //     navigate(`/article/${product?.Id}`);
+    // }
 
 
     return (
@@ -104,8 +104,10 @@ export default function ProductArticles({product}) {
 
              {/* Searched products displayed */}
              <section className="article-cntr"> 
-                {products.filter((product) => product.Name.toLowerCase().includes(searchValue)).map((product) => ( 
-                    <article className="article-box" key={product?.Id} onClick={handleClick(product)} >  
+                {products
+                .filter((product) => product.Name.toLowerCase().includes(searchValue))
+                .map((product) => ( 
+                    <article className="article-box" key={product?.Id} onClick={() => navigate(`/products/${product.Id}`)} >  
                         <div className="article-img">
                             <img src={getImg(product)} alt={product.Name} />
                         </div>           

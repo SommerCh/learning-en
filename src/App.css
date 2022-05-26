@@ -844,27 +844,17 @@ h1 {
   height: auto;
   margin: 0px;
   padding: 10px 0px;
-  display: grid;
-  grid-template-columns: 1.5fr .5fr;
+  display: flex;
+  flex-direction: column;
   column-gap: 10px;
   align-items: flex-start;
 }
 
-@media (min-width: 600px) {
-  .article-page>.article-details>.details-section {
-    grid-template-columns: 1.5fr .5fr;
-  }
-}
-
-@media (min-width: 992px) {
-  .article-page>.article-details>.details-section {
-    grid-template-columns: 2fr .5fr;
-  }
-}
-
-.article-page>.article-details>.details-section p {
-  margin: 0px;
-  font-weight: 500;
+.details-text-cntr {
+  display: grid;
+  grid-template-columns: 2fr .5fr;
+  column-gap: 20px;
+  border: solid red 0px;
 }
 
 .details-text {
@@ -875,34 +865,70 @@ h1 {
 
 .details-text p {
   text-transform: none;
+  margin: 0px;
+  font-weight: 500;
 }
 
-.details-box {
-  border: solid orange 0px;
-  width: 100%;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  row-gap: 5px;
+
+/* Zones */
+.details-zones-cntr {
+  display: flex;
+  flex-direction: column;
 }
 
-/* @media (min-width: 600px) {
-  .details-box{
-    grid-template-rows: 1fr 1fr;
-  }
+.details-zones {
+  width: auto;
+  height: auto;
+  margin: 0px 20px 5px 0px;
+  display: flex;
+  flex-direction: row;
+  text-transform: capitalize;
+  border: solid red 0px;
+  align-items: center;
 }
 
-@media (min-width: 992px) {
-  .details-box {
-    grid-template-columns: 1fr 1fr;
-  }
-} */
+.details-zones span {
+  margin-left: 5px;
+}
 
+.details-zones img {
+  height: 40px;
+  width: auto;
+}
+
+
+/* Dimentions details */
 .details-inner-content {
   width: 100%;
+  margin-top: 10px;
   border: solid green 0px;
   display: flex;
   flex-direction: column;
 }
+
+.details-dimentions-cntr {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.details-dimentions {
+  max-width: 200px;
+  min-width: 150px;
+  height: auto;
+  margin: 5px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  border: solid red 0px;
+}
+
+
+.dimentions-section>span:first-child {
+  font-weight: 600;
+}
+
+
 
 .thumbnail-slides {
   background-color: #000;
