@@ -530,6 +530,12 @@ h1 {
   row-gap: .2em;
 }
 
+@media (min-width: 500px) {
+  .category-cntr {
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 @media (min-width: 600px) {
   .category-cntr {
       grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -627,7 +633,6 @@ h1 {
   font-size: 14px;
   color: var(--white);
   text-transform: uppercase;
-  /* word-wrap: break-word; */
   text-align: center;
   letter-spacing: 0.8px;
   text-shadow: 0 0 8px rgba(0, 0, 0, 1);
@@ -654,7 +659,7 @@ h1 {
 
 @media (min-width: 992px) {
   .article-cntr {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       column-gap: .8em;
       row-gap: .8em;
   }
@@ -730,12 +735,26 @@ h1 {
 
 .details-section {
   width: 100%;
-  height: 25px;
+  height: auto;
   margin: 0px 0px 4px 0px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
+}
+
+@media (min-width: 600px) {
+  .details-section {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+
+@media (min-width: 992px) {
+  .details-section {
+    flex-direction: row;
+    align-items: flex-end;
+  }
 }
 
 .details-section p {
