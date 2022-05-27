@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import Tooltip from "./ToolTip";
+// import { FaSearch } from "react-icons/fa";
 
 export default function Akustik() {
     const [products, setProducts] = useState([]);
+    // const [searchValue, setSearchValue] = useState("");
 
     // Fetch products
     useEffect(() => {
@@ -19,7 +21,7 @@ export default function Akustik() {
     function getImg(product) {
         if (product.Files?.length >= 1) {
             return product.Files[0]?.Uri;
-        } 
+        } console.log(product)
     }
 
     // Fetch product zones + add tooltips
@@ -80,10 +82,27 @@ export default function Akustik() {
 
 
     return (
-        <>             
+        <>        
+
+         {/* Filter and searchbar */}
+         {/* <section className="filter-cntr">*/}
+            {/* <h2>Akustik</h2>
+                <div className="search-cntr">
+                    <input className="search" type="text" 
+                        placeholder="Søg..." 
+                        onChange={(e) => setSearchValue(e.target.value.toLowerCase())} 
+                    />
+                    <FaSearch/>
+                </div>
+            </section>  */}
+
+
              {/* Filtered products displayed */}
              <section className="article-cntr"> 
-                {products.filter((product) => product.MainCategory.Id === 3).map((product) => ( 
+                {products
+                .filter((product) => product.MainCategory.Id === 3)
+                .map((product) => ( 
+                    
                     <article className="article-box anim-articles" key={product?.Id} >  
                         <div className="article-img">
                             <img src={getImg(product)} alt={product.Name} />
