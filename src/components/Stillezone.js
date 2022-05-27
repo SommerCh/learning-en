@@ -89,7 +89,7 @@ export default function Stillezone() {
                             <img src={getImg(product)} alt={product.Name} />
                         </div>           
                         <div className="article-details">
-                            <h2 key={product.Keywords}>{product?.Name}</h2>
+                            <h3 key={product.Keywords}>{product?.Name}</h3>
                             <div className="details-section">
                                 <p>{product.MainCategory?.Name}</p>  
                                 <div className="badge-cntr">{getZones(product)}</div>
