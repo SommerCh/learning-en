@@ -80,29 +80,26 @@ export default function ProductArticles({product}) {
         }
     }
 
-    // function handleClick(product) {
-    //     navigate(`/article/${product?.Id}`);
-    // }
-
 
     return (
         <>  
             {/* Filter and searchbar */}
             <section className="filter-cntr">
-                <div>
-                    <FaSearch/>
+            <h2>Alle produkter</h2>
+                <div className="search-cntr">
                     <input className="search" type="text" 
                         placeholder="Søg..." 
                         onChange={(e) => setSearchValue(e.target.value.toLowerCase())} 
                     />
+                    <FaSearch/>
                 </div>
                 
-                <select className="filter" >
+                {/* <select className="filter" >
                     <option value="all">Filter</option>
                     <option value="this">this</option>
                     <option value="that">that</option>
                     <option value="other">other</option>
-                </select>
+                </select> */}
             </section>
             
 
@@ -111,12 +108,12 @@ export default function ProductArticles({product}) {
                 {products
                 .filter((product) => product.Name.toLowerCase().includes(searchValue))
                 .map((product) => ( 
-                    <article className="article-box" key={product?.Id} onClick={() => navigate(`/products/${product.Id}`)} >  
+                    <article className="article-box anim-articles" key={product?.Id} onClick={() => navigate(`/products/${product.Id}`)} >  
                         <div className="article-img">
                             <img src={getImg(product)} alt={product.Name} />
                         </div>           
                         <div className="article-details">
-                            <h2 key={product.Keywords}>{product?.Name}</h2>
+                            <h3 key={product.Keywords}>{product?.Name}</h3>
                             <div className="details-section">
                                 <p>{product.MainCategory?.Name}</p>  
                                 <div className="badge-cntr">

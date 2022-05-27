@@ -500,7 +500,19 @@ h1 {
 /* ---------- PAGE ---------- */
 .page {
   height: 100%;
-  padding: .5em 2em 10em 2em;
+  padding: .5em .5em 10em .5em;
+}
+
+@media (min-width: 600px) {
+  .page {
+    padding: .5em .5em 10em .5em;
+  }
+}
+
+@media (min-width: 992px) {
+  .page {
+    padding: .5em 1em 10em 1em;
+  }
 }
 
 .page>.page-title {
@@ -526,7 +538,7 @@ h1 {
 
 @media (min-width: 992px) {
   .category-cntr {
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
@@ -596,7 +608,6 @@ h1 {
   height: 100%;
   width: 100%;
   margin: 0 auto;
-  padding: 1px 20px;
   position: absolute;
   bottom: 0px;
   left: 50%;
@@ -611,12 +622,12 @@ h1 {
 }
 
 .category-title button span {
-  margin: 0;
+  margin: 0 auto;
   font-weight: 600;
   font-size: 14px;
   color: var(--white);
   text-transform: uppercase;
-  word-wrap: break-word;
+  /* word-wrap: break-word; */
   text-align: center;
   letter-spacing: 0.8px;
   text-shadow: 0 0 8px rgba(0, 0, 0, 1);
@@ -625,28 +636,34 @@ h1 {
 
 /* ----- ARTICLE GRID ----- */
 .article-cntr {
-  margin: 0px 5px;
+  width: auto;
+  margin: 0px 0px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: .8em;
+  column-gap: .4em;
+  row-gap: .8em;
 }
 
 @media (min-width: 600px) {
   .article-cntr {
       grid-template-columns: 1fr 1fr 1fr;
+      column-gap: .4em;
+      row-gap: .8em;
   }
 }
 
 @media (min-width: 992px) {
   .article-cntr {
       grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: .8em;
+      row-gap: .8em;
   }
 }
 
 .article-box {
   height: auto;
+  width: auto;
   margin-bottom: 2%;
-  padding: 0px;
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -654,6 +671,20 @@ h1 {
   box-sizing: border-box;
   transition: ease-in .2s;
   cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .article-box {
+    height: auto;
+    width: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .article-box {
+    height: auto;
+    width: auto;
+  }
 }
 
 .article-box:hover {
@@ -700,7 +731,7 @@ h1 {
 .details-section {
   width: 100%;
   height: 25px;
-  margin: 4px 0px;
+  margin: 0px 0px 4px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -726,7 +757,7 @@ h1 {
   text-overflow: ellipsis;
 }
 
-/* ----- Article badges ----- */
+/* Article badges */
 .badge-cntr {
   width: auto;
   height: auto;
@@ -747,7 +778,7 @@ h1 {
 .badge-img {
   height: 20px;
   width: 20px;
-  margin-right: 10px;
+  margin-right: 4px;
 }
 
 .badge-img img {
@@ -755,7 +786,7 @@ h1 {
   width: auto;
 }
 
-/* ----- Tooltip ----- */
+/* Badge tooltips */
 .tooltip {
   width: auto;
   position: absolute;
@@ -783,17 +814,56 @@ h1 {
 .filter-cntr {
   width: 100%;
   margin: 20px 0px 10px 0px;
+  padding: 0px 5px;
   background-color: transparent;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  border: solid red 0px;
+}
+
+.search-cntr {
+  width: 150px;
+  height: 25px;
+  padding: 2px 5px;
+  position: relative;
+  background-color: var(--l-grey);
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 5px;
+  align-items: center;
+}
+
+.search-cntr svg {
+  height: auto;
+  width: auto;
+  margin: 5px;
+  padding: 0px;
+  position: absolute;
+  right: 0;
+  color: var(--black);
 }
 
 .search {
-  padding: 2px 5px;
-  border-radius: 0px;
-  border: solid black 1px;
+  height: 100%;
+  width: 100%;
+  margin: 5px;
+  position: absolute;
+  border: none;
+  outline: none;
   cursor: pointer;
+  z-index: 2;
   background-color: transparent;
+}
+
+.search::placeholder {
+  color: var(--black);
+  font-style: italic;
+}
+
+.search:focus-visible {
+  border: none;
+  border-radius: 0;
 }
 
 .filter {
@@ -805,12 +875,6 @@ h1 {
   cursor: pointer;
 }
 
-.filter > option {
-  border-radius: 0px;
-  border: 0px;
-  cursor: pointer;
-  background-color: transparent;
-}
 
 /* ---------- ARTICLE PAGE ---------- */
 .article-page {
@@ -945,3 +1009,40 @@ h1 {
   font-weight: 600;
 }
 
+
+/* ---------- ANIMATIONS ---------- */
+.anim-tabs {
+  animation: fadeCat .6s 0s both;
+}
+
+.anim-tabs-title {
+  animation: fadeCat .6s .5s both;
+}
+
+@keyframes fadeCat {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+   }
+  
+   100% {
+    opacity: 1;
+    transform: none;
+   }
+}
+
+.anim-articles {
+  animation: fadeArt .6s .05s both;
+}
+
+@keyframes fadeArt {
+  0% {
+   transform: translateY(40px);
+   opacity: 0;
+  }
+ 
+  100% {
+   opacity: 1;
+   transform: none;
+  }
+}
