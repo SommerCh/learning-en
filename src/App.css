@@ -159,6 +159,7 @@ img {
   width: 30px;
   height: 4px;
   background: var(--white);
+}
 
 .bars::before,
 .bars::after {
