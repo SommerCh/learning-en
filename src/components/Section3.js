@@ -1,7 +1,10 @@
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Img from "../assets/placeholder.jpg";
+import Img50 from '../assets/imgs/bord50-min.jpg'
+import Img70 from '../assets/imgs/bord70-min.jpg'
+import Img20 from '../assets/imgs/bord20-min.jpg'
+
 
 export default function Section3() {
   gsap.registerPlugin(ScrollTrigger);
@@ -60,25 +63,25 @@ export default function Section3() {
         },
       }
     );
+
   }, []);
 
   return (
     <div className="section s3">
-      <h2>Før vs Nu</h2>
       <div className="flex-row">
         <div className="imgdiv">
           <h2>1950</h2>
-          <img className="compare cimg1" src={Img} alt="img" />
+          <img className="compare cimg1" src={Img50} alt="img" />
         </div>
 
         <div className="imgdiv">
           <h2>1970</h2>
-          <img className="compare cimg2" src={Img} alt="img" />
+          <img className="compare cimg2" src={Img70} alt="img" />
         </div>
 
         <div className="imgdiv">
           <h2>2020</h2>
-          <img className="compare cimg3" src={Img} alt="img" />
+          <img className="compare cimg3" src={Img20} alt="img" />
         </div>
       </div>
     </div>

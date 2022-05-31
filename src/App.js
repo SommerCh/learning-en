@@ -1,32 +1,40 @@
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Navbar from './components/Navbar.js';
-import Home from './pages/Home';
-import About from './pages/About'
-import ProductsPage from './pages/ProductsPage.js';
-import ArticlePage from './pages/ArticlePage.js';
-import './App.css';
+import { useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar.js";
+import Home from "./pages/Home";
+import ProductsPage from "./pages/ProductsPage.js";
+import ArticlePage from "./pages/ArticlePage.js";
+import "./App.css";
+import Footer from './components/Footer'
 
 
 function App() {
+  const [mode, setMode] = useState("false");
 
+  const toggleMode = () => {
+    setMode(!mode);
+  };
 
   return (
     <Router>
-    <div className="App">
+      <div className={mode ? "darkmode" : "lightmode"}>
+        <Navbar />
+        <div className="modes">
+          <span onClick={toggleMode} className="dark">Dark</span>
+          <span>|</span>
+          <span onClick={toggleMode} className="light">Light</span>
+        </div>
 
-        <Navbar/>
-        
         <Routes>
             <Route path="/" element={< Home />}/>
-            <Route path="/about" element={< About />}/>
+            {/* <Route path="/about" element={< About />}/> */}
             <Route path="/products" element={ <ProductsPage/> }/>
             <Route path="/products/:id" element={ <ArticlePage/> }/>
             {/* <Route path="*" element={ <Home/> }/> */}
         </Routes>
-
-    </div>
-</Router>
-
+      </div>
+      <Footer/>
+    </Router>
   );
 }
 

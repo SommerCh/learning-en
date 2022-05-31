@@ -1,14 +1,13 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Img from "../assets/stole.jpg";
-import LogoImg from "../assets/logo-no-white.png";
-import Red from "../assets/red.png";
-import Yellow from "../assets/yellow.png";
-import Blue from "../assets/blue.png";
-import Green from "../assets/green.png";
+import Img from "../assets/imgs/stole.jpg";
+import LogoImg from "../assets/imgs/logo-no-white.png";
+import Red from "../assets/imgs/red.png";
+import Yellow from "../assets/imgs/yellow.png";
+import Blue from "../assets/imgs/blue.png";
+import Green from "../assets/imgs/green.png";
 import { FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
-
 
 export default function Section1() {
   gsap.registerPlugin(ScrollTrigger);
@@ -102,58 +101,123 @@ export default function Section1() {
       }
     );
 
-    gsap.fromTo(
-      ".content h1",
-      {
-        y: 0,
-      
+    //  decktop
+    ScrollTrigger.matchMedia({
+      "(min-width: 800px)": function () {
+        // logo
+        const action = gsap.set(".frontpage-logo", {
+          position: "fixed",
+          left: "0",
+          top: "0",
+          scale: "0.5",
+          paused: true,
+          zIndex: "200",
+        });
+
+        gsap.to(".frontpage-logo", {
+          scrollTrigger: {
+            start: "top top",
+            onEnter: () => action.play(),
+            onLeave: () => action.reverse(),
+            onLeaveBack: () => action.reverse(),
+            onEnterBack: () => action.reverse(),
+          },
+        });
+
+        // contact
+        const action2 = gsap.set(".contact", {
+          position: "fixed",
+          right: "20%",
+          top: "2%",
+          paused: true,
+          zIndex: "500",
+          scale: "0.8",
+        });
+
+        gsap.to(".contact", {
+          scrollTrigger: {
+            start: "top top",
+            onEnter: () => action2.play(),
+            onLeave: () => action2.reverse(),
+            onLeaveBack: () => action2.reverse(),
+            onEnterBack: () => action2.reverse(),
+          },
+        });
+
+        // h1
+        gsap.fromTo(
+          ".content h1",
+          {
+            y: 0,
+          },
+          {
+            yPercent: 170,
+            ease: "none",
+            scrollTrigger: {
+              trigger: ".s1",
+              start: "top 10%",
+              end: "bottom center",
+              scrub: 1,
+            },
+          }
+        );
       },
-      {
-        yPercent: 170,
-        ease: "none",
-        scrollTrigger: {
-          trigger: ".s1",
-          start: "top 10%",
-          end: "bottom center",
-          scrub: 1,
-        },
-      }
-    );
-
-    const action = gsap.set(".frontpage-logo", {
-      position: "fixed",
-      left: "1%",
-      top: "0%",
-      paused: true,
-      scale: "0.5",
     });
 
-    gsap.to(".frontpage-logo", {
-      scrollTrigger: {
-        start: "top top",
-        onEnter: () => action.play(),
-        onLeave: () => action.reverse(),
-        onLeaveBack: () => action.reverse(),
-        onEnterBack: () => action.reverse(),
-      },
-    });
+    // mobil
+    ScrollTrigger.matchMedia({
+      "(max-width: 800px)": function () {
+        // logo
+        const action = gsap.set(".frontpage-logo", {
+          position: "fixed",
+          left: "10%",
+          bottom: "2%",
+          scale: "1.5",
+          zIndex: "500",
+        });
 
-    const action2 = gsap.set(".contact", {
-      position: "fixed",
-      right: "20%",
-      top: "2%",
-      paused: true,
-      zIndex: "500",
-      scale: "0.8",
-    });
+        gsap.to(".frontpage-logo", {
+          scrollTrigger: {
+            start: "top top",
+            onEnter: () => action.play(),
+            onLeave: () => action.reverse(),
+            onLeaveBack: () => action.reverse(),
+            onEnterBack: () => action.reverse(),
+          },
+        });
 
-    gsap.to(".contact", {
-      scrollTrigger: {
-        start: "top top",
-        onEnter: () => action2.play(),
-        onLeave: () => action2.reverse(),
-        onLeaveBack: () => action2.reverse(),
-        onEnterBack: () => action2.reverse(),
+        // contact
+        const action2 = gsap.set(".contact", {
+          position: "fixed",
+          right: "10%",
+          bottom: "-1%",
+          paused: true,
+          zIndex: "500",
+          scale: "0.8",
+        });
+
+        gsap.to(".contact", {
+          scrollTrigger: {
+            start: "top top",
+            onEnter: () => action2.play(),
+            onLeave: () => action2.reverse(),
+            onLeaveBack: () => action2.reverse(),
+            onEnterBack: () => action2.reverse(),
+          },
+        });
+
+        // h1
+
+        gsap.fromTo(
+          ".content h1",
+          {
+            y: 0,
+          },
+          {
+            yPercent: 10,
+            ease: "none",
+          }
+        );
       },
     });
   }, []);
