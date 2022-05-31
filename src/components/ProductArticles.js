@@ -80,6 +80,16 @@ export default function ProductArticles({product}) {
         }
     }
 
+    function matchKeywords(searchValue, keywords) {
+        let match = false;
+        for (const keyword of keywords) {
+            if (keyword.toLowerCase().includes(searchValue)) {
+                match = true;
+            }
+        }
+        return match;
+    }
+
 
     return (
         <>  
@@ -93,34 +103,25 @@ export default function ProductArticles({product}) {
                     />
                     <FaSearch/>
                 </div>
-                
-                {/* <select className="filter" >
-                    <option value="all">Filter</option>
-                    <option value="this">this</option>
-                    <option value="that">that</option>
-                    <option value="other">other</option>
-                </select> */}
             </section>
             
 
              {/* Searched products displayed */}
              <section className="article-cntr"> 
                 {products
-                .filter((product) => product.Name.toLowerCase().includes(searchValue))
+                .filter((product) => product.Name.toLowerCase().includes(searchValue) || matchKeywords(searchValue, product.Keywords))
                 .map((product) => ( 
                     <article className="article-box anim-articles" key={product?.Id} onClick={() => navigate(`/products/${product.Id}`)} >  
                         <div className="article-img">
                             <img src={getImg(product)} alt={product.Name} />
                         </div>           
                         <div className="article-details">
-                            <h3 key={product.Keywords}>{product?.Name}</h3>
+                            <h3 key={product.Keywords}> {product?.Name} </h3>
                             <div className="details-section">
-                                <p>{product.MainCategory?.Name}</p>  
-                                <div className="badge-cntr">
-                                    {getZones(product)}
-                                </div>
+                                <p> {product.MainCategory?.Name} </p>  
+                                <div className="badge-cntr"> {getZones(product)} </div>
                             </div>
-                            <p className="description line-clamp">{product.Descriptions[0]?.Text}</p>
+                            <p className="description line-clamp"> {product.Descriptions[0]?.Text} </p>
                         </div>
                     </article>
                 ))} 

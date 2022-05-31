@@ -77,24 +77,28 @@ export default function Læringstrapper() {
 
 
 
-
-
     return (
         <>  
+            <section className="filter-cntr">
+                <h2>Læringstrapper</h2>
+            </section>
+
              {/* Filtered products displayed */}
              <section className="article-cntr"> 
-                {products.filter((product) => product.MainCategory.Id === 2).map((product) => ( 
+                {products
+                .filter((product) => product.MainCategory.Id === 2 || product.Keywords.includes('læringstrapper'))
+                .map((product) => ( 
                     <article className="article-box anim-articles" key={product?.Id}>  
                         <div className="article-img">
                             <img src={getImg(product)} alt={product.Name} />
                         </div>           
                         <div className="article-details">
-                            <h3 key={product.Keywords}>{product?.Name}</h3>
+                            <h3 key={product.Keywords}> {product?.Name} </h3>
                             <div className="details-section">
-                                <p>{product.MainCategory?.Name}</p>  
-                                <div className="badge-cntr">{getZones(product)}</div>
+                                <p> {product.MainCategory?.Name} </p>  
+                                <div className="badge-cntr"> {getZones(product)} </div>
                             </div>
-                            <p className="description line-clamp">{product.Descriptions[0]?.Text}</p>
+                            <p className="description line-clamp"> {product.Descriptions[0]?.Text} </p>
                         </div>
                     </article>
                 ))} 
