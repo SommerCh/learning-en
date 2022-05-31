@@ -108,7 +108,7 @@ export default function Section1() {
         const action = gsap.set(".frontpage-logo", {
           position: "fixed",
           left: "0",
-          top: "0",
+          top: "-1%",
           scale: "0.5",
           paused: true,
           zIndex: "200",
@@ -128,10 +128,10 @@ export default function Section1() {
         const action2 = gsap.set(".contact", {
           position: "fixed",
           right: "20%",
-          top: "2%",
+          top: "1%",
           paused: true,
           zIndex: "500",
-          scale: "0.8",
+          scale: "1",
         });
 
         gsap.to(".contact", {
@@ -170,9 +170,9 @@ export default function Section1() {
         // logo
         const action = gsap.set(".frontpage-logo", {
           position: "fixed",
-          left: "10%",
+          left: "14%",
           bottom: "2%",
-          scale: "1.5",
+          scale: "2",
           zIndex: "500",
         });
 
@@ -234,7 +234,7 @@ export default function Section1() {
       <div className="content">
         <h1 ref={h1Ref}>
           Fremtidens møbler <br />
-        til nutidens børn
+           til nutidens børn
         </h1>
       </div>
       <span ref={lineRef} className="line-progres" />
