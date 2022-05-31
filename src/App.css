@@ -270,6 +270,7 @@ nav .close:hover div::after {
 
 .logo {
   width: 70%;
+    transform: translateZ(0)
 }
 
 .logoduts {
