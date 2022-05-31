@@ -31,9 +31,13 @@ export default function ArticlePage() {
     return (
         <>
             <section className="page">
-                <h1 className="page-title"> 
-                <button onClick={() => navigate(`/products`)} className="back-btn"><BiArrowBack/> </button> 
-                Læringsmøbler </h1>                
+                <div className="page-title"> 
+                    <button onClick={() => navigate(`/products`)} className="back-btn"> 
+                        <span className="btn-text"><BiArrowBack/> <h1>Læringsmøbler</h1> </span>
+                        <div className="back-btn-bottom"></div>
+                    </button> 
+                    
+                </div>                
                 <article className="article-page" key={product?.Id}>  
                     <div className="thumbnail-slides">
                         <Splide aria-label="article gallery">
