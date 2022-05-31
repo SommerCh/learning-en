@@ -414,7 +414,225 @@ h1 {
   position: fixed !important;
   top: 0;
 }
+/* intro */
 
+.intro {
+  height: 100vh;
+}
+
+.intro .flex-row {
+  justify-content: space-evenly;
+}
+
+.introtext {
+  width: 30%;
+}
+
+.introtext p {
+  margin: 1em 0;
+  line-height: 1.5em;
+  font-size: 1em;
+}
+
+.introimg {
+  width: 40%;
+  position: relative;
+}
+
+/* green */
+
+.greenzone {
+  position: absolute;
+  left: 55%;
+  top: 32%;
+}
+
+.greencircle {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px #0000001a;
+  background-color: green;
+  animation: pulse-animation 1s infinite;
+  animation-play-state: paused;
+}
+
+.greencircle:hover {
+  animation-play-state: running;
+}
+
+.greenzone .tooltiptext {
+  background-color: rgb(70, 97, 38);
+}
+
+.greenzone .tooltiptext::after {
+  border-color: rgb(70, 97, 38) transparent transparent transparent;
+}
+
+.greenzone:hover .tooltiptext {
+  display: block;
+}
+
+.greencircle:hover {
+  animation-play-state: running;
+}
+
+/* red */
+
+.redzone {
+  position: absolute;
+  left: 78%;
+  top: 45%;
+}
+
+.redcircle {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px #0000001a;
+  background-color: red;
+  animation: pulse-animation 1s infinite;
+  animation-play-state: paused;
+}
+
+.redcircle:hover {
+  animation-play-state: running;
+}
+
+.redzone:hover .tooltiptext {
+  display: block;
+}
+
+.redzone .tooltiptext {
+  background-color: rgb(138, 14, 14);
+}
+
+.redzone .tooltiptext::after {
+  border-color: rgb(138, 14, 14) transparent transparent transparent;
+}
+
+/* blue */
+.bluezone {
+  position: absolute;
+  left: 38%;
+  top: 52%;
+}
+
+.bluecircle {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px #0000001a;
+  background-color: blue;
+  animation: pulse-animation 1s infinite;
+  animation-play-state: paused;
+}
+
+.bluecircle:hover {
+  animation-play-state: running;
+}
+
+.bluezone:hover .tooltiptext {
+  display: block;
+}
+
+.bluezone .tooltiptext {
+  background-color: rgb(27, 68, 131);
+}
+
+.bluezone .tooltiptext::after {
+  border-color: rgb(27, 68, 131) transparent transparent transparent;
+}
+
+/* yellow */
+
+.yellowzone {
+  position: absolute;
+  left: 39%;
+  top: 72%;
+}
+
+.yellowcircle {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px #0000001a;
+  background-color: yellow;
+  animation: pulse-animation 1s infinite;
+  animation-play-state: paused;
+}
+
+.yellowcircle:hover {
+  animation-play-state: running;
+}
+
+.yellowzone:hover .tooltiptext {
+  display: block;
+}
+
+.yellowzone .tooltiptext {
+  background-color: rgb(189, 156, 9);
+}
+
+.yellowzone .tooltiptext::after {
+  border-color: rgb(189, 156, 9) transparent transparent transparent;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.356);
+  }
+
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
+
+.tooltiptext h6 {
+  font-size: 1em;
+}
+
+.tooltiptext {
+  display: none;
+  width: 10em;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 0%;
+  margin-left: -60px;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+}
+
+@media (max-width: 800px) {
+  .intro .flex-row {
+    flex-direction: column;
+  }
+
+  .introtext,
+  .introimg {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .intro {
+    margin: 0 auto 10em auto;
+  }
+}
 /* section 2 */
 .s2 {
   padding: 10em 0 0 0;
