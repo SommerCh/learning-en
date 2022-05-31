@@ -234,7 +234,7 @@ export default function Section1() {
       <div className="content">
         <h1 ref={h1Ref}>
           Fremtidens møbler <br />
-          <span> til nutidens børn</span>
+        til nutidens børn
         </h1>
       </div>
       <span ref={lineRef} className="line-progres" />
