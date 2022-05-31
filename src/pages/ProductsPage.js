@@ -37,144 +37,144 @@ export default function ProductsPage() {
                 {/* Category tabs*/}
                 <section className="category-cntr">
 
-                <article className="category-article">  
+                <article className="category-article anim-tabs">  
                         <div className="category-img"> 
                             <img src={TrappeImg} alt=""/>
                             <div className="category-title"> 
                                 <button onClick={() => setActiveTab("all")} className={activeTab === 'all' ? 'active' : ''}> 
-                                    <span>Alle produkter</span>
+                                    <span className="anim-tabs-title">Alle produkter</span>
                                 </button>
                             </div> 
                         </div>                  
                 </article>   
 
-                <article className="category-article">  
+                <article className="category-article anim-tabs">  
                         <div className="category-img"> 
                             <img src={TrappeImg} alt=""/>
                             <div className="category-title"> 
                                 <button onClick={() => setActiveTab("læringstrapper")} className={activeTab === 'læringstrapper' ? 'active' : ''}>
-                                    <span>Læringstrapper</span>
+                                    <span className="anim-tabs-title">Læringstrapper</span>
                                 </button>
                             </div> 
                         </div>                  
                 </article>
         
-                <article className="category-article">  
+                <article className="category-article anim-tabs">  
                     <div className="category-img">
                         <img src={AkustikImg} alt=""/>
                         <div className="category-title"> 
                             <button onClick={() => setActiveTab("akustik")} className={activeTab === 'akustik' ? 'active' : ''}>
-                                <span>Akustik</span>
+                                <span className="anim-tabs-title">Akustik</span>
                             </button> 
                         </div> 
                     </div>  
                 </article>
        
-                <article className="category-article">  
+                <article className="category-article anim-tabs">  
                     <div className="category-img">
                         <img src={OpbevaringImg} alt=""/>
                         <div className="category-title"> 
                             <button onClick={() => setActiveTab("opbevaring")} className={activeTab === 'opbevaring' ? 'active' : ''}>
-                                <span>Opbevaring</span>
+                                <span className="anim-tabs-title">Opbevaring</span>
                             </button>
                         </div>  
                     </div>  
                 </article>
        
-                <article className="category-article">  
+                <article className="category-article anim-tabs">  
                         <div className="category-img">
                             <img src={BordeImg} alt=""/>
                             <div className="category-title"> 
                                 <button onClick={() => setActiveTab("borde")} className={activeTab === 'borde' ? 'active' : ''}>
-                                    <span>Borde</span>
+                                    <span className="anim-tabs-title">Borde</span>
                                 </button>
                             </div>  
                         </div>  
                 </article>
 
-                <article className="category-article">  
+                <article className="category-article anim-tabs">  
                         <div className="category-img">
                             <img src={StoleImg} alt=""/>
                             <div className="category-title"> 
                                 <button onClick={() => setActiveTab("stole")} className={activeTab === 'stole' ? 'active' : ''}>
-                                    <span>Stole</span>
+                                    <span className="anim-tabs-title">Stole</span>
                                 </button>
                             </div>  
                         </div>  
                 </article>
 
-                <article className="category-article">  
+                <article className="category-article anim-tabs">  
                         <div className="category-img">
                             <img src={DiverseImg} alt=""/>
                             <div className="category-title"> 
                                 <button onClick={() => setActiveTab("diverse")} className={activeTab === 'diverse' ? 'active' : ''}>
-                                    <span>Diverse</span>
+                                    <span className="anim-tabs-title">Diverse</span>
                                 </button>
                             </div>  
                         </div>  
                 </article>
 
-                <article className="category-article"> 
+                <article className="category-article anim-tabs"> 
                         <div className="category-img">
                             <img src={RumImg} alt=""/>
                             <div className="category-title"> 
                                 <button onClick={() => setActiveTab("rumirummet")} className={activeTab === 'rumirummet' ? 'active' : ''}>
-                                    <span>Rum i rummet</span>
+                                    <span className="anim-tabs-title">Rum i rummet</span>
                                 </button>
                             </div>  
                         </div>  
                 </article>
 
-                <article className="category-article">  
+                <article className="category-article anim-tabs">  
                         <div className="category-img">
                             <img src={KlassesætImg} alt=""/>
                             <div className="category-title"> 
                                 <button onClick={() => setActiveTab("klassesæt")} className={activeTab === 'klassesæt' ? 'active' : ''}>
-                                    <span>Klassesæt</span>
+                                    <span className="anim-tabs-title">Klassesæt</span>
                                 </button>
                             </div>  
                         </div>  
                 </article>
 
-                <article className="category-article">  
+                <article className="category-article anim-tabs">  
                         <div className="category-img">
                             <img src={FeedbackzoneImg} alt=""/>
                             <div className="category-title"> 
                                 <button onClick={() => setActiveTab("feedbackzone")} className={activeTab === 'feedbackzone' ? 'active' : ''}>
-                                    <span>Feedbackzone</span>
+                                    <span className="anim-tabs-title">Feedbackzone</span>
                                 </button>
                             </div>  
                         </div>  
                 </article>
 
-                <article className="category-article">  
+                <article className="category-article anim-tabs">  
                         <div className="category-img">
                             <img src={StillezoneImg} alt=""/>
                             <div className="category-title"> 
                                 <button onClick={() => setActiveTab("stillezone")} className={activeTab === 'stillezone' ? 'active' : ''}>
-                                    <span>Stillezone</span>
+                                    <span className="anim-tabs-title">Stillezone</span>
                                 </button>
                             </div>  
                         </div>  
                 </article>
 
-                <article className="category-article">  
+                <article className="category-article anim-tabs">  
                         <div className="category-img">
                             <img src={GruppezoneImg} alt=""/>
                             <div className="category-title"> 
                                 <button onClick={() => setActiveTab("gruppezone")} className={activeTab === 'gruppezone' ? 'active' : ''}>
-                                    <span>Gruppezone</span>
+                                    <span className="anim-tabs-title">Gruppezone</span>
                                 </button>
                             </div>  
                         </div>  
                 </article>
 
-                <article className="category-article">  
+                <article className="category-article anim-tabs">  
                         <div className="category-img">
                             <img src={AllezoneImg} alt=""/>
                             <div className="category-title"> 
                                 <button onClick={() => setActiveTab("allezone")} className={activeTab === 'allezone' ? 'active' : ''}>
-                                    <span>Allezone</span>
+                                    <span className="anim-tabs-title">Allezone</span>
                                 </button>
                             </div>  
                         </div>  

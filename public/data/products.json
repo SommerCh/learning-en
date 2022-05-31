@@ -18,8 +18,8 @@
         "Dimentions": [
             { "Part": "Metalmoduler", "Height": "50cm", "Width": "100cm", "Depth": "100cm" },
             { "Part": "Ståplader i eg", "Height": "1,9cm", "Width": null, "Depth": null },
-            { "Part": "Siddepladeri eg", "Height": "1,36cm", "Width": null, "Depth": null },
-            { "Part": "Puffer i møbelskum med høj densitet og holdbarhed", "Height": "25cm", "Width": "100cm", "Depth": "50cm" }
+            { "Part": "Siddeplader i eg", "Height": "1,36cm", "Width": null, "Depth": null },
+            { "Part": "Puffer", "Height": "25cm", "Width": "100cm", "Depth": "50cm" }
         ],
         "Descriptions": [
             {
@@ -31,15 +31,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Magnifier I - Læringstrappe | Environment for learning", "Html": "<p>Magnifier I | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Magnifier I - Læringstrappe | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "magnifier, learingstrappe, learingsmoebler, environment for learning",
-                "Html": "<p>magnifier, learingstrappe, learingsmoebler, environment for learning</p>"
+                "Text": "magnifier, learingstrappe, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -47,7 +45,7 @@
                 "Id": 1,
                 "Name": "magnifier I læringstrappe",
                 "FileType": "image",
-                "Uri": "images/magnifier-0.webp",
+                "Uri": "../images/magnifier-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -56,7 +54,7 @@
                 "Id": 2,
                 "Name": "magnifier I læringstrappe",
                 "FileType": "image",
-                "Uri": "images/magnifier-1.webp",
+                "Uri": "../images/magnifier-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -65,7 +63,7 @@
                 "Id": 3,
                 "Name": "magnifier I læringstrappe",
                 "FileType": "image",
-                "Uri": "images/magnifier-2.webp",
+                "Uri": "../images/magnifier-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -74,7 +72,7 @@
                 "Id": 4,
                 "Name": "magnifier I læringstrappe",
                 "FileType": "image",
-                "Uri": "images/magnifier-3.webp",
+                "Uri": "../images/magnifier-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -117,15 +115,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Think Box - Akustik | Environment for learning", "Html": "<p>Think Box | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Think Box - Akustik | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "think box, akustik, learingsmoebler, environment for learning",
-                "Html": "<pthink box, akustik, learingsmoebler, environment for learning</p>"
+                "Text": "think box, akustik, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -133,7 +129,7 @@
                 "Id": 1,
                 "Name": "think box",
                 "FileType": "image",
-                "Uri": "images/thinkbox-0.webp",
+                "Uri": "../images/thinkbox-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -143,7 +139,7 @@
                 "Id": 2,
                 "Name": "think box",
                 "FileType": "image",
-                "Uri": "images/thinkbox-1.webp",
+                "Uri": "../images/thinkbox-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -152,7 +148,7 @@
                 "Id": 3,
                 "Name": "think box",
                 "FileType": "image",
-                "Uri": "images/thinkbox-2.webp",
+                "Uri": "../images/thinkbox-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -161,7 +157,7 @@
                 "Id": 4,
                 "Name": "think box",
                 "FileType": "image",
-                "Uri": "images/thinkbox-3.webp",
+                "Uri": "../images/thinkbox-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -192,27 +188,27 @@
             { "Name": "gruppezone", "Id": 12, "ImgUrl": "/images/badges/gruppezone-1.svg" }
         ],
         "Dimentions": [
-            { "Part": "Filtplader i 100% uld udvendigt og indvendigt", "Height": "200cm", "Width": "100/126cm", "Depth": "100cm" }
+            { "Part": "Filtplader i 100% uld", "Height": "200cm", "Width": "100/126cm", "Depth": "100cm" }
         ],
         "Descriptions": [
             {
                 "DescriptionTypeID": 1,
                 "DescriptionType": "HOVED",
                 "Text": "Hule som kan bygges sammen i serier. Kan rumme op til fire elever som samarbejder eller arbejder hver for sig. Møblet bidrager positivt til læringsrummets efterklangstid med 13 m2 akustisk dæmpede filtplader i 100% uld udvendigt og indvendigt. Det er også muligt at vælge plader i krydsfiner med højtrykslaminat i eg eller whiteboard.",
-                "Html": "<p></p>"
+                "Html": "<p>Hule som kan bygges sammen i serier. Kan rumme op til fire elever som samarbejder eller arbejder hver for sig. Møblet bidrager positivt til læringsrummets efterklangstid med 13 m2 akustisk dæmpede filtplader i 100% uld udvendigt og indvendigt. Det er også muligt at vælge plader i krydsfiner med højtrykslaminat i eg eller whiteboard.</p>"
             },
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
+        
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Idea Tank Acoustic | Environment for learning", "Html": "<p>Idea Tank Acoustic | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Idea Tank Acoustic | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "idea tank, akustik, learingsmoebler, environment for learning",
-                "Html": "<p>idea tank, akustik, learingsmoebler, environment for learning</p>"
+                "Text": "idea tank, akustik, learingsmoebler, environment for learning"
+               
             }
         ],
         "Files": [
@@ -220,7 +216,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/ideatank-0.webp",
+                "Uri": "../images/ideatank-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -230,7 +226,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/ideatank-1.webp",
+                "Uri": "../images/ideatank-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -239,7 +235,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/ideatank-2.webp",
+                "Uri": "../images/ideatank-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -248,7 +244,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/ideatank-3.webp",
+                "Uri": "../images/ideatank-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -291,15 +287,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning"},
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "idea tank, idea tank triple, akustik, learingsmoebler, environment for learning",
-                "Html": "<p>idea tank, idea tank triple, akustik, learingsmoebler, environment for learning</p>"
+                "Text": "idea tank, idea tank triple, akustik, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -307,7 +301,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/ideatanktriple-0.webp",
+                "Uri": "../images/ideatanktriple-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -317,7 +311,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/ideatanktriple-1.webp",
+                "Uri": "../images/ideatanktriple-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -326,7 +320,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/ideatanktriple-2.webp",
+                "Uri": "../images/ideatanktriple-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -377,15 +371,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Feedback zone | Environment for learning", "Html": "<p>Feedback zone | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Feedback zone | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "læringszoner, feedbackzone, learingsmoebler, environment for learning",
-                "Html": "<p>læringszoner, feedbackzone, learingsmoebler, environment for learning</p>"
+                "Text": "læringszoner, feedbackzone, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -393,7 +385,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/feedbackzone-0.webp",
+                "Uri": "../images/feedbackzone-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -403,7 +395,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/feedbackzone-1.webp",
+                "Uri": "../images/feedbackzone-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -412,7 +404,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/feedbackzone-2.webp",
+                "Uri": "../images/feedbackzone-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -421,7 +413,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/feedbackzone-3.webp",
+                "Uri": "../images/feedbackzone-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -465,15 +457,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "High Table | Environment for learning", "Html": "<p>High Table | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "High Table | Environment for learning"},
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "hoejbord, borde, learingsmoebler, environment for learning",
-                "Html": "<p>hoejbord, borde, learingsmoebler, environment for learning</p>"
+                "Text": "hoejbord, borde, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -481,7 +471,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/hightable-0.webp",
+                "Uri": "../images/hightable-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -491,7 +481,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/hightable-1.webp",
+                "Uri": "../images/hightable-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -500,7 +490,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/hightable-2.webp",
+                "Uri": "../images/hightable-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -509,7 +499,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/hightable-3.webp",
+                "Uri": "../images/hightable-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -551,15 +541,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": ", learingsmoebler, environment for learning",
-                "Html": "<p>, learingsmoebler, environment for learning</p>"
+                "Text": ", learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -567,7 +555,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/makerbox-0.webp",
+                "Uri": "../images/makerbox-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -577,7 +565,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/makerbox-1.webp",
+                "Uri": "../images/makerbox-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -586,7 +574,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/makerbox-2.webp",
+                "Uri": "../images/makerbox-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -595,7 +583,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/makerbox-3.webp",
+                "Uri": "../images/makerbox-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -638,15 +626,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "the bench, learingsmoebler, environment for learning",
-                "Html": "<p>the bench, learingsmoebler, environment for learning</p>"
+                "Text": "the bench, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -654,7 +640,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/thebench-0.webp",
+                "Uri": "../images/thebench-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -664,7 +650,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/thebench-1.webp",
+                "Uri": "../images/thebench-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -673,7 +659,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/thebench-2.webp",
+                "Uri": "../images/thebench-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -682,7 +668,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/thebench-3.webp",
+                "Uri": "../images/thebench-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -725,15 +711,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "puffs, learingsmoebler, environment for learning",
-                "Html": "<p>puffs, learingsmoebler, environment for learning</p>"
+                "Text": "puffs, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -741,7 +725,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/puffs-0.webp",
+                "Uri": "../images/puffs-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -751,7 +735,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/puffs-1.webp",
+                "Uri": "../images/puffs-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -760,7 +744,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/puffs-2.webp",
+                "Uri": "../images/puffs-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -769,7 +753,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/puffs-3.webp",
+                "Uri": "../images/puffs-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -814,15 +798,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "isidoro, højstol, stole, learingsmoebler, environment for learning",
-                "Html": "<p>isidoro, højstol, stole, learingsmoebler, environment for learning</p>"
+                "Text": "isidoro, højstol, stole, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -830,7 +812,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/isidoro-0.webp",
+                "Uri": "../images/isidoro-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -840,7 +822,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/isidoro-1.webp",
+                "Uri": "../images/isidoro-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -849,7 +831,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/isidoro-2.webp",
+                "Uri": "../images/isidoro-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -858,7 +840,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/isidoro-3.webp",
+                "Uri": "../images/isidoro-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -902,15 +884,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "jubel, stole, learingsmoebler, environment for learning",
-                "Html": "<p>jubel, stole, learingsmoebler, environment for learning</p>"
+                "Text": "jubel, stole, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -918,7 +898,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/jubel-0.webp",
+                "Uri": "../images/jubel-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -928,7 +908,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/jubel-1.webp",
+                "Uri": "../images/jubel-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -937,7 +917,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/jubel-2.webp",
+                "Uri": "../images/jubel-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -946,7 +926,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/jubel-3.webp",
+                "Uri": "../images/jubel-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -990,15 +970,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "jubel, stole, learingsmoebler, environment for learning",
-                "Html": "<p>jubel, stole, learingsmoebler, environment for learning</p>"
+                "Text": "jubel, stole, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -1006,7 +984,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/isidora-0.webp",
+                "Uri": "../images/isidora-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1016,7 +994,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/isidora-1.webp",
+                "Uri": "../images/isidora-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1025,7 +1003,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/isidora-2.webp",
+                "Uri": "../images/isidora-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1034,7 +1012,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/isidora-3.webp",
+                "Uri": "../images/isidora-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1078,15 +1056,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "slot fill, stole, learingsmoebler, environment for learning",
-                "Html": "<p>slot fill, stole, learingsmoebler, environment for learning</p>"
+                "Text": "slot fill, stole, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -1094,7 +1070,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/slotfill-0.webp",
+                "Uri": "../images/slotfill-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1104,7 +1080,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/slotfill-1.webp",
+                "Uri": "../images/slotfill-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1113,7 +1089,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/slotfill-2.webp",
+                "Uri": "../images/slotfill-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1122,7 +1098,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/slotfill-3.webp",
+                "Uri": "../images/slotfill-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1166,15 +1142,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "akami, stole, learingsmoebler, environment for learning",
-                "Html": "<p>akami, stole, learingsmoebler, environment for learning</p>"
+                "Text": "akami, stole, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -1182,7 +1156,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/akami-0.webp",
+                "Uri": "../images/akami-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1192,7 +1166,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/akami-1.webp",
+                "Uri": "../images/akami-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1201,7 +1175,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/akami-2.webp",
+                "Uri": "../images/akami-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1210,7 +1184,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/akami-3.webp",
+                "Uri": "../images/akami-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1255,15 +1229,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "cocoon, akustik, learingsmoebler, environment for learning",
-                "Html": "<p>akami, akustik, learingsmoebler, environment for learning</p>"
+                "Text": "cocoon, akustik, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -1271,7 +1243,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/cocoon-0.webp",
+                "Uri": "../images/cocoon-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1281,7 +1253,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/cocoon-1.webp",
+                "Uri": "../images/cocoon-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1290,7 +1262,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/cocoon-2.webp",
+                "Uri": "../images/cocoon-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1299,7 +1271,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/cocoon-3.webp",
+                "Uri": "../images/cocoon-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1344,15 +1316,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "soft cushins, siddehynde, stol, learingsmoebler, environment for learning",
-                "Html": "<p>soft cushins, siddehynde, stol, learingsmoebler, environment for learning</p>"
+                "Text": "soft cushins, siddehynde, stol, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -1360,7 +1330,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/softcushions-0.webp",
+                "Uri": "../images/softcushions-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1370,7 +1340,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/softcushions-1.webp",
+                "Uri": "../images/softcushions-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1379,7 +1349,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/softcushions-2.webp",
+                "Uri": "../images/softcushions-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1388,7 +1358,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/softcushions-3.webp",
+                "Uri": "../images/softcushions-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1432,15 +1402,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "pizza, siddehynde, stol, learingsmoebler, environment for learning",
-                "Html": "<p>pizza, siddehynde, stol, learingsmoebler, environment for learning</p>"
+                "Text": "pizza, siddehynde, stol, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -1448,7 +1416,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/pizza-0.webp",
+                "Uri": "../images/pizza-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1458,7 +1426,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/pizza-1.webp",
+                "Uri": "../images/pizza-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1467,7 +1435,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/pizza-2.webp",
+                "Uri": "../images/pizza-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1476,7 +1444,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/pizza-3.webp",
+                "Uri": "../images/pizza-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1519,15 +1487,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "akustik panel, learingsmoebler, environment for learning",
-                "Html": "<p>akustik panel, learingsmoebler, environment for learning</p>"
+                "Text": "akustik panel, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -1535,7 +1501,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/acousticpanel-0.webp",
+                "Uri": "../images/acousticpanel-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1545,7 +1511,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/acousticpanel-1.webp",
+                "Uri": "../images/acousticpanel-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1554,7 +1520,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/acousticpanel-2.webp",
+                "Uri": "../images/acousticpanel-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1563,7 +1529,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/acousticpanel-3.webp",
+                "Uri": "../images/acousticpanel-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1607,15 +1573,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "bookworm, bogreol, learingsmoebler, environment for learning",
-                "Html": "<p>bookworm, bogreol, learingsmoebler, environment for learning</p>"
+                "Text": "bookworm, bogreol, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -1623,7 +1587,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/bookworm-0.webp",
+                "Uri": "../images/bookworm-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1633,7 +1597,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/bookworm-1.webp",
+                "Uri": "../images/bookworm-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1642,7 +1606,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/bookworm-2.webp",
+                "Uri": "../images/bookworm-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1651,7 +1615,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/bookworm-3.webp",
+                "Uri": "../images/bookworm-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1694,15 +1658,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "callero makerhub trolley, learingsmoebler, environment for learning",
-                "Html": "<p>callero makerhub trolley, learingsmoebler, environment for learning</p>"
+                "Text": "callero makerhub trolley, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -1710,7 +1672,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/calleromakerhubtrolley-0.webp",
+                "Uri": "../images/calleromakerhubtrolley-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1720,7 +1682,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/calleromakerhubtrolley-1.webp",
+                "Uri": "../images/calleromakerhubtrolley-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1729,7 +1691,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/calleromakerhubtrolley-2.webp",
+                "Uri": "../images/calleromakerhubtrolley-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1738,7 +1700,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/calleromakerhubtrolley-3.webp",
+                "Uri": "../images/calleromakerhubtrolley-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1781,15 +1743,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "spacemaker trolley, learingsmoebler, environment for learning",
-                "Html": "<p>spacemaker trolley, learingsmoebler, environment for learning</p>"
+                "Text": "spacemaker trolley, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -1797,7 +1757,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/makerspacetrolley-0.webp",
+                "Uri": "../images/makerspacetrolley-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1807,7 +1767,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/makerspacetrolley-1.webp",
+                "Uri": "../images/makerspacetrolley-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1816,7 +1776,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/makerspacetrolley-2.webp",
+                "Uri": "../images/makerspacetrolley-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1825,7 +1785,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/makerspacetrolley-3.webp",
+                "Uri": "../images/makerspacetrolley-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1865,15 +1825,13 @@
             },{
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "spacemaker trolley, learingsmoebler, environment for learning",
-                "Html": "<p>spacemaker trolley, learingsmoebler, environment for learning</p>"
+                "Text": "spacemaker trolley, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -1881,7 +1839,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/rovercart-0.webp",
+                "Uri": "../images/rovercart-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1891,7 +1849,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/rovercart-1.webp",
+                "Uri": "../images/rovercart-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1900,7 +1858,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/rovercart-2.webp",
+                "Uri": "../images/rovercart-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1909,7 +1867,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/rovercart-3.webp",
+                "Uri": "../images/rovercart-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1950,15 +1908,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "storage trolley III, learingsmoebler, environment for learning",
-                "Html": "<p>storage trolley III, learingsmoebler, environment for learning</p>"
+                "Text": "storage trolley III, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -1966,7 +1922,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/storagetrolleyiii-0.webp",
+                "Uri": "../images/storagetrolleyiii-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -1976,7 +1932,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/storagetrolleyiii-1.webp",
+                "Uri": "../images/storagetrolleyiii-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1985,7 +1941,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/storagetrolleyiii-2.webp",
+                "Uri": "../images/storagetrolleyiii-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -1994,7 +1950,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/storagetrolleyiii-3.webp",
+                "Uri": "../images/storagetrolleyiii-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2035,15 +1991,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "storage trolley II, learingsmoebler, environment for learning",
-                "Html": "<p>storage trolley II, learingsmoebler, environment for learning</p>"
+                "Text": "storage trolley II, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -2051,7 +2005,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/storagetrolleyii-0.webp",
+                "Uri": "../images/storagetrolleyii-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2061,7 +2015,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/storagetrolleyii-1.webp",
+                "Uri": "../images/storagetrolleyii-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2070,7 +2024,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/storagetrolleyii-2.webp",
+                "Uri": "../images/storagetrolleyii-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2079,7 +2033,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/storagetrolleyii-3.webp",
+                "Uri": "../images/storagetrolleyii-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2119,15 +2073,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "shoe rack, learingsmoebler, environment for learning",
-                "Html": "<p>shoe rack, learingsmoebler, environment for learning</p>"
+                "Text": "shoe rack, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -2135,7 +2087,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/shoerack-0.webp",
+                "Uri": "../images/shoerack-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2145,7 +2097,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/shoerack-1.webp",
+                "Uri": "../images/shoerack-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2154,7 +2106,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/shoerack-2.webp",
+                "Uri": "../images/shoerack-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2163,7 +2115,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/shoerack-3.webp",
+                "Uri": "../images/shoerack-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2204,15 +2156,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "learnometer, learingsmoebler, environment for learning",
-                "Html": "<p>learnometer, learingsmoebler, environment for learning</p>"
+                "Text": "learnometer, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -2220,7 +2170,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/learnometer-0.webp",
+                "Uri": "../images/learnometer-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2230,7 +2180,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/learnometer-1.webp",
+                "Uri": "../images/learnometer-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2239,7 +2189,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/learnometer-2.webp",
+                "Uri": "../images/learnometer-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2248,7 +2198,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/learnometer-3.webp",
+                "Uri": "../images/learnometer-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2292,15 +2242,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "work table, bord, learingsmoebler, environment for learning",
-                "Html": "<p>work table, bord, learingsmoebler, environment for learning</p>"
+                "Text": "work table, bord, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -2308,7 +2256,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/worktable-0.webp",
+                "Uri": "../images/worktable-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2318,7 +2266,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/worktable-1.webp",
+                "Uri": "../images/worktable-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2327,7 +2275,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/worktable-2.webp",
+                "Uri": "../images/worktable-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2336,7 +2284,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/worktable-3.webp",
+                "Uri": "../images/worktable-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2380,15 +2328,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "zonemaster, højbord, bord, learingsmoebler, environment for learning",
-                "Html": "<p>zonemaster, højbord, bord, learingsmoebler, environment for learning</p>"
+                "Text": "zonemaster, højbord, bord, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -2396,7 +2342,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/zonemaster-0.webp",
+                "Uri": "../images/zonemaster-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2406,7 +2352,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/zonemaster-1.webp",
+                "Uri": "../images/zonemaster-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2415,7 +2361,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/zonemaster-2.webp",
+                "Uri": "../images/zonemaster-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2424,7 +2370,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/zonemaster-3.webp",
+                "Uri": "../images/zonemaster-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2467,15 +2413,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "tiered seating, learingstrappe, learingsmoebler, environment for learning",
-                "Html": "<p>tiered seating, learingstrappe, learingsmoebler, environment for learning</p>"
+                "Text": "tiered seating, learingstrappe, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -2483,7 +2427,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/tieredseating-0.webp",
+                "Uri": "../images/tieredseating-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2493,7 +2437,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/tieredseating-1.webp",
+                "Uri": "../images/tieredseating-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2502,7 +2446,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/tieredseating-2.webp",
+                "Uri": "../images/tieredseating-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2511,7 +2455,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/tieredseating-3.webp",
+                "Uri": "../images/tieredseating-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2553,15 +2497,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "roomy, learingsmoebler, environment for learning",
-                "Html": "<p>roomy, learingsmoebler, environment for learning</p>"
+                "Text": "roomy, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -2569,7 +2511,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/roomy-0.webp",
+                "Uri": "../images/roomy-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2579,7 +2521,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/roomy-1.webp",
+                "Uri": "../images/roomy-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2588,7 +2530,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/roomy-2.webp",
+                "Uri": "../images/roomy-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2597,7 +2539,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/roomy-3.webp",
+                "Uri": "../images/roomy-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2638,15 +2580,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "organic podium, learingsmoebler, environment for learning",
-                "Html": "<p>organic podium, learingsmoebler, environment for learning</p>"
+                "Text": "organic podium, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -2654,7 +2594,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/organicpodiumii-0.webp",
+                "Uri": "../images/organicpodiumii-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2664,7 +2604,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/-1.webp",
+                "Uri": "../images/-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2673,7 +2613,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/-2.webp",
+                "Uri": "../images/-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2682,7 +2622,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/-3.webp",
+                "Uri": "../images/-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2725,15 +2665,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "borde, learingsmoebler, environment for learning",
-                "Html": "<p>borde, learingsmoebler, environment for learning</p>"
+                "Text": "borde, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -2741,7 +2679,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/claro-0.webp",
+                "Uri": "../images/claro-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2751,7 +2689,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/claro-1.webp",
+                "Uri": "../images/claro-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2760,7 +2698,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/claro-2.webp",
+                "Uri": "../images/claro-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2769,7 +2707,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/claro-3.webp",
+                "Uri": "../images/claro-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2813,15 +2751,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "borde, learingsmoebler, environment for learning",
-                "Html": "<p>borde, learingsmoebler, environment for learning</p>"
+                "Text": "borde, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -2829,7 +2765,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/step-0.webp",
+                "Uri": "../images/step-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2839,7 +2775,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/step-1.webp",
+                "Uri": "../images/step-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2848,7 +2784,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/step-2.webp",
+                "Uri": "../images/step-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2857,7 +2793,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/step-3.webp",
+                "Uri": "../images/step-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2902,15 +2838,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "borde, stole, learingsmoebler, environment for learning",
-                "Html": "<p>borde, stole, learingsmoebler, environment for learning</p>"
+                "Text": "borde, stole, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -2918,7 +2852,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/upgrade-0.webp",
+                "Uri": "../images/upgrade-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -2928,7 +2862,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/upgrade-1.webp",
+                "Uri": "../images/upgrade-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2937,7 +2871,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/upgrade-2.webp",
+                "Uri": "../images/upgrade-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2946,7 +2880,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/upgrade-3.webp",
+                "Uri": "../images/upgrade-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -2990,15 +2924,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "rum i rummet, learingsmoebler, environment for learning",
-                "Html": "<p>rum i rummet, learingsmoebler, environment for learning</p>"
+                "Text": "rum i rummet, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -3006,7 +2938,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/mansard-0.webp",
+                "Uri": "../images/mansard-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -3016,7 +2948,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/mansard-1.webp",
+                "Uri": "../images/mansard-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3025,7 +2957,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/mansard-2.webp",
+                "Uri": "../images/mansard-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3034,7 +2966,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/mansard-3.webp",
+                "Uri": "../images/mansard-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3078,15 +3010,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "borde, learingsmoebler, environment for learning",
-                "Html": "<p>borde, learingsmoebler, environment for learning</p>"
+                "Text": "borde, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -3094,7 +3024,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/søjlembordplade-0.webp",
+                "Uri": "../images/søjlembordplade-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -3104,7 +3034,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/søjlembordplade-1.webp",
+                "Uri": "../images/søjlembordplade-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3113,7 +3043,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/søjlembordplade-2.webp",
+                "Uri": "../images/søjlembordplade-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3122,7 +3052,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/søjlembordplade-3.webp",
+                "Uri": "../images/søjlembordplade-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3167,15 +3097,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning", "Html": "<p> | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": " | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "borde, learingsmoebler, environment for learning",
-                "Html": "<p>borde, learingsmoebler, environment for learning</p>"
+                "Text": "borde, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -3183,7 +3111,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/ovaltbord-0.webp",
+                "Uri": "../images/ovaltbord-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -3193,7 +3121,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/ovaltbord-1.webp",
+                "Uri": "../images/ovaltbord-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3202,7 +3130,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/ovaltbord-2.webp",
+                "Uri": "../images/ovaltbord-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3211,7 +3139,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/ovaltbord-3.webp",
+                "Uri": "../images/ovaltbord-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3256,15 +3184,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Stickers - Design 2 | Environment for learning", "Html": "<p>Stickers | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Stickers - Design 2 | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "klistermaerker, learingsmoebler, environment for learning",
-                "Html": "<p>klistermaerker, learingsmoebler, environment for learning</p>"
+                "Text": "klistermaerker, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -3272,7 +3198,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/stickersdesigni-0.webp",
+                "Uri": "../images/stickersdesigni-0.png",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -3282,7 +3208,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/stickersdesigni-1.webp",
+                "Uri": "../images/stickersdesigni-1.png",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3291,7 +3217,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/stickersdesigni-2.webp",
+                "Uri": "../images/stickersdesigni-2.png",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3300,7 +3226,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/stickersdesigni-3.webp",
+                "Uri": "../images/stickersdesigni-3.png",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3345,15 +3271,13 @@
             {
                 "DescriptionTypeID": 2,
                 "DescriptionType": "TEXT",
-                "Text": "",
-                "Html": "<p></p>"
+                "Text": ""
             },
-            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Stickers - Design 2 | Environment for learning", "Html": "<p>Stickers | Environment for learning</p>" },
+            { "DescriptionTypeID": 3, "DescriptionType": "Html meta tag title", "Text": "Stickers - Design 2 | Environment for learning" },
             {
                 "DescriptionTypeID": 4,
                 "DescriptionType": "Html meta tags",
-                "Text": "klistermaerker, learingsmoebler, environment for learning",
-                "Html": "<p>klistermaerker, learingsmoebler, environment for learning</p>"
+                "Text": "klistermaerker, learingsmoebler, environment for learning"
             }
         ],
         "Files": [
@@ -3361,7 +3285,7 @@
                 "Id": 1,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/stickersdesignii-0.webp",
+                "Uri": "../images/stickersdesignii-0.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null,
@@ -3371,7 +3295,7 @@
                 "Id": 2,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/stickersdesignii-1.webp",
+                "Uri": "../images/stickersdesignii-1.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3380,7 +3304,7 @@
                 "Id": 3,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/stickersdesignii-2.webp",
+                "Uri": "../images/stickersdesignii-2.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null
@@ -3389,7 +3313,7 @@
                 "Id": 4,
                 "Name": "",
                 "FileType": "image",
-                "Uri": "images/stickersdesignii-3.webp",
+                "Uri": "../images/stickersdesignii-3.webp",
                 "Copyright": "Environment for learning",
                 "AltText": null,
                 "Description": null

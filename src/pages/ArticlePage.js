@@ -1,62 +1,88 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import PlaceholderImg from "../assets/placeholder-img.png";
+import { useParams, useNavigate } from "react-router-dom";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '../components/Splide/splide.css';
+// import PlaceholderImg from '../assets/placeholder-img.png';
+import { BiArrowBack } from 'react-icons/bi'
+
 
 export default function ArticlePage() {
-    const [product, setProduct] = useState({});
+    const navigate = useNavigate();
     const params = useParams();
-    const url = `http://localhost:3000/products/?id=${params.productId}`;
-
+    const productId = parseInt(params.id);
+    const [product, setProduct] = useState({});
 
     useEffect(() => {
-        async function getProduct() {
-            const response = await fetch(url);
-            const responseData = await response.json();
-            setProduct(responseData.data);
-            console.log(responseData.data)
+        async function getData() {
+            const response = await fetch("/data/products.json");
+            const data = await response.json();
+            
+            const productData = data.find(item => item.Id === productId);
+            setProduct(productData);
+            console.log(productData); 
         }
-        getProduct();
-    }, [url]);
+        if (productId) {
+            getData();
+        }
+    }, [productId])
+
 
 
     return (
         <>
             <section className="page">
-                <h1 className="page-title">Article Page</h1>
-                
+                <h1 className="page-title"> 
+                <button onClick={() => navigate(`/products`)} className="back-btn"><BiArrowBack/> </button> 
+                Læringsmøbler </h1>                
                 <article className="article-page" key={product?.Id}>  
-                    <div className="article-img">
-                        <img src={PlaceholderImg} alt="" />
+                    <div className="thumbnail-slides">
+                        <Splide aria-label="article gallery">
+                            {product.Files?.map(img => (
+                                <SplideSlide>
+                                    <div className='splide-img-cntr'>
+                                    <img key={img.Id} alt={img.Name} src={img.Uri}/>
+                                    </div>
+                                </SplideSlide>
+                            ))}
+                        </Splide>
                     </div>           
                     <div className="article-details">
-                        <h2>Product Name{product.Name}</h2>
-                        <h4>Main Category {product.MainCategory}</h4>  
+                        <h1>{product?.Name}</h1>
+                        <h4>{product.MainCategory?.Name}</h4>  
 
                         <div className="details-section">
-                            <div className="details-text"> 
-                                <h4>Product description</h4>
-                                <p>{product.Descriptions?.Text}
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Nulla auctor turpis ac lectus venenatis, non malesuada lectus accumsan. <br/>
-                                Vivamus sed mi massa. Aliquam in fringilla sem, non feugiat turpis. 
-                                Nullam convallis varius erat id ornare. 
-                                Aenean dapibus enim eu ligula luctus finibus.
-                                </p>
-                            </div>
+                            <div className="details-text-cntr">
+                                <div className="details-text"> 
+                                    <h3 className="details-section-title">Beskrivelse</h3>
+                                    {product.Descriptions?.map(description => (
+                                        <p key={description.DescriptionTypeID} dangerouslySetInnerHTML={{ __html: description.Html }}></p>
+                                    ))}
 
-                            <div className="details-box">
-                                <div className="details-inner-content">
-                                    <h4>Dimentioner</h4>
-                                    <span>H: {product.Dimentions?.Height} 000cm</span>
-                                    <span>B: {product.Dimentions?.Width} 000cm</span>
-                                    <span>L: {product.Dimentions?.Depth} 000cm</span>
+                                    <div className="details-inner-content">
+                                        <h3 className="details-section-title">Dimentioner</h3>
+                                        <div className="details-dimentions-cntr">
+                                            {product.Dimentions?.map(dimention => (
+                                                <div className="details-dimentions">
+                                                    <div className="dimentions-section"> <span key={dimention.Name} dangerouslySetInnerHTML={{ __html: dimention.Part }}></span></div>
+                                                    <div className="dimentions-section"> <span>Højde:</span> <span key={dimention.Name} dangerouslySetInnerHTML={{ __html: dimention.Height }}></span></div>
+                                                    <div className="dimentions-section"> <span>Bredde:</span> <span key={dimention.Name} dangerouslySetInnerHTML={{ __html: dimention.Width }}></span></div>
+                                                    <div className="dimentions-section"> <span>Dybte:</span> <span key={dimention.Name} dangerouslySetInnerHTML={{ __html: dimention.Depth }}></span></div>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
                                 </div>
-                                <div className="details-inner-content">
-                                    <h4>Zoner</h4>
-                                    <span>Lorem ipsum</span>
-                                    <span>Lorem ipsum</span>
-                                    <span>Lorem ipsum</span>
+                                
+                                <div className="details-zones-cntr">
+                                    <h3 className="details-section-title">Zoner </h3>
+                                    {product.Zones?.map(zone => (
+                                        <div className="details-zones" key={zone.Id}>
+                                            <img alt={zone.Name} src={zone.ImgUrl}/>
+                                            <span dangerouslySetInnerHTML={{ __html: zone.Name }}></span>
+                                        </div>
+                                    ))}
                                 </div>
+                                
                             </div>
                         </div>
 

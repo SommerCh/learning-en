@@ -84,12 +84,12 @@ export default function Feedbackzone() {
              {/* Filtered products displayed */}
              <section className="article-cntr"> 
                 {products.filter((product) => product.MainCategory.Id === 10).map((product) => ( 
-                    <article className="article-box" key={product?.Id}>  
+                    <article className="article-box anim-articles" key={product?.Id}>  
                         <div className="article-img">
                             <img src={getImg(product)} alt={product.Name} />
                         </div>           
                         <div className="article-details">
-                            <h2 key={product.Keywords}>{product?.Name}</h2>
+                            <h3 key={product.Keywords}>{product?.Name}</h3>
                             <div className="details-section">
                                 <p>{product.MainCategory?.Name}</p>  
                                 <div className="badge-cntr">{getZones(product)}</div>
