@@ -2,25 +2,25 @@ Sofie Trolle Ómarsson
 /* ---------- ROOTS ---------- */
 :root {
   /* Primary colors */
-  --clr-yellow: #DCB12D;
-  --clr-blue: #2E5599;
-  --clr-red: #C5272D;
-  --clr-green: #A9CB6B;
+  --clr-yellow: #dcb12d;
+  --clr-blue: #2e5599;
+  --clr-red: #c5272d;
+  --clr-green: #a9cb6b;
 
-  --white: #FFFFFF;
+  --white: #ffffff;
   --black: #000000;
   --d-grey: #363636;
-  --l-grey: #EAEAEA;
+  --l-grey: #eaeaea;
 
   /* Secondary colors */
-  --clr-d-yellow: #A78726;
-  --clr-d-blue: #0A1E5B;
-  --clr-d-red: #8D2024;
-  --clr-d-green: #56723C;
-  --clr-l-yellow: #F6E1A1;
-  --clr-l-blue: #AABFED;
-  --clr-l-red: #FC9FAA;
-  --clr-l-green: #E0F1C1;
+  --clr-d-yellow: #a78726;
+  --clr-d-blue: #0a1e5b;
+  --clr-d-red: #8d2024;
+  --clr-d-green: #56723c;
+  --clr-l-yellow: #f6e1a1;
+  --clr-l-blue: #aabfed;
+  --clr-l-red: #fc9faa;
+  --clr-l-green: #e0f1c1;
 
   /* Text & Font */
   --ff-body: 'Averta', Verdana, Arial, sans-serif;
