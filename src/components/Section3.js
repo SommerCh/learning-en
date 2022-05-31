@@ -1,10 +1,9 @@
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Img from "../assets/placeholder.jpg";
-import Img50 from '../assets/bord50.jpg'
-import Img70 from '../assets/bord70.jpg'
-import Img20 from '../assets/bord20.jpg'
+import Img50 from '../assets/imgs/bord50-min.jpg'
+import Img70 from '../assets/imgs/bord70-min.jpg'
+import Img20 from '../assets/imgs/bord20-min.jpg'
 
 
 export default function Section3() {
@@ -64,6 +63,7 @@ export default function Section3() {
         },
       }
     );
+
   }, []);
 
   return (

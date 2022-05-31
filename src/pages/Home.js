@@ -6,6 +6,7 @@ import Section2 from "../components/Section2";
 import Section3 from "../components/Section3";
 import Section4 from "../components/Section4";
 import Section5 from "../components/Section5";
+import Section6 from "../components/Section6";
 
 export default function Home() {
   gsap.registerPlugin(ScrollTrigger);
@@ -15,19 +16,21 @@ export default function Home() {
       <Section1 />
 
       <div className="headlines">
-        <h2>Undviklingen i folkeskolen</h2>
+        <h2>Udviklingen i folkeskolen</h2>
         <FiChevronDown />
       </div>
       <Section2 />
 
+      <p className="fakta">Undervisningen har udviklet sig enormt </p>
+
       <div className="headlines">
-        <h2>Udviklingen gennem 70 år</h2>
+        <h2>Skolebordets udvikling i 70 år</h2>
         <FiChevronDown />
       </div>
 
       <Section3 />
       <div className="headlines">
-        <h2>Hvorfor er det vigtigt?</h2>
+        <h2>Skolerummet skal følge med</h2>
         <FiChevronDown />
       </div>
 
@@ -41,10 +44,10 @@ export default function Home() {
       <Section5 />
 
       <div className="headlines">
-        <h2>Udviklingen gennem 70 år</h2>
+        <h2>Kontakt</h2>
         <FiChevronDown />
       </div>
-
+      <Section6 />
     </div>
   );
 }

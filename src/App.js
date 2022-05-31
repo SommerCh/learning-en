@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import ProductsPage from "./pages/ProductsPage.js";
 import ArticlePage from "./pages/ArticlePage.js";
 import "./App.css";
+import Footer from './components/Footer'
 
 
 function App() {
@@ -18,7 +19,6 @@ function App() {
     <Router>
       <div className={mode ? "darkmode" : "lightmode"}>
         <Navbar />
-
         <div className="modes">
           <span onClick={toggleMode} className="dark">Dark</span>
           <span>|</span>
@@ -31,6 +31,7 @@ function App() {
           <Route path="/article/:productId" element={<ArticlePage />} />
         </Routes>
       </div>
+      <Footer/>
     </Router>
   );
 }

@@ -41,15 +41,25 @@ export default function Section4() {
         },
       }
     );
+    
   }, []);
 
   return (
     <div className="section s4">
-      <div className="videoplayer" >
+
+      <div className="videoplayer">
         <video ref={videoRef} id="video" controls autoplay muted>
           <source className="videosource" src={Video} type="video/mp4" />
         </video>
       </div>
+
+      <iframe
+        src="https://www.youtube.com/embed/1mFFW7YS7FU"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
     </div>
   );
 }
