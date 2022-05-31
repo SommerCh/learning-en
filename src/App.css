@@ -780,18 +780,20 @@ input:focus ~ .highlight {
 
 /* ---------- PAGE ---------- */
 .page {
-  height: 100vh;
+  height: auto;
   padding: 6em .5em 10em .5em;
 }
 
 @media (min-width: 600px) {
   .page {
+    height: auto;
     padding: 6em .5em 10em .5em;
   }
 }
 
 @media (min-width: 992px) {
   .page {
+    height: auto;
     padding: 6em 1em 10em 1em;
   }
 }
@@ -919,14 +921,14 @@ input:focus ~ .highlight {
   width: auto;
   margin: 0px 0px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(40%, 1fr) minmax(40%, 1fr);
   column-gap: .4em;
   row-gap: .8em;
 }
 
 @media (min-width: 600px) {
   .article-cntr {
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: minmax(25%, 1fr) minmax(25%, 1fr) minmax(25%, 1fr);
       column-gap: .4em;
       row-gap: .8em;
   }
@@ -934,7 +936,7 @@ input:focus ~ .highlight {
 
 @media (min-width: 992px) {
   .article-cntr {
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: minmax(15%, 1fr) minmax(15%, 1fr) minmax(15%, 1fr) minmax(15%, 1fr) minmax(15%, 1fr);
       column-gap: .8em;
       row-gap: .8em;
   }
@@ -1171,7 +1173,8 @@ input:focus ~ .highlight {
 
 /* ---------- ARTICLE PAGE ---------- */
 .article-page {
-  width: 80%;
+  width: 90%;
+  height: 100vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -1189,12 +1192,12 @@ input:focus ~ .highlight {
   justify-content: space-between;
 }
 
-.btn-text {
+.back-btn > .btn-text {
   display: flex;
   flex-direction: row;
 }
 
-.btn-text h1 {
+.back-btn > .btn-text h1 {
   text-transform: uppercase;
   text-align: left;
   margin: 0px;
@@ -1202,49 +1205,40 @@ input:focus ~ .highlight {
   transition: all .2s ease-out;
 }
 
-.btn-text svg {
+.back-btn > .btn-text svg {
   color: var(--clr-yellow);
   height: 20px;
   width: auto;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 5px 0px 15px;
   transition: all .2s ease-out;
 }
 
-.btn-text svg path {
+.back-btn > .btn-text svg path {
   stroke-width: 1.2px;
 }
 
-.btn-text:hover svg {
-  color: var(--clr-l-yellow);
-  margin: 0px px 0px 15px;
-}
-
-.btn-text:hover .back-btn-bottom {
-  height: 2px;
-  width: 236px;
-  padding: 0px;
+.back-btn > .btn-text:hover svg {
+  color: var(--clr-yellow);
+  margin: 0px 15px 0px 5px;
 }
 
 .back-btn-bottom {
-  height: 0px;
+  height: 2px;
   width: 0px;
   bottom: 0;
   left: 0;
+  visibility: hidden;
   padding: 2px 0px 0px 0px;
   align-self: flex-end;
-  background-color: var(--white);
-  transition: all .2s ease-out;
-
+  background-color: var(--clr-d-yellow);
+  transition: all .3s ease;
 }
 
-@keyframes transform {
-  0% {
-    transform: translateX(0);
-   }
-  
-   100% {
-    transform: translateX(100vw);
-   }
+.back-btn:hover .back-btn-bottom {
+  height: 2px;
+  width: 238px;
+  padding: 0px;
+  visibility: visible;
 }
 
 /* Article Splide image-container  */
@@ -1273,9 +1267,23 @@ input:focus ~ .highlight {
 
 .details-text-cntr {
   display: grid;
-  grid-template-columns: 2fr .5fr;
-  column-gap: 20px;
+  grid-template-columns: 60% 40%;
+  column-gap: 10px;
   border: solid red 0px;
+}
+
+@media (min-width: 600px) {
+  .details-text-cntr {
+    grid-template-columns: 1fr .5fr;
+    column-gap: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .details-text-cntr {
+    grid-template-columns: 2fr .5fr;
+    column-gap: 20px;
+  }
 }
 
 .details-text {
@@ -1300,7 +1308,7 @@ input:focus ~ .highlight {
 .details-zones {
   width: auto;
   height: auto;
-  margin: 5px 5px 2px 0px;
+  margin: 5px 0px 2px 0px;
   display: flex;
   flex-direction: row;
   text-transform: capitalize;
@@ -1309,12 +1317,42 @@ input:focus ~ .highlight {
 }
 
 .details-zones span {
-  margin-left: 5px;
+  margin-left: 2px;
 }
 
 .details-zones img {
-  height: 40px;
+  height: 25px;
   width: auto;
+}
+
+@media (min-width: 600px) {
+  .details-zones {
+    margin: 5px 0px 2px 0px;
+  }
+  
+  .details-zones span {
+    margin-left: 5px;
+  }
+  
+  .details-zones img {
+    height: 40px;
+    width: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .details-zones {
+    margin: 5px 5px 2px 0px;
+  }
+  
+  .details-zones span {
+    margin-left: 5px;
+  }
+  
+  .details-zones img {
+    height: 40px;
+    width: auto;
+  }
 }
 
 

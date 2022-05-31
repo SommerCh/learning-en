@@ -42,7 +42,7 @@ export default function ProductsPage() {
                             <img src={TrappeImg} alt=""/>
                             <div className="category-title"> 
                                 <button onClick={() => setActiveTab("all")} className={activeTab === 'all' ? 'active' : ''}> 
-                                    <span className="anim-tabs-title">Alle produkter</span>
+                                    <span className="anim-tabs-title">Alle læringsmøbler</span>
                                 </button>
                             </div> 
                         </div>                  
