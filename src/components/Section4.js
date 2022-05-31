@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Video from "../assets/video-farver..mp4";
+import Video from "../assets/video/video-farver.mp4";
 
 export default function Section4() {
   gsap.registerPlugin(ScrollTrigger);
