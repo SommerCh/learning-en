@@ -100,7 +100,7 @@ nav {
   background-color: #262626;
 }
 
-nav>ul {
+nav {
   position: fixed;
   top: 4em;
   left: 0;
@@ -115,12 +115,12 @@ nav>ul {
   animation: menu 0.5s ease-in-out;
 }
 
-nav>ul>li {
+ul li {
   padding: 1em;
   font-size: 1.5em;
 }
 
-nav>ul>li a {
+li a {
   color: black;
 }
 
