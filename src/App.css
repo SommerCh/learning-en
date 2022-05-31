@@ -1,46 +1,44 @@
+Sofie Trolle Ómarsson
 /* ---------- ROOTS ---------- */
 :root {
   /* Primary colors */
-  --clr-yellow: #dcb12d;
-  --clr-blue: #2e5599;
-  --clr-red: #c5272d;
-  --clr-green: #a9cb6b;
+  --clr-yellow: #DCB12D;
+  --clr-blue: #2E5599;
+  --clr-red: #C5272D;
+  --clr-green: #A9CB6B;
 
-  --white: #ffffff;
+  --white: #FFFFFF;
   --black: #000000;
   --d-grey: #363636;
-  --l-grey: #eaeaea;
+  --l-grey: #EAEAEA;
 
   /* Secondary colors */
-  --clr-d-yellow: #a78726;
-  --clr-d-blue: #0a1e5b;
-  --clr-d-red: #8d2024;
-  --clr-d-green: #56723c;
-  --clr-l-yellow: #f6e1a1;
-  --clr-l-blue: #aabfed;
-  --clr-l-red: #fc9faa;
-  --clr-l-green: #e0f1c1;
+  --clr-d-yellow: #A78726;
+  --clr-d-blue: #0A1E5B;
+  --clr-d-red: #8D2024;
+  --clr-d-green: #56723C;
+  --clr-l-yellow: #F6E1A1;
+  --clr-l-blue: #AABFED;
+  --clr-l-red: #FC9FAA;
+  --clr-l-green: #E0F1C1;
 
   /* Text & Font */
-  --ff-body: "Averta", Verdana, Arial, sans-serif;
-  --fs-p-main: 0.875em;
-  /* Main paragraph size */
-  --fs-p-small: 0.75em;
-  --fs-p-large: 1em;
-  --fs-h-large: 3.125em;
-  /* x-Large header size */
-  --fs-h-medium: 1.625em;
-  /* Med header size */
-  --fs-h-small: 1.5em;
-  /* Small header size */
+  --ff-body: 'Averta', Verdana, Arial, sans-serif;
+  --fs-p-main: 14px; /* 0.8750em; / / Main paragraph size */
+  --fs-p-small: 0.7500em;
+  --fs-p-large: 1em; 
+  --fs-h-large: 3.125em; /* x-Large header size */
+  --fs-h-medium: 1.625em; /* Med header size */
+  --fs-h-small: 1.5em; /* Small header size */
 }
+
 
 /* ---------- FONT IMPORTS ---------- */
 @font-face {
-  font-family: "Averta";
-  src: url("assets/fonts/Averta/AvertaPE-Regular.woff2") format("woff2"),
-    url("assets/fonts/Averta/AvertaPE-Regular.woff") format("woff"),
-    url("assets/fonts/Averta/AvertaPE-Regular.ttf") format("truetype");
+  font-family: 'Averta';
+  src: url('assets/fonts/Averta/AvertaPE-Regular.woff2') format('woff2'),
+       url('assets/fonts/Averta/AvertaPE-Regular.woff') format('woff'),
+       url('assets/fonts/Averta/AvertaPE-Regular.ttf') format('truetype');
 }
 
 /* ---------- GENERAL ---------- */
@@ -290,7 +288,8 @@ nav .close:hover div::after {
   text-align: center;
   width: 100%;
 }
-.fakta{
+
+.fakta {
   text-align: center;
 }
 
@@ -683,15 +682,15 @@ iframe {
   transition: 0.2s ease all;
 }
 
-input:focus~label,
-input:valid~label {
+input:focus ~ label,
+input:valid ~ label {
   top: -20px;
   font-size: 14px;
   color: #a78726;
 }
 
-input:focus~.formspan:before,
-input:focus~.formspan:after {
+input:focus ~ .formspan:before,
+input:focus ~ .formspan:after {
   width: 50%;
 }
 
@@ -730,7 +729,7 @@ input:focus~.formspan:after {
   opacity: 0.5;
 }
 
-input:focus~.highlight {
+input:focus ~ .highlight {
   animation: inputHighlighter 0.3s ease;
 }
 
@@ -773,7 +772,6 @@ input:focus~.highlight {
   .contact-p {
     width: 80%;
   }
-
 }
 
 .s6 {
@@ -786,7 +784,7 @@ input:focus~.highlight {
   padding: 0.5em 2em;
 }
 
-.page>.page-title {
+.page > .page-title {
   text-transform: uppercase;
   text-align: left;
 }
@@ -812,7 +810,7 @@ input:focus~.highlight {
   }
 }
 
-.category-cntr>.category-article {
+.category-cntr > .category-article {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   text-align: center;
   margin: 5px 0px;
@@ -822,7 +820,7 @@ input:focus~.highlight {
   cursor: pointer;
 }
 
-.category-cntr>.category-article .category-img {
+.category-cntr > .category-article .category-img {
   background-image: url("/src/assets/placeholder-img.png");
   background-position: center center;
   background-size: cover;
@@ -834,18 +832,18 @@ input:focus~.highlight {
 }
 
 @media (min-width: 600px) {
-  .category-cntr>.category-article .category-img {
+  .category-cntr > .category-article .category-img {
     height: 50px;
   }
 }
 
 @media (min-width: 992px) {
-  .category-cntr>.category-article .category-img {
+  .category-cntr > .category-article .category-img {
     height: 50px;
   }
 }
 
-.category-cntr>.category-article .category-img img {
+.category-cntr > .category-article .category-img img {
   width: 100%;
   height: 100%;
   top: 0;
@@ -939,7 +937,7 @@ input:focus~.highlight {
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
 }
 
-.article-box>.article-img {
+.article-box > .article-img {
   width: 100%;
   height: 120px;
   top: 0;
@@ -952,7 +950,7 @@ input:focus~.highlight {
   background-repeat: no-repeat;
 }
 
-.article-img>img {
+.article-img > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1079,7 +1077,7 @@ input:focus~.highlight {
   cursor: pointer;
 }
 
-.filter>option {
+.filter > option {
   border-radius: 0px;
   border: 0px;
   cursor: pointer;
@@ -1094,7 +1092,7 @@ input:focus~.highlight {
   flex-direction: column;
 }
 
-.article-page>.article-img {
+.article-page > .article-img {
   width: 100%;
   height: 200px;
   background-color: rgba(0, 0, 0, 0.8);
@@ -1105,7 +1103,7 @@ input:focus~.highlight {
   justify-content: center;
 }
 
-.article-page>.article-img>img {
+.article-page > .article-img > img {
   width: auto;
   height: 100%;
   margin: 0 auto;
@@ -1113,12 +1111,12 @@ input:focus~.highlight {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-.article-page>.article-details {
+.article-page > .article-details {
   border: solid red 0px;
   background-color: var(--l-grey);
 }
 
-.article-page>.article-details>.details-section {
+.article-page > .article-details > .details-section {
   border: solid blue 0px;
   width: 100%;
   height: auto;
@@ -1129,7 +1127,7 @@ input:focus~.highlight {
   align-items: flex-start;
 }
 
-.article-page>.article-details>.details-section p {
+.article-page > .article-details > .details-section p {
   margin: 0px;
   font-weight: 500;
 }
