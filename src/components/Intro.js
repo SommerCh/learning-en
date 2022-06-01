@@ -6,10 +6,9 @@ export default function Intro() {
     <div className="intro">
       <div className="flex-row">
         <div className="introtext">
-          <h2>Indretning i læringszoner</h2>
           <p>
-            Anerkendelsen af rummets og de fysiske rammers understøttende effekt på læring og
-            trivsel er støt stigende. De skoler som sætter gang i den rigtige udvikling øger
+            Det bliver mere og mere anerkendt at skolerummet og de fysiske rammer understøtter
+            indlæringen og forbedre trivslen. De skoler som sætter gang i den rigtige udvikling øger
             mærkbart elevernes resultater.
           </p>
 
@@ -20,9 +19,9 @@ export default function Intro() {
           </p>
 
           <p>
-            Klasserumsledelse er vigtigt når et professionelt læringsfællesskab skal fungere. Hvis I
-            så oveni skruer op for nudging/adfærdsdesign, så vil antallet af børn som oplever succes
-            i skolen stige.
+            Klasserumsledelse er vigtigt når et professionelt læringsfællesskab skal fungere og det
+            kræver sunde miljøer. Hvis I så oveni skruer op for nudging/adfærdsdesign vil antallet
+            af børn som oplever succes i skolen stige.
           </p>
 
           <p>
