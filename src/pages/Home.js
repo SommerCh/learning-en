@@ -2,6 +2,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { FiChevronDown } from "react-icons/fi";
 import Section1 from "../components/Section1";
+import Intro from "../components/Intro";
 import Section2 from "../components/Section2";
 import Section3 from "../components/Section3";
 import Section4 from "../components/Section4";
@@ -15,6 +16,12 @@ export default function Home() {
     <div className="home">
       <Section1 />
 
+      <div className="headlines">
+        <h2>Indretning i læringszoner</h2>
+        <FiChevronDown />
+      </div>
+      <Intro />
+    
       <div className="headlines">
         <h2>Udviklingen i folkeskolen</h2>
         <FiChevronDown />
