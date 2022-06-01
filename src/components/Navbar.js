@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { NavLink } from "react-router-dom";
-import { FiHome, FiStar } from "react-icons/fi";
 
 export default function Navbar() {
 
@@ -49,16 +48,12 @@ export default function Navbar() {
         <ul>
           <li>
             <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
-              <span className="icon">
                 Home
-              </span>
             </NavLink>
           </li>
           <li>
             <NavLink to="/products" className={({ isActive }) => (isActive ? "active" : "")}>
-              <span className="icon">
                 Produkter
-              </span>
             </NavLink>
           </li>
         </ul>
