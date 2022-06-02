@@ -9,7 +9,7 @@ export default function ProductArticles({product}) {
     const navigate = useNavigate();
 
 
-    // Fetch products
+    // Fetch products from JSON
     useEffect(() => {
         async function getData() {
             const response = await fetch("/data/products.json");
@@ -20,7 +20,7 @@ export default function ProductArticles({product}) {
         
     }, [])
         
-    // Fetch product imgs
+    // Fetch product imgs from JSON - If there is more than one, display only the first one
     function getImg(product) {
         if (product.Files?.length >= 1) {
             return product.Files[0]?.Uri;
@@ -80,12 +80,23 @@ export default function ProductArticles({product}) {
         }
     }
 
+    // Adds function to search for keywords in searchbar 
+    function matchKeywords(searchValue, keywords) {
+        let match = false;
+        for (const keyword of keywords) {
+            if (keyword.toLowerCase().includes(searchValue)) {
+                match = true;
+            }
+        }
+        return match;
+    }
+
 
     return (
         <>  
             {/* Filter and searchbar */}
             <section className="filter-cntr">
-            <h2>Alle produkter</h2>
+            <h2>Alle læringsmøbler</h2>
                 <div className="search-cntr">
                     <input className="search" type="text" 
                         placeholder="Søg..." 
@@ -93,34 +104,25 @@ export default function ProductArticles({product}) {
                     />
                     <FaSearch/>
                 </div>
-                
-                {/* <select className="filter" >
-                    <option value="all">Filter</option>
-                    <option value="this">this</option>
-                    <option value="that">that</option>
-                    <option value="other">other</option>
-                </select> */}
             </section>
             
 
-             {/* Searched products displayed */}
-             <section className="article-cntr"> 
+            {/* Searched products displayed */}
+            <section className="article-cntr"> 
                 {products
-                .filter((product) => product.Name.toLowerCase().includes(searchValue))
+                .filter((product) => product.Name.toLowerCase().includes(searchValue) || matchKeywords(searchValue, product.Keywords))
                 .map((product) => ( 
                     <article className="article-box anim-articles" key={product?.Id} onClick={() => navigate(`/products/${product.Id}`)} >  
                         <div className="article-img">
                             <img src={getImg(product)} alt={product.Name} />
                         </div>           
                         <div className="article-details">
-                            <h3 key={product.Keywords}>{product?.Name}</h3>
+                            <h3 key={product.Keywords}> {product?.Name} </h3>
                             <div className="details-section">
-                                <p>{product.MainCategory?.Name}</p>  
-                                <div className="badge-cntr">
-                                    {getZones(product)}
-                                </div>
+                                <p> {product.MainCategory?.Name} </p>  
+                                <div className="badge-cntr"> {getZones(product)} </div>
                             </div>
-                            <p className="description line-clamp">{product.Descriptions[0]?.Text}</p>
+                            <p className="description line-clamp"> {product.Descriptions[0]?.Text} </p>
                         </div>
                     </article>
                 ))} 

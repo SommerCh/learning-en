@@ -4,7 +4,7 @@ import Tooltip from "./ToolTip";
 export default function Klassesæt() {
     const [products, setProducts] = useState([]);
 
-    // Fetch products
+    // Fetch products from JSON
     useEffect(() => {
         async function getData() {
             const response = await fetch("/data/products.json");
@@ -15,7 +15,7 @@ export default function Klassesæt() {
     }, [])
 
 
-    // Fetch product imgs
+    // Fetch product imgs from JSON - If there is more than one, display only the first one
     function getImg(product) {
         if (product.Files?.length >= 1) {
             return product.Files[0]?.Uri;
@@ -80,21 +80,26 @@ export default function Klassesæt() {
 
 
     return (
-        <>             
-             {/* Filtered products displayed */}
-             <section className="article-cntr"> 
-                {products.filter((product) => product.MainCategory.Id === 9).map((product) => ( 
+        <>   
+            <section className="filter-cntr">
+                <h2>Klassesæt</h2>
+            </section>     
+            {/* Filtered products displayed */}
+            <section className="article-cntr"> 
+                {products
+                .filter((product) => product.MainCategory.Id === 9 || product.Keywords.includes('klassesæt')) // Displays products with the related main-category id and related keyword
+                .map((product) => ( 
                     <article className="article-box anim-articles" key={product?.Id}>  
                         <div className="article-img">
                             <img src={getImg(product)} alt={product.Name} />
                         </div>           
                         <div className="article-details">
-                            <h3 key={product.Keywords}>{product?.Name}</h3>
+                            <h3 key={product.Keywords}> {product?.Name} </h3>
                             <div className="details-section">
-                                <p>{product.MainCategory?.Name}</p>  
-                                <div className="badge-cntr">{getZones(product)}</div>
+                                <p> {product.MainCategory?.Name} </p>  
+                                <div className="badge-cntr"> {getZones(product)} </div>
                             </div>
-                            <p className="description line-clamp">{product.Descriptions[0]?.Text}</p>
+                            <p className="description line-clamp"> {product.Descriptions[0]?.Text} </p>
                         </div>
                     </article>
                 ))} 
