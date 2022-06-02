@@ -96,7 +96,7 @@ export default function ProductArticles({product}) {
         <>  
             {/* Filter and searchbar */}
             <section className="filter-cntr">
-            <h2>Alle læringsmøbler</h2>
+                <h2>Alle læringsmøbler</h2>
                 <div className="search-cntr">
                     <input className="search" type="text" 
                         placeholder="Søg..." 
