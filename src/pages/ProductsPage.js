@@ -32,9 +32,10 @@ export default function ProductsPage() {
     return (
         <>  
             <section className="page">
-                <h1 className="page-title">Produkter</h1>
+                <h1 className="page-title">Læringsmøbler</h1>
 
                 {/* Category tabs*/}
+                {/* The active tab will render the component with th related products */}
                 <section className="category-cntr">
 
                 <article className="category-article anim-tabs">  
@@ -185,107 +186,43 @@ export default function ProductsPage() {
 
             {/* Content to display in active tabs */}
                 {/* All */}
-                {activeTab === 'all' && (
-                    <>
-                        <ProductArticles/>
-                    </> 
-                )}
+                {activeTab === 'all' && ( <ProductArticles/> )}
 
                 {/* Læringstrapper */}
-                    {activeTab === 'læringstrapper' && (
-                        <>
-                            <h2>Læringstrapper</h2>
-                            <Læringstrapper/>
-                        </> 
-                    )}
+                    {activeTab === 'læringstrapper' && ( <Læringstrapper/> )}
 
                 {/* Akustik */}
-                    {activeTab === 'akustik' && (
-                        <>
-                            <h2>Akustik</h2>
-                           <Akustik/>
-                        </> 
-                    )}
+                    {activeTab === 'akustik' && ( <Akustik/> )}
 
                 {/* Opbevaring */}
-                    {activeTab === 'opbevaring' && (
-                        <>
-                            <h2>Opbevaring</h2>
-                            <Opbevaring />
-                        </> 
-                    )} 
+                    {activeTab === 'opbevaring' && ( <Opbevaring /> )} 
 
                 {/* Borde */}
-                    {activeTab === 'borde' && (
-                        <>
-                            <h2>Borde</h2>
-                           <Borde />
-                        </> 
-                    )}
+                    {activeTab === 'borde' && ( <Borde />  )}
 
                 {/* Stole */}
-                    {activeTab === 'stole' && (
-                        <>
-                            <h2>Stole</h2>
-                            <Stole />
-                        </> 
-                    )}
+                    {activeTab === 'stole' && ( <Stole /> )}
 
                 {/* Diverse */}
-                    {activeTab === 'diverse' && (
-                        <>
-                            <h2>Diverse</h2>
-                            <Diverse />
-                        </> 
-                    )}
+                    {activeTab === 'diverse' && ( <Diverse /> )}
 
                 {/* Rum i rummet */}
-                    {activeTab === 'rumirummet' && (
-                        <>
-                            <h2>Rum i rummet</h2>
-                            <RumIRummet/>
-                        </> 
-                    )}
+                    {activeTab === 'rumirummet' && ( <RumIRummet/> )}
 
                 {/* Klassesæt */}
-                    {activeTab === 'klassesæt' && (
-                        <>
-                            <h2>Klassesæt</h2>
-                            <Klassesæt/>
-                        </> 
-                    )}
+                    {activeTab === 'klassesæt' && ( <Klassesæt/> )}
 
                 {/* Feedbackzone */}
-                    {activeTab === 'feedbackzone' && (
-                        <>
-                            <h2>Feedbackzone</h2>
-                            <Feedbackzone/>
-                        </> 
-                    )}
+                    {activeTab === 'feedbackzone' && ( <Feedbackzone/> )}
 
                 {/* Stillezone */}
-                    {activeTab === 'stillezone' && (
-                        <>
-                            <h2>Stillezone</h2>
-                            <Stillezone/>
-                        </> 
-                    )}
+                    {activeTab === 'stillezone' && ( <Stillezone/> )}
 
                 {/* Gruppezone */}
-                    {activeTab === 'gruppezone' && (
-                        <>
-                            <h2>Gruppezone</h2>
-                            <Gruppezone/>
-                        </> 
-                    )}
+                    {activeTab === 'gruppezone' && ( <Gruppezone/>  )}
 
                 {/* Allezone */}
-                    {activeTab === 'allezone' && (
-                        <>
-                            <h2>Allezone</h2>
-                           <Allezone/>
-                        </> 
-                    )}
+                    {activeTab === 'allezone' && ( <Allezone/> )}
 
             </section>
         </>

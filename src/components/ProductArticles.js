@@ -9,7 +9,7 @@ export default function ProductArticles({product}) {
     const navigate = useNavigate();
 
 
-    // Fetch products
+    // Fetch products from JSON
     useEffect(() => {
         async function getData() {
             const response = await fetch("/data/products.json");
@@ -20,7 +20,7 @@ export default function ProductArticles({product}) {
         
     }, [])
         
-    // Fetch product imgs
+    // Fetch product imgs from JSON - If there is more than one, display only the first one
     function getImg(product) {
         if (product.Files?.length >= 1) {
             return product.Files[0]?.Uri;
@@ -80,6 +80,7 @@ export default function ProductArticles({product}) {
         }
     }
 
+    // Adds function to search for keywords in searchbar 
     function matchKeywords(searchValue, keywords) {
         let match = false;
         for (const keyword of keywords) {
@@ -106,8 +107,8 @@ export default function ProductArticles({product}) {
             </section>
             
 
-             {/* Searched products displayed */}
-             <section className="article-cntr"> 
+            {/* Searched products displayed */}
+            <section className="article-cntr"> 
                 {products
                 .filter((product) => product.Name.toLowerCase().includes(searchValue) || matchKeywords(searchValue, product.Keywords))
                 .map((product) => ( 

@@ -801,7 +801,7 @@ input:focus ~ .highlight {
 
 /* ---------- GRID CONTAINER ---------- */
 .category-cntr {
-  margin: 5px 5px;
+  margin: 5px 0px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 0.8em;
@@ -1002,7 +1002,7 @@ input:focus ~ .highlight {
   word-wrap: break-word;
 }
 
-.article-details h2 {
+.article-details h4 {
   text-transform: capitalize;
 }
 
@@ -1109,7 +1109,7 @@ input:focus ~ .highlight {
 .filter-cntr {
   width: 100%;
   margin: 20px 0px 10px 0px;
-  padding: 0px 5px;
+  padding: 0px 0px;
   background-color: transparent;
   display: flex;
   justify-content: space-between;

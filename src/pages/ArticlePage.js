@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '../components/Splide/splide.css';
-// import PlaceholderImg from '../assets/placeholder-img.png';
 import { BiArrowBack } from 'react-icons/bi'
 
 
@@ -12,11 +11,13 @@ export default function ArticlePage() {
     const productId = parseInt(params.id);
     const [product, setProduct] = useState({});
 
+    // Fetch and set product details from JSON
     useEffect(() => {
         async function getData() {
             const response = await fetch("/data/products.json");
             const data = await response.json();
             
+            // Get product id to display
             const productData = data.find(item => item.Id === productId);
             setProduct(productData);
             console.log(productData); 

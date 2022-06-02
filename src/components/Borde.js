@@ -4,7 +4,7 @@ import Tooltip from "./ToolTip";
 export default function Borde() {
     const [products, setProducts] = useState([]);
 
-    // Fetch products
+    // Fetch products from JSON
     useEffect(() => {
         async function getData() {
             const response = await fetch("/data/products.json");
@@ -15,7 +15,7 @@ export default function Borde() {
     }, [])
 
 
-    // Fetch product imgs
+    // Fetch product imgs from JSON - If there is more than one, display only the first one
     function getImg(product) {
         if (product.Files?.length >= 1) {
             return product.Files[0]?.Uri;
@@ -80,11 +80,15 @@ export default function Borde() {
 
 
     return (
-        <>             
-             {/* Filtered products displayed */}
-             <section className="article-cntr"> 
+        <>           
+            <section className="filter-cntr">
+                <h2>Borde</h2>
+            </section>
+
+            {/* Filtered products displayed */}
+            <section className="article-cntr"> 
                 {products
-                .filter((product) => product.MainCategory.Id === 5 || product.Keywords.includes('borde'))
+                .filter((product) => product.MainCategory.Id === 5 || product.Keywords.includes('borde')) // Displays products with the related main-category id and related keyword
                 .map((product) => ( 
                     <article className="article-box anim-articles" key={product?.Id}>  
                         <div className="article-img">
