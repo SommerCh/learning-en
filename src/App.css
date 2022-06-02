@@ -1006,7 +1006,7 @@ input:focus ~ .highlight {
 
 /* ---------- PAGE ---------- */
 .page {
-  height: auto;
+  height: 100%;
   padding: 6em .5em 10em .5em;
 }
 
@@ -1405,7 +1405,7 @@ input:focus ~ .highlight {
 /* ---------- ARTICLE PAGE ---------- */
 .article-page {
   width: 90%;
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;

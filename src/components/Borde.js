@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import Tooltip from "./ToolTip";
+import {  useNavigate } from "react-router-dom";
 
 export default function Borde() {
     const [products, setProducts] = useState([]);
+    const navigate = useNavigate();
 
     // Fetch products from JSON
     useEffect(() => {
@@ -90,7 +92,7 @@ export default function Borde() {
                 {products
                 .filter((product) => product.MainCategory.Id === 5 || product.Keywords.includes('borde')) // Displays products with the related main-category id and related keyword
                 .map((product) => ( 
-                    <article className="article-box anim-articles" key={product?.Id}>  
+                    <article className="article-box anim-articles" key={product?.Id}  onClick={() => navigate(`/products/${product.Id}`)}>  
                         <div className="article-img">
                             <img src={getImg(product)} alt={product.Name} />
                         </div>           
