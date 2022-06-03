@@ -1,3 +1,5 @@
+// By Sommer
+
 import React from "react";
 import Zoner from "../assets/imgs/zoner.svg";
 

@@ -1,3 +1,5 @@
+// By Sofie
+
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import './splide.css';
 

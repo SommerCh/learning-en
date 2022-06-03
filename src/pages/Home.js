@@ -1,3 +1,5 @@
+// By Sommer
+
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { FiChevronDown } from "react-icons/fi";

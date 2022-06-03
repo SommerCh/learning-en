@@ -1,3 +1,4 @@
+// By Sofie
 import { useState, useEffect } from "react";
 import Tooltip from "./ToolTip";
 import {  useNavigate } from "react-router-dom";

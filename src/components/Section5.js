@@ -1,3 +1,5 @@
+// By Sommer
+
 import Sound1 from "../assets/sound/lydniveauet-.mp3";
 import Sound2 from "../assets/sound/lydniveauet-_2mp3.mp3";
 

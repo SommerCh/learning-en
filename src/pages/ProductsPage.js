@@ -1,3 +1,5 @@
+// By Sofie
+
 import { useState } from "react";
 import ProductArticles from "../components/ProductArticles";
 import TrappeImg from "../assets/product-imgs/tieredseating-0.webp";

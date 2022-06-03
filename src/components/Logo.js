@@ -1,3 +1,5 @@
+// By Sommer
+
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import LogoImg from "../assets/logo-no-white.png";

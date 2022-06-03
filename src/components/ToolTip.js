@@ -1,3 +1,5 @@
+// By Sofie
+
 import React from "react";
 
 export default function Tooltip({ children, text, ...rest }) {

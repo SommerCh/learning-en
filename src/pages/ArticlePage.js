@@ -1,3 +1,5 @@
+// By Sofie
+
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
